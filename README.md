@@ -45,6 +45,8 @@ git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 
 7. Enjoy!
 
+8. Cool ideas/future work
+Paire this with a service like https://jgraph.github.io/mxgraph/javascript/examples/clipboard.html https://jgraph.github.io/mxgraph/
 
 ***Licence/Copyright Notice***
 
