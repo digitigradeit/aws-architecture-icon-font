@@ -8,22 +8,28 @@ This is similar to how FontAwesome, Material Icons, Bootstrap Icons, etc. all wo
 
 ## Instructions/install guide
 
-1. Clone this repo with git
+1. Clone this repo with git:
+
 ```
-git clone https://github.com/digitigradeit/
+git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 ```
 
 2. @include in your existing CSS or copy relevant CSS/FONT/SCSS files for your web/app root directory (i.e. @include  or copy to /assets/)
+
 ```
-
-
-More examples coming soon
-
+@inclue "https://cdn.jsdelivr.net/gh/digitigradeit/aws-architecture-icon-font@master/css/icons.css";
 ```
 
 3. Insert the relevant HTML tags and the appropriate class. Complete list is iun
-```
 
 ```
+<i class="aws aws-cloud_digital_interface"></i>
+<i class="aws aws-app_mesh_virtual_gateway"></i>
+```
 
-4. Preview images coming soon and fun things you can do!
+4. Icons are inherently black with transparent background. You can further colorize them with CSS:
+
+```
+<i class="aws aws-transit-gateway" style="color: #ff9021;"></i>
+<i class="aws aws-vpc_internet_gateway" style="color: #854BD7;"></i>
+<i class="aws aws-vpc_nat_gateway" style="color: red;"></i>
