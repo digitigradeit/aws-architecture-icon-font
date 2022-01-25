@@ -17,7 +17,7 @@ git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 2. @include in your existing CSS or copy relevant CSS/FONT/SCSS files for your web/app root directory (i.e. @include  or copy to /assets/)
 
 ```
-@inclue "https://cdn.jsdelivr.net/gh/digitigradeit/aws-architecture-icon-font@master/css/icons.css";
+@import url('https://cdn.jsdelivr.net/gh/digitigradeit/aws-architecture-icon-font@master/css/icons.css');
 ```
 
 3. Insert the relevant HTML tags and the appropriate class. Complete list is iun
