@@ -84,11 +84,11 @@ Generated using nucleoapp.com
 }
 
 .aws-alexa-for-business::before {
-  content: "\ea03";
+  content: "\ea02";
 }
 
 .aws-amplify::before {
-  content: "\ea02";
+  content: "\ea03";
 }
 
 .aws-analytics::before {
@@ -116,15 +116,15 @@ Generated using nucleoapp.com
 }
 
 .aws-app_mesh_mesh::before {
-  content: "\ea0a";
+  content: "\ea0c";
 }
 
 .aws-app_mesh_virtual_gateway::before {
-  content: "\ea0b";
+  content: "\ea0a";
 }
 
 .aws-app_mesh_virtual_node::before {
-  content: "\ea0c";
+  content: "\ea0b";
 }
 
 .aws-app_mesh_virtual_router::before {
@@ -184,11 +184,11 @@ Generated using nucleoapp.com
 }
 
 .aws-audit-manager::before {
-  content: "\ea1c";
+  content: "\ea1b";
 }
 
 .aws-augmented-ai-a2i::before {
-  content: "\ea1b";
+  content: "\ea1c";
 }
 
 .aws-aurora::before {
@@ -240,11 +240,11 @@ Generated using nucleoapp.com
 }
 
 .aws-aurora_postgresql_instance::before {
-  content: "\ea2a";
+  content: "\ea29";
 }
 
 .aws-aurora_postgresql_instance_alternate::before {
-  content: "\ea29";
+  content: "\ea2a";
 }
 
 .aws-aurora_sql_server_instance::before {
@@ -272,11 +272,11 @@ Generated using nucleoapp.com
 }
 
 .aws-backup::before {
-  content: "\ea32";
+  content: "\ea31";
 }
 
 .aws-backup_backup_plan::before {
-  content: "\ea31";
+  content: "\ea32";
 }
 
 .aws-backup_backup_restore::before {
@@ -288,15 +288,15 @@ Generated using nucleoapp.com
 }
 
 .aws-backup_compliance_reporting::before {
-  content: "\ea37";
-}
-
-.aws-backup_recovery_point_objective::before {
   content: "\ea35";
 }
 
-.aws-backup_recovery_time_objective::before {
+.aws-backup_recovery_point_objective::before {
   content: "\ea36";
+}
+
+.aws-backup_recovery_time_objective::before {
+  content: "\ea37";
 }
 
 .aws-batch::before {
@@ -404,11 +404,11 @@ Generated using nucleoapp.com
 }
 
 .aws-cloud-development-kit::before {
-  content: "\ea53";
+  content: "\ea52";
 }
 
 .aws-cloud-directory::before {
-  content: "\ea52";
+  content: "\ea53";
 }
 
 .aws-cloud-map::before {
@@ -420,11 +420,11 @@ Generated using nucleoapp.com
 }
 
 .aws-cloud9_cloud9::before {
-  content: "\ea56";
+  content: "\ea57";
 }
 
 .aws-cloud_digital_interface::before {
-  content: "\ea57";
+  content: "\ea56";
 }
 
 .aws-cloud_map_namespace::before {
@@ -464,11 +464,11 @@ Generated using nucleoapp.com
 }
 
 .aws-cloudfront_download_distribution::before {
-  content: "\ea62";
+  content: "\ea61";
 }
 
 .aws-cloudfront_edge_location::before {
-  content: "\ea61";
+  content: "\ea62";
 }
 
 .aws-cloudfront_functions::before {
@@ -492,11 +492,11 @@ Generated using nucleoapp.com
 }
 
 .aws-cloudshell::before {
-  content: "\ea69";
+  content: "\ea68";
 }
 
 .aws-cloudtrail::before {
-  content: "\ea68";
+  content: "\ea69";
 }
 
 .aws-cloudwatch::before {
@@ -532,11 +532,11 @@ Generated using nucleoapp.com
 }
 
 .aws-codebuild::before {
-  content: "\ea72";
+  content: "\ea73";
 }
 
 .aws-codecommit::before {
-  content: "\ea73";
+  content: "\ea72";
 }
 
 .aws-codedeploy::before {
@@ -548,11 +548,11 @@ Generated using nucleoapp.com
 }
 
 .aws-codepipeline::before {
-  content: "\ea76";
+  content: "\ea77";
 }
 
 .aws-codestar::before {
-  content: "\ea77";
+  content: "\ea76";
 }
 
 .aws-cognito::before {
@@ -612,11 +612,11 @@ Generated using nucleoapp.com
 }
 
 .aws-data-exchange::before {
-  content: "\ea87";
+  content: "\ea86";
 }
 
 .aws-data-pipeline::before {
-  content: "\ea86";
+  content: "\ea87";
 }
 
 .aws-database-migration-service::before {
@@ -648,19 +648,19 @@ Generated using nucleoapp.com
 }
 
 .aws-deep-learning-amis::before {
-  content: "\ea90";
-}
-
-.aws-deep-learning-containers::before {
   content: "\ea8f";
 }
 
+.aws-deep-learning-containers::before {
+  content: "\ea90";
+}
+
 .aws-deepcomposer::before {
-  content: "\ea91";
+  content: "\ea92";
 }
 
 .aws-deeplens::before {
-  content: "\ea92";
+  content: "\ea91";
 }
 
 .aws-deepracer::before {
@@ -688,11 +688,11 @@ Generated using nucleoapp.com
 }
 
 .aws-direct-connect::before {
-  content: "\ea99";
+  content: "\ea9a";
 }
 
 .aws-direct_connect_gateway::before {
-  content: "\ea9a";
+  content: "\ea99";
 }
 
 .aws-directory-service::before {
@@ -992,11 +992,11 @@ Generated using nucleoapp.com
 }
 
 .aws-ec2_r6g_instance::before {
-  content: "\eae5";
+  content: "\eae6";
 }
 
 .aws-ec2_rdn_instance::before {
-  content: "\eae6";
+  content: "\eae5";
 }
 
 .aws-ec2_rescue::before {
@@ -1096,11 +1096,11 @@ Generated using nucleoapp.com
 }
 
 .aws-elastic_beanstalk_deployment::before {
-  content: "\eb00";
+  content: "\eaff";
 }
 
 .aws-elastic_block_store_amazon_data_lifecycle_manager::before {
-  content: "\eaff";
+  content: "\eb00";
 }
 
 .aws-elastic_block_store_multiple_volumes::before {
@@ -1128,11 +1128,11 @@ Generated using nucleoapp.com
 }
 
 .aws-elastic_container_service_container_1::before {
-  content: "\eb08";
+  content: "\eb07";
 }
 
 .aws-elastic_container_service_container_2::before {
-  content: "\eb07";
+  content: "\eb08";
 }
 
 .aws-elastic_container_service_container_3::before {
@@ -1236,11 +1236,11 @@ Generated using nucleoapp.com
 }
 
 .aws-elemental-medialive::before {
-  content: "\eb23";
+  content: "\eb22";
 }
 
 .aws-elemental-mediapackage::before {
-  content: "\eb22";
+  content: "\eb23";
 }
 
 .aws-elemental-mediastore::before {
@@ -1284,11 +1284,11 @@ Generated using nucleoapp.com
 }
 
 .aws-eventbridge_custom_event_bus::before {
-  content: "\eb2f";
+  content: "\eb2e";
 }
 
 .aws-eventbridge_default_event_bus::before {
-  content: "\eb2e";
+  content: "\eb2f";
 }
 
 .aws-eventbridge_event::before {
@@ -1332,11 +1332,11 @@ Generated using nucleoapp.com
 }
 
 .aws-firewall::before {
-  content: "\eb3b";
+  content: "\eb3a";
 }
 
 .aws-forecast::before {
-  content: "\eb3a";
+  content: "\eb3b";
 }
 
 .aws-forums::before {
@@ -1396,11 +1396,11 @@ Generated using nucleoapp.com
 }
 
 .aws-glue::before {
-  content: "\eb4b";
+  content: "\eb4a";
 }
 
 .aws-glue_crawler::before {
-  content: "\eb4a";
+  content: "\eb4b";
 }
 
 .aws-glue_data_catalog::before {
@@ -1444,15 +1444,15 @@ Generated using nucleoapp.com
 }
 
 .aws-identity_access_management_data_encryption_key::before {
-  content: "\eb58";
-}
-
-.aws-identity_access_management_encrypted_data::before {
   content: "\eb56";
 }
 
-.aws-identity_access_management_long_term_security_credential::before {
+.aws-identity_access_management_encrypted_data::before {
   content: "\eb57";
+}
+
+.aws-identity_access_management_long_term_security_credential::before {
+  content: "\eb58";
 }
 
 .aws-identity_access_management_mfa_token::before {
@@ -1500,7 +1500,7 @@ Generated using nucleoapp.com
 }
 
 .aws-iot-1-click::before {
-  content: "\eb66";
+  content: "\eb65";
 }
 
 .aws-iot-analytics::before {
@@ -1508,7 +1508,7 @@ Generated using nucleoapp.com
 }
 
 .aws-iot-button::before {
-  content: "\eb65";
+  content: "\eb66";
 }
 
 .aws-iot-core::before {
@@ -1516,11 +1516,11 @@ Generated using nucleoapp.com
 }
 
 .aws-iot-device-defender::before {
-  content: "\eb68";
+  content: "\eb69";
 }
 
 .aws-iot-device-management::before {
-  content: "\eb69";
+  content: "\eb68";
 }
 
 .aws-iot-events::before {
@@ -1548,11 +1548,11 @@ Generated using nucleoapp.com
 }
 
 .aws-iot_alexa_enabled_device::before {
-  content: "\eb70";
+  content: "\eb71";
 }
 
 .aws-iot_alexa_skill::before {
-  content: "\eb71";
+  content: "\eb70";
 }
 
 .aws-iot_alexa_voice_service::before {
@@ -1716,11 +1716,11 @@ Generated using nucleoapp.com
 }
 
 .aws-iot_thing_bicycle::before {
-  content: "\eb9b";
+  content: "\eb9a";
 }
 
 .aws-iot_thing_camera::before {
-  content: "\eb9a";
+  content: "\eb9b";
 }
 
 .aws-iot_thing_car::before {
@@ -1760,7 +1760,7 @@ Generated using nucleoapp.com
 }
 
 .aws-iot_thing_industrial_pc::before {
-  content: "\eba5";
+  content: "\eba7";
 }
 
 .aws-iot_thing_lightbulb::before {
@@ -1768,7 +1768,7 @@ Generated using nucleoapp.com
 }
 
 .aws-iot_thing_medical_emergency::before {
-  content: "\eba7";
+  content: "\eba5";
 }
 
 .aws-iot_thing_plc::before {
@@ -1880,11 +1880,11 @@ Generated using nucleoapp.com
 }
 
 .aws-lex::before {
-  content: "\ebc4";
+  content: "\ebc3";
 }
 
 .aws-license-manager::before {
-  content: "\ebc3";
+  content: "\ebc4";
 }
 
 .aws-license_manager_application_discovery::before {
@@ -1896,11 +1896,11 @@ Generated using nucleoapp.com
 }
 
 .aws-lightsail::before {
-  content: "\ebc8";
+  content: "\ebc7";
 }
 
 .aws-local-zones::before {
-  content: "\ebc7";
+  content: "\ebc8";
 }
 
 .aws-location-service::before {
@@ -1928,15 +1928,15 @@ Generated using nucleoapp.com
 }
 
 .aws-lookout-for-equipment::before {
-  content: "\ebd1";
-}
-
-.aws-lookout-for-metrics::before {
   content: "\ebcf";
 }
 
-.aws-lookout-for-vision::before {
+.aws-lookout-for-metrics::before {
   content: "\ebd0";
+}
+
+.aws-lookout-for-vision::before {
+  content: "\ebd1";
 }
 
 .aws-lumberyard::before {
@@ -1944,11 +1944,11 @@ Generated using nucleoapp.com
 }
 
 .aws-machine_learning::before {
-  content: "\ebd4";
+  content: "\ebd3";
 }
 
 .aws-macie::before {
-  content: "\ebd3";
+  content: "\ebd4";
 }
 
 .aws-managed-blockchain::before {
@@ -1988,15 +1988,15 @@ Generated using nucleoapp.com
 }
 
 .aws-marketplace_dark::before {
-  content: "\ebde";
+  content: "\ebe0";
 }
 
 .aws-marketplace_light::before {
-  content: "\ebdf";
+  content: "\ebde";
 }
 
 .aws-media_services::before {
-  content: "\ebe0";
+  content: "\ebdf";
 }
 
 .aws-migration-evaluator::before {
@@ -2120,11 +2120,11 @@ Generated using nucleoapp.com
 }
 
 .aws-organizations_organizational_unit::before {
-  content: "\ec00";
+  content: "\ebff";
 }
 
 .aws-outposts-1u-and-2u-servers::before {
-  content: "\ebff";
+  content: "\ec00";
 }
 
 .aws-outposts::before {
@@ -2180,11 +2180,11 @@ Generated using nucleoapp.com
 }
 
 .aws-quantum_technologies::before {
-  content: "\ec0e";
+  content: "\ec0f";
 }
 
 .aws-question::before {
-  content: "\ec0f";
+  content: "\ec0e";
 }
 
 .aws-quicksight::before {
@@ -2256,15 +2256,15 @@ Generated using nucleoapp.com
 }
 
 .aws-robomaker_fleet_management::before {
-  content: "\ec23";
-}
-
-.aws-robomaker_simulation::before {
   content: "\ec21";
 }
 
-.aws-robotics::before {
+.aws-robomaker_simulation::before {
   content: "\ec22";
+}
+
+.aws-robotics::before {
+  content: "\ec23";
 }
 
 .aws-route-53::before {
@@ -2280,19 +2280,19 @@ Generated using nucleoapp.com
 }
 
 .aws-route_53_resolver_dns_firewall::before {
-  content: "\ec28";
-}
-
-.aws-route_53_resolver_query_logging::before {
   content: "\ec27";
 }
 
+.aws-route_53_resolver_query_logging::before {
+  content: "\ec28";
+}
+
 .aws-route_53_route_table::before {
-  content: "\ec29";
+  content: "\ec2a";
 }
 
 .aws-s3-on-outposts_storage::before {
-  content: "\ec2a";
+  content: "\ec29";
 }
 
 .aws-sagemaker-ground-truth::before {
@@ -2372,11 +2372,11 @@ Generated using nucleoapp.com
 }
 
 .aws-signer::before {
-  content: "\ec3e";
+  content: "\ec3f";
 }
 
 .aws-simple-email-service::before {
-  content: "\ec3f";
+  content: "\ec3e";
 }
 
 .aws-simple-notification-service::before {
@@ -2420,11 +2420,11 @@ Generated using nucleoapp.com
 }
 
 .aws-simple_storage_service_bucket::before {
-  content: "\ec4b";
+  content: "\ec4a";
 }
 
 .aws-simple_storage_service_bucket_with_objects::before {
-  content: "\ec4a";
+  content: "\ec4b";
 }
 
 .aws-simple_storage_service_general_access_points::before {
@@ -2516,15 +2516,15 @@ Generated using nucleoapp.com
 }
 
 .aws-snowcone::before {
-  content: "\ec64";
-}
-
-.aws-snowmobile::before {
   content: "\ec62";
 }
 
-.aws-ssl_padlock::before {
+.aws-snowmobile::before {
   content: "\ec63";
+}
+
+.aws-ssl_padlock::before {
+  content: "\ec64";
 }
 
 .aws-step-functions::before {
@@ -2592,11 +2592,11 @@ Generated using nucleoapp.com
 }
 
 .aws-systems_manager_documents::before {
-  content: "\ec75";
+  content: "\ec76";
 }
 
 .aws-systems_manager_inventory::before {
-  content: "\ec76";
+  content: "\ec75";
 }
 
 .aws-systems_manager_maintenance_windows::before {
@@ -2620,11 +2620,11 @@ Generated using nucleoapp.com
 }
 
 .aws-systems_manager_state_manager::before {
-  content: "\ec7c";
+  content: "\ec7d";
 }
 
 .aws-tape_storage::before {
-  content: "\ec7d";
+  content: "\ec7c";
 }
 
 .aws-tensorflow-on-aws::before {
@@ -2748,11 +2748,11 @@ Generated using nucleoapp.com
 }
 
 .aws-vmware-cloud-on-aws::before {
-  content: "\ec9c";
+  content: "\ec9d";
 }
 
 .aws-vpc_carrier_gateway::before {
-  content: "\ec9d";
+  content: "\ec9c";
 }
 
 .aws-vpc_customer_gateway::before {
@@ -2812,11 +2812,11 @@ Generated using nucleoapp.com
 }
 
 .aws-waf::before {
-  content: "\ecad";
+  content: "\ecac";
 }
 
 .aws-waf_bad_bot::before {
-  content: "\ecac";
+  content: "\ecad";
 }
 
 .aws-waf_bot::before {
