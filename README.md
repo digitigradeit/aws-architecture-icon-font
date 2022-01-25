@@ -40,9 +40,13 @@ git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 * [PowerPoint Slide Deck for Light Backgrounds](https://d1.awsstatic.com/webteam/architecture-icons/q3-2021/AWS-Architecture-Icons-Deck_For-Light-BG_09212021.pptx.ebb55809fc3b5817966396387b26b24e6435ebbc.zip)
 
 6. Demo
+* https://github.com/digitigradeit/aws-architecture-icon-font/blob/main/demo.png
+* https://github.com/digitigradeit/aws-architecture-icon-font/blob/main/preview.png
 
 7. Enjoy!
 
+8. Cool ideas/future work
+Paire this with a service like https://jgraph.github.io/mxgraph/javascript/examples/clipboard.html https://jgraph.github.io/mxgraph/
 
 ***Licence/Copyright Notice***
 
