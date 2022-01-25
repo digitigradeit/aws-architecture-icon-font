@@ -36,7 +36,7 @@ git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 ```
 
 5. Please reference the guidelines for dark and light backgrounds, including colors and best practices"
-[PowerPoint Slide Deck for Dark Backgrounds](https://d1.awsstatic.com/webteam/architecture-icons/q3-2021/AWS-Architecture-Icons-Deck_For-Dark-BG_09212021.pptx.9ce8315233b44e93e5f95c7493acc96134df7f04.zip)
-[PowerPoint Slide Deck for Light Backgrounds](https://d1.awsstatic.com/webteam/architecture-icons/q3-2021/AWS-Architecture-Icons-Deck_For-Light-BG_09212021.pptx.ebb55809fc3b5817966396387b26b24e6435ebbc.zip)
+* [PowerPoint Slide Deck for Dark Backgrounds](https://d1.awsstatic.com/webteam/architecture-icons/q3-2021/AWS-Architecture-Icons-Deck_For-Dark-BG_09212021.pptx.9ce8315233b44e93e5f95c7493acc96134df7f04.zip)
+* [PowerPoint Slide Deck for Light Backgrounds](https://d1.awsstatic.com/webteam/architecture-icons/q3-2021/AWS-Architecture-Icons-Deck_For-Light-BG_09212021.pptx.ebb55809fc3b5817966396387b26b24e6435ebbc.zip)
 
 6. Enjoy!
