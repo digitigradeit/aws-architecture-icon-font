@@ -14,7 +14,7 @@ This is similar to how FontAwesome, Material Icons, Bootstrap Icons, etc. all wo
 git clone https://github.com/digitigradeit/aws-architecture-icon-font.git
 ```
 
-2. @include in your existing CSS or copy relevant CSS/FONT/SCSS files for your web/app root directory (i.e. @include  or copy to /assets/)
+2. @importjsdelivr cdn, or @import locally in your existing CSS and CSS/FONT/SCSS files for your web/app root directory
 
 ```
 @import url('https://cdn.jsdelivr.net/gh/digitigradeit/aws-architecture-icon-font@master/css/icons.css');
