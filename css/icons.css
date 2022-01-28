@@ -14,7 +14,7 @@ Generated using nucleoapp.com
 /*------------------------
 	base class definition
 -------------------------*/
-.aws {
+. {
   display: inline-block;
   font: normal normal normal 1em/1 'aws';
   color: inherit;
@@ -29,27 +29,27 @@ Generated using nucleoapp.com
   change icon size
 -------------------------*/
 /* relative units */
-.aws-sm {
+.-sm {
   font-size: 0.8em;
 }
-.aws-lg {
+.-lg {
   font-size: 1.2em;
 }
 /* absolute units */
-.aws-16 {
+.-16 {
   font-size: 16px;
 }
-.aws-32 {
+.-32 {
   font-size: 32px;
 }
 
 /*------------------------
   spinning icons
 -------------------------*/
-.aws-is-spinning {
-  animation: aws-spin 1s infinite linear;
+.-is-spinning {
+  animation: -spin 1s infinite linear;
 }
-@keyframes aws-spin {
+@keyframes -spin {
   0% {
     transform: rotate(0deg);
   }
@@ -60,2818 +60,9138 @@ Generated using nucleoapp.com
 /*------------------------
   rotated/flipped icons
 -------------------------*/
-.aws-rotate-90 {
+.-rotate-90 {
   transform: rotate(90deg);
 }
-.aws-rotate-180 {
+.-rotate-180 {
   transform: rotate(180deg);
 }
-.aws-rotate-270 {
+.-rotate-270 {
   transform: rotate(270deg);
 }
-.aws-flip-y {
+.-flip-y {
   transform: scaleY(-1);
 }
-.aws-flip-x {
+.-flip-x {
   transform: scaleX(-1);
 }
 /*------------------------
 	icons
 -------------------------*/
 
-.aws-activate::before {
-  content: "\ea01";
-}
-
-.aws-alexa-for-business::before {
+.aws-api_gateway_endpoint::before {
   content: "\ea02";
 }
 
-.aws-amplify::before {
+.aws-app_mesh_virtual_router::before {
   content: "\ea03";
 }
 
-.aws-analytics::before {
+.aws-app_mesh_virtual_service::before {
   content: "\ea04";
 }
 
-.aws-apache-mxnet-on-aws::before {
+.aws-aurora_amazon_aurora_instance_alternate::before {
   content: "\ea05";
 }
 
-.aws-api-gateway::before {
+.aws-aurora_amazon_rds_instance_aternate::before {
   content: "\ea06";
 }
 
-.aws-api_gateway_endpoint::before {
+.aws-aurora_amazon_rds_instance::before {
   content: "\ea07";
 }
 
-.aws-app-mesh::before {
+.aws-aurora_instance::before {
   content: "\ea08";
 }
 
-.aws-app-runner::before {
+.aws-aurora_mariadb_instance_alternate::before {
   content: "\ea09";
+}
+
+.aws-aurora_mariadb_instance::before {
+  content: "\ea0a";
+}
+
+.aws-aurora_mysql_instance_alternate::before {
+  content: "\ea0b";
 }
 
 .aws-app_mesh_mesh::before {
   content: "\ea0c";
 }
 
-.aws-app_mesh_virtual_gateway::before {
-  content: "\ea0a";
-}
-
 .aws-app_mesh_virtual_node::before {
-  content: "\ea0b";
-}
-
-.aws-app_mesh_virtual_router::before {
   content: "\ea0d";
 }
 
-.aws-app_mesh_virtual_service::before {
+.aws-aurora_mysql_instance::before {
   content: "\ea0e";
 }
 
-.aws-appconfig::before {
+.aws-aurora_oracle_instance_alternate::before {
   content: "\ea0f";
 }
 
-.aws-appflow::before {
+.aws-aurora_oracle_instance::before {
   content: "\ea10";
 }
 
-.aws-application-auto-scaling::before {
+.aws-aurora_piops_instance::before {
   content: "\ea11";
 }
 
-.aws-application-cost-profiler::before {
+.aws-aurora_postgresql_instance_alternate::before {
   content: "\ea12";
 }
 
-.aws-application-discovery-service::before {
+.aws-aurora_postgresql_instance::before {
   content: "\ea13";
 }
 
-.aws-application-migration-service::before {
+.aws-aurora_sql_server_instance_alternate::before {
   content: "\ea14";
 }
 
-.aws-application_integration::before {
+.aws-aurora_sql_server_instance::before {
   content: "\ea15";
 }
 
-.aws-appstream::before {
+.aws-backup_backup_plan::before {
   content: "\ea16";
 }
 
-.aws-appsync::before {
+.aws-backup_compliance_reporting::before {
   content: "\ea17";
 }
 
-.aws-ar_vr::before {
+.aws-backup_recovery_point_objective::before {
   content: "\ea18";
 }
 
-.aws-artifact::before {
+.aws-backup_recovery_time_objective::before {
   content: "\ea19";
 }
 
-.aws-athena::before {
+.aws-braket_chandelier-::before {
   content: "\ea1a";
 }
 
-.aws-audit-manager::before {
+.aws-braket_chip::before {
   content: "\ea1b";
 }
 
-.aws-augmented-ai-a2i::before {
+.aws-braket_noise_simulator::before {
   content: "\ea1c";
 }
 
-.aws-aurora::before {
+.aws-braket_qpu::before {
   content: "\ea1d";
 }
 
-.aws-aurora_amazon_aurora_instance_alternate::before {
+.aws-braket_simulator_1::before {
   content: "\ea1e";
 }
 
-.aws-aurora_amazon_rds_instance::before {
+.aws-braket_simulator_2::before {
   content: "\ea1f";
 }
 
-.aws-aurora_amazon_rds_instance_aternate::before {
+.aws-braket_simulator_3::before {
   content: "\ea20";
 }
 
-.aws-aurora_instance::before {
+.aws-braket_simulator_4::before {
   content: "\ea21";
 }
 
-.aws-aurora_mariadb_instance::before {
+.aws-braket_simulator::before {
   content: "\ea22";
 }
 
-.aws-aurora_mariadb_instance_alternate::before {
+.aws-braket_state_vector::before {
   content: "\ea23";
 }
 
-.aws-aurora_mysql_instance::before {
+.aws-braket_tensor_network::before {
   content: "\ea24";
 }
 
-.aws-aurora_mysql_instance_alternate::before {
+.aws-camera::before {
   content: "\ea25";
 }
 
-.aws-aurora_oracle_instance::before {
+.aws-certificate_manager_certificate_authority::before {
   content: "\ea26";
 }
 
-.aws-aurora_oracle_instance_alternate::before {
+.aws-client::before {
   content: "\ea27";
 }
 
-.aws-aurora_piops_instance::before {
+.aws-cloud_digital_interface::before {
   content: "\ea28";
 }
 
-.aws-aurora_postgresql_instance::before {
+.aws-cloud_map_namespace::before {
   content: "\ea29";
 }
 
-.aws-aurora_postgresql_instance_alternate::before {
+.aws-cloud_map_resource::before {
   content: "\ea2a";
 }
 
-.aws-aurora_sql_server_instance::before {
+.aws-cloud_map_service::before {
   content: "\ea2b";
 }
 
-.aws-aurora_sql_server_instance_alternate::before {
+.aws-cloud9_cloud9::before {
   content: "\ea2c";
 }
 
-.aws-auto-scaling::before {
+.aws-cloudformation_change_set::before {
   content: "\ea2d";
 }
 
-.aws-aws-application-auto-scaling::before {
+.aws-cloudformation_stack::before {
   content: "\ea2e";
 }
 
-.aws-aws_cost_management::before {
+.aws-cloudformation_template::before {
   content: "\ea2f";
 }
 
-.aws-backint-agent::before {
+.aws-cloudfront_download_distribution::before {
   content: "\ea30";
 }
 
-.aws-backup::before {
+.aws-backup_backup_restore::before {
   content: "\ea31";
 }
 
-.aws-backup_backup_plan::before {
+.aws-cloudfront_edge_location::before {
   content: "\ea32";
 }
 
-.aws-backup_backup_restore::before {
+.aws-cloudfront_functions::before {
   content: "\ea33";
 }
 
-.aws-backup_backup_vault::before {
+.aws-app_mesh_virtual_gateway::before {
   content: "\ea34";
 }
 
-.aws-backup_compliance_reporting::before {
+.aws-cloudfront_streaming_distribution::before {
   content: "\ea35";
 }
 
-.aws-backup_recovery_point_objective::before {
+.aws-cloudsearch_search_documents::before {
   content: "\ea36";
 }
 
-.aws-backup_recovery_time_objective::before {
+.aws-cloudwatch_alarm::before {
   content: "\ea37";
 }
 
-.aws-batch::before {
+.aws-cloudwatch_event_event_based::before {
   content: "\ea38";
 }
 
-.aws-blockchain::before {
+.aws-cloudwatch_event_time_based::before {
   content: "\ea39";
 }
 
-.aws-bottlerocket::before {
+.aws-cloudwatch_logs::before {
   content: "\ea3a";
 }
 
-.aws-braket::before {
+.aws-cloudwatch_rule::before {
   content: "\ea3b";
 }
 
-.aws-braket_chandelier-::before {
+.aws-cloudwatch_synthetics::before {
   content: "\ea3c";
 }
 
-.aws-braket_chip::before {
+.aws-database_amazon_rds_proxy_instance_alternate::before {
   content: "\ea3d";
 }
 
-.aws-braket_noise_simulator::before {
+.aws-database_amazon_rds_proxy_instance::before {
   content: "\ea3e";
 }
 
-.aws-braket_qpu::before {
+.aws-database_migration_service_database_migration_workflow_job::before {
   content: "\ea3f";
 }
 
-.aws-braket_simulator::before {
+.aws-datasync_agent::before {
   content: "\ea40";
 }
 
-.aws-braket_simulator_1::before {
+.aws-devops_guru_insights::before {
   content: "\ea41";
 }
 
-.aws-braket_simulator_2::before {
+.aws-direct_connect_gateway::before {
   content: "\ea42";
 }
 
-.aws-braket_simulator_3::before {
+.aws-directory_service_ad_connector::before {
   content: "\ea43";
 }
 
-.aws-braket_simulator_4::before {
+.aws-directory_service_aws_managed_microsoft_ad::before {
   content: "\ea44";
 }
 
-.aws-braket_state_vector::before {
+.aws-directory_service_simple_ad::before {
   content: "\ea45";
 }
 
-.aws-braket_tensor_network::before {
+.aws-disk::before {
   content: "\ea46";
 }
 
-.aws-budgets::before {
+.aws-documents::before {
   content: "\ea47";
 }
 
-.aws-business_applications::before {
+.aws-dynamodb_amazon_dynamodb_accelerator::before {
   content: "\ea48";
 }
 
-.aws-camera::before {
+.aws-dynamodb_attribute::before {
   content: "\ea49";
 }
 
-.aws-certificate-manager::before {
+.aws-dynamodb_attributes::before {
   content: "\ea4a";
 }
 
-.aws-certificate_manager_certificate_authority::before {
+.aws-dynamodb_global_secondary_index::before {
   content: "\ea4b";
 }
 
-.aws-chatbot::before {
+.aws-dynamodb_item::before {
   content: "\ea4c";
 }
 
-.aws-chime-sdk::before {
+.aws-dynamodb_items::before {
   content: "\ea4d";
 }
 
-.aws-chime-voice-connector::before {
+.aws-dynamodb_stream::before {
   content: "\ea4e";
 }
 
-.aws-chime::before {
+.aws-dynamodb_table::before {
   content: "\ea4f";
 }
 
-.aws-client-vpn::before {
+.aws-ec2_a1_instance::before {
   content: "\ea50";
 }
 
-.aws-client::before {
+.aws-ec2_ami::before {
   content: "\ea51";
 }
 
-.aws-cloud-development-kit::before {
+.aws-ec2_auto_scaling::before {
   content: "\ea52";
 }
 
-.aws-cloud-directory::before {
+.aws-ec2_aws_inferentia::before {
   content: "\ea53";
 }
 
-.aws-cloud-map::before {
+.aws-ec2_c5_instance::before {
   content: "\ea54";
 }
 
-.aws-cloud9::before {
+.aws-ec2_c5ad::before {
   content: "\ea55";
 }
 
-.aws-cloud9_cloud9::before {
-  content: "\ea57";
-}
-
-.aws-cloud_digital_interface::before {
+.aws-ec2_c5d::before {
   content: "\ea56";
 }
 
-.aws-cloud_map_namespace::before {
-  content: "\ea58";
-}
-
-.aws-cloud_map_resource::before {
-  content: "\ea59";
-}
-
-.aws-cloud_map_service::before {
-  content: "\ea5a";
-}
-
-.aws-cloudendure-disaster-recovery::before {
-  content: "\ea5b";
-}
-
-.aws-cloudformation::before {
-  content: "\ea5c";
-}
-
-.aws-cloudformation_change_set::before {
-  content: "\ea5d";
-}
-
-.aws-cloudformation_stack::before {
-  content: "\ea5e";
-}
-
-.aws-cloudformation_template::before {
-  content: "\ea5f";
-}
-
-.aws-cloudfront::before {
-  content: "\ea60";
-}
-
-.aws-cloudfront_download_distribution::before {
-  content: "\ea61";
-}
-
-.aws-cloudfront_edge_location::before {
-  content: "\ea62";
-}
-
-.aws-cloudfront_functions::before {
-  content: "\ea63";
-}
-
-.aws-cloudfront_streaming_distribution::before {
-  content: "\ea64";
-}
-
-.aws-cloudhsm::before {
-  content: "\ea65";
-}
-
-.aws-cloudsearch::before {
-  content: "\ea66";
-}
-
-.aws-cloudsearch_search_documents::before {
-  content: "\ea67";
-}
-
-.aws-cloudshell::before {
-  content: "\ea68";
-}
-
-.aws-cloudtrail::before {
-  content: "\ea69";
-}
-
-.aws-cloudwatch::before {
-  content: "\ea6a";
-}
-
-.aws-cloudwatch_alarm::before {
-  content: "\ea6b";
-}
-
-.aws-cloudwatch_event_event_based::before {
-  content: "\ea6c";
-}
-
-.aws-cloudwatch_event_time_based::before {
-  content: "\ea6d";
-}
-
-.aws-cloudwatch_logs::before {
-  content: "\ea6e";
-}
-
-.aws-cloudwatch_rule::before {
-  content: "\ea6f";
-}
-
-.aws-cloudwatch_synthetics::before {
-  content: "\ea70";
-}
-
-.aws-codeartifact::before {
-  content: "\ea71";
-}
-
-.aws-codebuild::before {
-  content: "\ea73";
-}
-
-.aws-codecommit::before {
-  content: "\ea72";
-}
-
-.aws-codedeploy::before {
-  content: "\ea74";
-}
-
-.aws-codeguru::before {
-  content: "\ea75";
-}
-
-.aws-codepipeline::before {
-  content: "\ea77";
-}
-
-.aws-codestar::before {
-  content: "\ea76";
-}
-
-.aws-cognito::before {
-  content: "\ea78";
-}
-
-.aws-command-line-interface::before {
-  content: "\ea79";
-}
-
-.aws-comprehend::before {
-  content: "\ea7a";
-}
-
-.aws-compute-optimizer::before {
-  content: "\ea7b";
-}
-
-.aws-compute::before {
-  content: "\ea7c";
-}
-
-.aws-config::before {
-  content: "\ea7d";
-}
-
-.aws-connect::before {
-  content: "\ea7e";
-}
-
-.aws-console-mobile-application::before {
-  content: "\ea7f";
-}
-
-.aws-containers::before {
-  content: "\ea80";
-}
-
-.aws-control-tower::before {
-  content: "\ea81";
-}
-
-.aws-corretto::before {
-  content: "\ea82";
-}
-
-.aws-cost-and-usage-report::before {
-  content: "\ea83";
-}
-
-.aws-cost-explorer::before {
-  content: "\ea84";
-}
-
-.aws-customer_enablement::before {
-  content: "\ea85";
-}
-
-.aws-data-exchange::before {
-  content: "\ea86";
-}
-
-.aws-data-pipeline::before {
-  content: "\ea87";
-}
-
-.aws-database-migration-service::before {
-  content: "\ea88";
-}
-
-.aws-database::before {
-  content: "\ea89";
-}
-
-.aws-database_amazon_rds_proxy_instance::before {
-  content: "\ea8a";
-}
-
-.aws-database_amazon_rds_proxy_instance_alternate::before {
-  content: "\ea8b";
-}
-
-.aws-database_migration_service_database_migration_workflow_job::before {
-  content: "\ea8c";
-}
-
-.aws-datasync::before {
-  content: "\ea8d";
-}
-
-.aws-datasync_agent::before {
-  content: "\ea8e";
-}
-
-.aws-deep-learning-amis::before {
-  content: "\ea8f";
-}
-
-.aws-deep-learning-containers::before {
-  content: "\ea90";
-}
-
-.aws-deepcomposer::before {
-  content: "\ea92";
-}
-
-.aws-deeplens::before {
-  content: "\ea91";
-}
-
-.aws-deepracer::before {
-  content: "\ea93";
-}
-
-.aws-detective::before {
-  content: "\ea94";
-}
-
-.aws-developer_tools::before {
-  content: "\ea95";
-}
-
-.aws-device-farm::before {
-  content: "\ea96";
-}
-
-.aws-devops-guru::before {
-  content: "\ea97";
-}
-
-.aws-devops_guru_insights::before {
-  content: "\ea98";
-}
-
-.aws-direct-connect::before {
-  content: "\ea9a";
-}
-
-.aws-direct_connect_gateway::before {
-  content: "\ea99";
-}
-
-.aws-directory-service::before {
-  content: "\ea9b";
-}
-
-.aws-directory_service_ad_connector::before {
-  content: "\ea9c";
-}
-
-.aws-directory_service_aws_managed_microsoft_ad::before {
-  content: "\ea9d";
-}
-
-.aws-directory_service_simple_ad::before {
-  content: "\ea9e";
-}
-
-.aws-disk::before {
-  content: "\ea9f";
-}
-
-.aws-distro-for-opentelemetry::before {
-  content: "\eaa0";
-}
-
-.aws-documentdb::before {
-  content: "\eaa1";
-}
-
-.aws-documents::before {
-  content: "\eaa2";
-}
-
-.aws-dynamodb::before {
-  content: "\eaa3";
-}
-
-.aws-dynamodb_amazon_dynamodb_accelerator::before {
-  content: "\eaa4";
-}
-
-.aws-dynamodb_attribute::before {
-  content: "\eaa5";
-}
-
-.aws-dynamodb_attributes::before {
-  content: "\eaa6";
-}
-
-.aws-dynamodb_global_secondary_index::before {
-  content: "\eaa7";
-}
-
-.aws-dynamodb_item::before {
-  content: "\eaa8";
-}
-
-.aws-dynamodb_items::before {
-  content: "\eaa9";
-}
-
-.aws-dynamodb_stream::before {
-  content: "\eaaa";
-}
-
-.aws-dynamodb_table::before {
-  content: "\eaab";
-}
-
-.aws-ec2-auto-scaling::before {
-  content: "\eaac";
-}
-
-.aws-ec2-image-builder::before {
-  content: "\eaad";
-}
-
-.aws-ec2::before {
-  content: "\eaae";
-}
-
-.aws-ec2_a1_instance::before {
-  content: "\eaaf";
-}
-
-.aws-ec2_ami::before {
-  content: "\eab0";
-}
-
-.aws-ec2_auto_scaling::before {
-  content: "\eab1";
-}
-
-.aws-ec2_aws_inferentia::before {
-  content: "\eab2";
-}
-
-.aws-ec2_c4_instance::before {
-  content: "\eab3";
-}
-
-.aws-ec2_c5_instance::before {
-  content: "\eab4";
-}
-
-.aws-ec2_c5a::before {
-  content: "\eab5";
-}
-
-.aws-ec2_c5ad::before {
-  content: "\eab6";
-}
-
-.aws-ec2_c5d::before {
-  content: "\eab7";
-}
-
-.aws-ec2_c5n_instance::before {
-  content: "\eab8";
+.aws-backup_backup_vault::before {
+  content: "\ea57";
 }
 
 .aws-ec2_c6g_instance::before {
-  content: "\eab9";
+  content: "\ea58";
 }
 
 .aws-ec2_c6gd::before {
-  content: "\eaba";
+  content: "\ea59";
 }
 
 .aws-ec2_d2_instance::before {
-  content: "\eabb";
+  content: "\ea5a";
 }
 
 .aws-ec2_d3_instance::before {
-  content: "\eabc";
+  content: "\ea5b";
 }
 
 .aws-ec2_d3en_instance::before {
-  content: "\eabd";
+  content: "\ea5c";
 }
 
 .aws-ec2_db_instance::before {
-  content: "\eabe";
+  content: "\ea5d";
 }
 
 .aws-ec2_elastic_ip_address::before {
-  content: "\eabf";
+  content: "\ea5e";
 }
 
 .aws-ec2_f1_instance::before {
-  content: "\eac0";
+  content: "\ea5f";
 }
 
 .aws-ec2_g3_instance::before {
-  content: "\eac1";
+  content: "\ea60";
 }
 
 .aws-ec2_g4ad_instance::before {
-  content: "\eac2";
+  content: "\ea61";
 }
 
 .aws-ec2_g4dn::before {
-  content: "\eac3";
+  content: "\ea62";
 }
 
 .aws-ec2_h1_instance::before {
-  content: "\eac4";
+  content: "\ea63";
 }
 
 .aws-ec2_habana_gaudi::before {
-  content: "\eac5";
+  content: "\ea64";
 }
 
 .aws-ec2_hmi_instance::before {
-  content: "\eac6";
+  content: "\ea65";
 }
 
 .aws-ec2_i2::before {
-  content: "\eac7";
+  content: "\ea66";
 }
 
 .aws-ec2_i3_instance::before {
-  content: "\eac8";
+  content: "\ea67";
 }
 
 .aws-ec2_i3en::before {
-  content: "\eac9";
+  content: "\ea68";
 }
 
 .aws-ec2_inf1::before {
-  content: "\eaca";
-}
-
-.aws-ec2_instance::before {
-  content: "\eacb";
+  content: "\ea69";
 }
 
 .aws-ec2_instance_with_cloudwatch::before {
-  content: "\eacc";
+  content: "\ea6a";
+}
+
+.aws-ec2_instance::before {
+  content: "\ea6b";
 }
 
 .aws-ec2_instances::before {
-  content: "\eace";
+  content: "\ea6c";
 }
 
 .aws-ec2_m4_instance::before {
-  content: "\eacd";
+  content: "\ea6d";
+}
+
+.aws-ec2_c4_instance::before {
+  content: "\ea6e";
+}
+
+.aws-ec2_c5a::before {
+  content: "\ea6f";
 }
 
 .aws-ec2_m5_instance::before {
-  content: "\eacf";
-}
-
-.aws-ec2_m5a_instance::before {
-  content: "\ead0";
-}
-
-.aws-ec2_m5d_instance::before {
-  content: "\ead1";
+  content: "\ea70";
 }
 
 .aws-ec2_m5dn_instance::before {
-  content: "\ead2";
+  content: "\ea71";
 }
 
 .aws-ec2_m5n_instance::before {
-  content: "\ead3";
+  content: "\ea72";
 }
 
 .aws-ec2_m5zn_instance::before {
-  content: "\ead4";
+  content: "\ea73";
 }
 
 .aws-ec2_m6g_instance::before {
-  content: "\ead5";
+  content: "\ea74";
 }
 
 .aws-ec2_m6gd_instance::before {
-  content: "\ead6";
+  content: "\ea75";
 }
 
 .aws-ec2_mac_instance::before {
-  content: "\ead7";
+  content: "\ea76";
 }
 
 .aws-ec2_p2_instance::before {
-  content: "\ead8";
+  content: "\ea77";
 }
 
 .aws-ec2_p3_instance::before {
-  content: "\ead9";
+  content: "\ea78";
 }
 
 .aws-ec2_p3dn_instance::before {
-  content: "\eada";
+  content: "\ea79";
 }
 
 .aws-ec2_p4_instance::before {
-  content: "\eadb";
+  content: "\ea7a";
 }
 
 .aws-ec2_p4d_instance::before {
-  content: "\eadc";
+  content: "\ea7b";
 }
 
 .aws-ec2_r4_instance::before {
-  content: "\eadd";
+  content: "\ea7c";
 }
 
 .aws-ec2_r5_instance::before {
-  content: "\eade";
+  content: "\ea7d";
 }
 
 .aws-ec2_r5a_instance::before {
-  content: "\eadf";
+  content: "\ea7e";
 }
 
 .aws-ec2_r5ad_instance::before {
-  content: "\eae0";
+  content: "\ea7f";
 }
 
 .aws-ec2_r5b_instance-::before {
-  content: "\eae1";
+  content: "\ea80";
 }
 
 .aws-ec2_r5d_instance::before {
-  content: "\eae2";
+  content: "\ea81";
 }
 
 .aws-ec2_r5gd_instance::before {
-  content: "\eae3";
+  content: "\ea82";
 }
 
 .aws-ec2_r5n_instance::before {
-  content: "\eae4";
+  content: "\ea83";
 }
 
 .aws-ec2_r6g_instance::before {
-  content: "\eae6";
+  content: "\ea84";
 }
 
 .aws-ec2_rdn_instance::before {
-  content: "\eae5";
+  content: "\ea85";
 }
 
 .aws-ec2_rescue::before {
-  content: "\eae7";
+  content: "\ea86";
 }
 
-.aws-ec2_spot_instance::before {
-  content: "\eae8";
+.aws-ec2_m5a_instance::before {
+  content: "\ea87";
+}
+
+.aws-ec2_m5d_instance::before {
+  content: "\ea88";
 }
 
 .aws-ec2_t2_instance::before {
-  content: "\eae9";
+  content: "\ea89";
 }
 
-.aws-ec2_t3_instance::before {
-  content: "\eaea";
+.aws-ec2_c5n_instance::before {
+  content: "\ea8a";
 }
 
-.aws-ec2_t3a_instance::before {
-  content: "\eaeb";
-}
-
-.aws-ec2_t4g_instance::before {
-  content: "\eaec";
+.aws-ec2_spot_instance::before {
+  content: "\ea8b";
 }
 
 .aws-ec2_trainium_instance::before {
-  content: "\eaed";
+  content: "\ea8c";
 }
 
 .aws-ec2_x1_instance::before {
-  content: "\eaee";
+  content: "\ea8d";
 }
 
 .aws-ec2_x1e_instance::before {
-  content: "\eaef";
+  content: "\ea8e";
 }
 
 .aws-ec2_z1d_instance::before {
-  content: "\eaf0";
-}
-
-.aws-eks-anywhere::before {
-  content: "\eaf1";
-}
-
-.aws-eks-cloud::before {
-  content: "\eaf2";
-}
-
-.aws-eks-distro::before {
-  content: "\eaf3";
-}
-
-.aws-elastic-beanstalk::before {
-  content: "\eaf4";
-}
-
-.aws-elastic-block-store::before {
-  content: "\eaf5";
-}
-
-.aws-elastic-container-registry::before {
-  content: "\eaf6";
-}
-
-.aws-elastic-container-service::before {
-  content: "\eaf7";
-}
-
-.aws-elastic-fabric-adapter::before {
-  content: "\eaf8";
-}
-
-.aws-elastic-file-system::before {
-  content: "\eaf9";
-}
-
-.aws-elastic-inference::before {
-  content: "\eafa";
-}
-
-.aws-elastic-kubernetes-service::before {
-  content: "\eafb";
-}
-
-.aws-elastic-load-balancing::before {
-  content: "\eafc";
-}
-
-.aws-elastic-transcoder::before {
-  content: "\eafd";
+  content: "\ea8f";
 }
 
 .aws-elastic_beanstalk_application::before {
-  content: "\eafe";
+  content: "\ea90";
 }
 
 .aws-elastic_beanstalk_deployment::before {
-  content: "\eaff";
+  content: "\ea91";
 }
 
 .aws-elastic_block_store_amazon_data_lifecycle_manager::before {
-  content: "\eb00";
+  content: "\ea92";
 }
 
 .aws-elastic_block_store_multiple_volumes::before {
-  content: "\eb01";
+  content: "\ea93";
 }
 
 .aws-elastic_block_store_snapshot::before {
-  content: "\eb02";
-}
-
-.aws-elastic_block_store_volume::before {
-  content: "\eb03";
+  content: "\ea94";
 }
 
 .aws-elastic_block_store_volume_gp3::before {
-  content: "\eb04";
+  content: "\ea95";
+}
+
+.aws-elastic_block_store_volume::before {
+  content: "\ea96";
 }
 
 .aws-elastic_container_registry_image::before {
-  content: "\eb05";
+  content: "\ea97";
 }
 
 .aws-elastic_container_registry_registry::before {
-  content: "\eb06";
+  content: "\ea98";
 }
 
 .aws-elastic_container_service_container_1::before {
-  content: "\eb07";
+  content: "\ea99";
 }
 
 .aws-elastic_container_service_container_2::before {
-  content: "\eb08";
+  content: "\ea9a";
 }
 
 .aws-elastic_container_service_container_3::before {
-  content: "\eb09";
+  content: "\ea9b";
 }
 
 .aws-elastic_container_service_copilot_cli::before {
-  content: "\eb0a";
+  content: "\ea9c";
+}
+
+.aws-ec2_t3_instance::before {
+  content: "\ea9d";
 }
 
 .aws-elastic_container_service_ecs_anywhere::before {
-  content: "\eb0b";
+  content: "\ea9e";
 }
 
 .aws-elastic_container_service_service::before {
-  content: "\eb0c";
+  content: "\ea9f";
 }
 
 .aws-elastic_container_service_task::before {
-  content: "\eb0d";
+  content: "\eaa0";
 }
 
 .aws-elastic_file_system_file_system::before {
-  content: "\eb0e";
-}
-
-.aws-elastic_file_system_one_zone::before {
-  content: "\eb0f";
+  content: "\eaa1";
 }
 
 .aws-elastic_file_system_one_zone_infrequent_access::before {
-  content: "\eb10";
+  content: "\eaa2";
 }
 
-.aws-elastic_file_system_standard::before {
-  content: "\eb11";
+.aws-elastic_file_system_one_zone::before {
+  content: "\eaa3";
 }
 
 .aws-elastic_file_system_standard_infrequent_access::before {
-  content: "\eb12";
+  content: "\eaa4";
+}
+
+.aws-elastic_file_system_standard::before {
+  content: "\eaa5";
 }
 
 .aws-elastic_load_balancing_application_load_balancer::before {
-  content: "\eb13";
+  content: "\eaa6";
 }
 
 .aws-elastic_load_balancing_classic_load_balancer::before {
-  content: "\eb14";
+  content: "\eaa7";
 }
 
 .aws-elastic_load_balancing_gateway_load_balancer::before {
-  content: "\eb15";
+  content: "\eaa8";
 }
 
 .aws-elastic_load_balancing_network_load_balancer::before {
-  content: "\eb16";
-}
-
-.aws-elasticache::before {
-  content: "\eb17";
+  content: "\eaa9";
 }
 
 .aws-elasticache_cache_node::before {
-  content: "\eb18";
+  content: "\eaaa";
 }
 
 .aws-elasticache_elasticache_for_memcached::before {
-  content: "\eb19";
+  content: "\eaab";
 }
 
 .aws-elasticache_elasticache_for_redis::before {
-  content: "\eb1a";
-}
-
-.aws-elemental-appliances-&amp;-software::before {
-  content: "\eb1b";
-}
-
-.aws-elemental-conductor::before {
-  content: "\eb1c";
-}
-
-.aws-elemental-delta::before {
-  content: "\eb1d";
-}
-
-.aws-elemental-link::before {
-  content: "\eb1e";
-}
-
-.aws-elemental-live::before {
-  content: "\eb1f";
-}
-
-.aws-elemental-mediaconnect::before {
-  content: "\eb20";
-}
-
-.aws-elemental-mediaconvert::before {
-  content: "\eb21";
-}
-
-.aws-elemental-medialive::before {
-  content: "\eb22";
-}
-
-.aws-elemental-mediapackage::before {
-  content: "\eb23";
-}
-
-.aws-elemental-mediastore::before {
-  content: "\eb24";
-}
-
-.aws-elemental-mediatailor::before {
-  content: "\eb25";
-}
-
-.aws-elemental-server::before {
-  content: "\eb26";
+  content: "\eaac";
 }
 
 .aws-email::before {
-  content: "\eb27";
-}
-
-.aws-emr::before {
-  content: "\eb28";
+  content: "\eaad";
 }
 
 .aws-emr_cluster::before {
-  content: "\eb29";
+  content: "\eaae";
 }
 
 .aws-emr_emr_engine::before {
-  content: "\eb2a";
+  content: "\eaaf";
 }
 
 .aws-emr_hdfs_cluster::before {
-  content: "\eb2b";
-}
-
-.aws-end_user_computing::before {
-  content: "\eb2c";
-}
-
-.aws-eventbridge::before {
-  content: "\eb2d";
+  content: "\eab0";
 }
 
 .aws-eventbridge_custom_event_bus::before {
-  content: "\eb2e";
+  content: "\eab1";
 }
 
 .aws-eventbridge_default_event_bus::before {
-  content: "\eb2f";
+  content: "\eab2";
 }
 
 .aws-eventbridge_event::before {
-  content: "\eb30";
+  content: "\eab3";
 }
 
 .aws-eventbridge_rule::before {
-  content: "\eb31";
+  content: "\eab4";
 }
 
 .aws-eventbridge_saas_partner_event::before {
-  content: "\eb32";
-}
-
-.aws-eventbridge_schema::before {
-  content: "\eb33";
+  content: "\eab5";
 }
 
 .aws-eventbridge_schema_registry::before {
-  content: "\eb34";
+  content: "\eab6";
 }
 
-.aws-express-workflows::before {
-  content: "\eb35";
-}
-
-.aws-fargate::before {
-  content: "\eb36";
-}
-
-.aws-fault-injection-simulator::before {
-  content: "\eb37";
-}
-
-.aws-finspace::before {
-  content: "\eb38";
-}
-
-.aws-firewall-manager::before {
-  content: "\eb39";
+.aws-eventbridge_schema::before {
+  content: "\eab7";
 }
 
 .aws-firewall::before {
-  content: "\eb3a";
-}
-
-.aws-forecast::before {
-  content: "\eb3b";
+  content: "\eab8";
 }
 
 .aws-forums::before {
-  content: "\eb3c";
-}
-
-.aws-fraud-detector::before {
-  content: "\eb3d";
-}
-
-.aws-freertos::before {
-  content: "\eb3e";
-}
-
-.aws-front_end_web_mobile::before {
-  content: "\eb3f";
-}
-
-.aws-fsx-for-lustre::before {
-  content: "\eb40";
-}
-
-.aws-fsx-for-windows-file-server::before {
-  content: "\eb41";
-}
-
-.aws-fsx::before {
-  content: "\eb42";
-}
-
-.aws-game_tech::before {
-  content: "\eb43";
-}
-
-.aws-gamelift::before {
-  content: "\eb44";
+  content: "\eab9";
 }
 
 .aws-gear::before {
-  content: "\eb45";
+  content: "\eaba";
 }
 
 .aws-generic_database::before {
-  content: "\eb46";
-}
-
-.aws-global-accelerator::before {
-  content: "\eb47";
-}
-
-.aws-glue-databrew::before {
-  content: "\eb48";
-}
-
-.aws-glue-elastic-views::before {
-  content: "\eb49";
-}
-
-.aws-glue::before {
-  content: "\eb4a";
+  content: "\eabb";
 }
 
 .aws-glue_crawler::before {
-  content: "\eb4b";
+  content: "\eabc";
 }
 
 .aws-glue_data_catalog::before {
-  content: "\eb4c";
-}
-
-.aws-ground-station::before {
-  content: "\eb4d";
-}
-
-.aws-guardduty::before {
-  content: "\eb4e";
-}
-
-.aws-healthlake::before {
-  content: "\eb4f";
-}
-
-.aws-honeycode::before {
-  content: "\eb50";
-}
-
-.aws-identity-and-access-management::before {
-  content: "\eb51";
+  content: "\eabd";
 }
 
 .aws-identity_access_management_add_on::before {
-  content: "\eb52";
+  content: "\eabe";
 }
 
 .aws-identity_access_management_aws_iam_access_analyzer::before {
-  content: "\eb53";
-}
-
-.aws-identity_access_management_aws_sts::before {
-  content: "\eb54";
+  content: "\eabf";
 }
 
 .aws-identity_access_management_aws_sts_alternate::before {
-  content: "\eb55";
+  content: "\eac0";
+}
+
+.aws-identity_access_management_aws_sts::before {
+  content: "\eac1";
 }
 
 .aws-identity_access_management_data_encryption_key::before {
-  content: "\eb56";
+  content: "\eac2";
 }
 
 .aws-identity_access_management_encrypted_data::before {
-  content: "\eb57";
+  content: "\eac3";
 }
 
 .aws-identity_access_management_long_term_security_credential::before {
-  content: "\eb58";
+  content: "\eac4";
 }
 
 .aws-identity_access_management_mfa_token::before {
-  content: "\eb59";
+  content: "\eac5";
 }
 
 .aws-identity_access_management_permissions::before {
-  content: "\eb5a";
+  content: "\eac6";
 }
 
 .aws-identity_access_management_role::before {
-  content: "\eb5b";
+  content: "\eac7";
 }
 
 .aws-identity_access_management_temporary_security_credential::before {
-  content: "\eb5c";
-}
-
-.aws-inspector::before {
-  content: "\eb5d";
+  content: "\eac8";
 }
 
 .aws-inspector_agent::before {
-  content: "\eb5e";
-}
-
-.aws-interactive-video-service::before {
-  content: "\eb5f";
-}
-
-.aws-internet::before {
-  content: "\eb60";
+  content: "\eac9";
 }
 
 .aws-internet_alt1::before {
-  content: "\eb61";
+  content: "\eaca";
 }
 
 .aws-internet_alt2::before {
-  content: "\eb62";
+  content: "\eacb";
 }
 
-.aws-internet_of_things::before {
-  content: "\eb63";
-}
-
-.aws-iot-1-click::before {
-  content: "\eb65";
-}
-
-.aws-iot-analytics::before {
-  content: "\eb64";
-}
-
-.aws-iot-button::before {
-  content: "\eb66";
-}
-
-.aws-iot-core::before {
-  content: "\eb67";
-}
-
-.aws-iot-device-defender::before {
-  content: "\eb69";
-}
-
-.aws-iot-device-management::before {
-  content: "\eb68";
-}
-
-.aws-iot-events::before {
-  content: "\eb6a";
-}
-
-.aws-iot-greengrass::before {
-  content: "\eb6b";
-}
-
-.aws-iot-sitewise::before {
-  content: "\eb6c";
-}
-
-.aws-iot-things-graph::before {
-  content: "\eb6d";
+.aws-internet::before {
+  content: "\eacc";
 }
 
 .aws-iot_action::before {
-  content: "\eb6e";
+  content: "\eacd";
 }
 
 .aws-iot_actuator::before {
-  content: "\eb6f";
+  content: "\eace";
 }
 
 .aws-iot_alexa_enabled_device::before {
-  content: "\eb71";
+  content: "\eacf";
 }
 
 .aws-iot_alexa_skill::before {
-  content: "\eb70";
+  content: "\ead0";
 }
 
 .aws-iot_alexa_voice_service::before {
-  content: "\eb72";
+  content: "\ead1";
 }
 
 .aws-iot_analytics_channel::before {
-  content: "\eb73";
+  content: "\ead2";
 }
 
 .aws-iot_analytics_data_store::before {
-  content: "\eb74";
+  content: "\ead3";
 }
 
 .aws-iot_analytics_dataset::before {
-  content: "\eb75";
+  content: "\ead4";
 }
 
 .aws-iot_analytics_notebook::before {
-  content: "\eb76";
+  content: "\ead5";
 }
 
 .aws-iot_analytics_pipeline::before {
-  content: "\eb77";
+  content: "\ead6";
 }
 
 .aws-iot_certificate::before {
-  content: "\eb78";
+  content: "\ead7";
 }
 
 .aws-iot_desired_state::before {
-  content: "\eb79";
+  content: "\ead8";
 }
 
 .aws-iot_device_defender_iot_device_jobs::before {
-  content: "\eb7a";
+  content: "\ead9";
 }
 
 .aws-iot_device_gateway::before {
-  content: "\eb7b";
+  content: "\eada";
 }
 
 .aws-iot_echo::before {
-  content: "\eb7c";
-}
-
-.aws-iot_fire_tv::before {
-  content: "\eb7d";
+  content: "\eadb";
 }
 
 .aws-iot_fire_tv_stick::before {
-  content: "\eb7e";
+  content: "\eadc";
+}
+
+.aws-iot_fire_tv::before {
+  content: "\eadd";
 }
 
 .aws-iot_greengrass_artifact::before {
-  content: "\eb7f";
+  content: "\eade";
 }
 
-.aws-iot_greengrass_component::before {
-  content: "\eb80";
-}
-
-.aws-iot_greengrass_component_machine_learning::before {
-  content: "\eb81";
-}
-
-.aws-iot_greengrass_component_nucleus::before {
-  content: "\eb82";
+.aws-ec2_t3a_instance::before {
+  content: "\eadf";
 }
 
 .aws-iot_greengrass_component_private::before {
-  content: "\eb83";
+  content: "\eae0";
 }
 
 .aws-iot_greengrass_component_public::before {
-  content: "\eb84";
+  content: "\eae1";
+}
+
+.aws-iot_greengrass_component::before {
+  content: "\eae2";
 }
 
 .aws-iot_greengrass_connector::before {
-  content: "\eb85";
+  content: "\eae3";
 }
 
 .aws-iot_greengrass_interprocess_communication::before {
-  content: "\eb86";
+  content: "\eae4";
 }
 
 .aws-iot_greengrass_protocol::before {
-  content: "\eb87";
+  content: "\eae5";
 }
 
 .aws-iot_greengrass_recipe::before {
-  content: "\eb88";
+  content: "\eae6";
 }
 
 .aws-iot_greengrass_stream_manager::before {
-  content: "\eb89";
+  content: "\eae7";
 }
 
 .aws-iot_hardware_board::before {
-  content: "\eb8a";
-}
-
-.aws-iot_http2_protocol::before {
-  content: "\eb8b";
+  content: "\eae8";
 }
 
 .aws-iot_http_protocol::before {
-  content: "\eb8c";
+  content: "\eae9";
+}
+
+.aws-iot_http2_protocol::before {
+  content: "\eaea";
 }
 
 .aws-iot_lambda_function::before {
-  content: "\eb8d";
+  content: "\eaeb";
 }
 
 .aws-iot_lorawan_protocol-::before {
-  content: "\eb8e";
+  content: "\eaec";
 }
 
 .aws-iot_mqtt_protocol::before {
-  content: "\eb8f";
+  content: "\eaed";
 }
 
 .aws-iot_over_air_update::before {
-  content: "\eb90";
+  content: "\eaee";
 }
 
 .aws-iot_policy::before {
-  content: "\eb91";
+  content: "\eaef";
 }
 
 .aws-iot_reported_state::before {
-  content: "\eb92";
+  content: "\eaf0";
 }
 
 .aws-iot_rule::before {
-  content: "\eb93";
+  content: "\eaf1";
 }
 
 .aws-iot_sailboat-::before {
-  content: "\eb94";
+  content: "\eaf2";
 }
 
 .aws-iot_sensor::before {
-  content: "\eb95";
+  content: "\eaf3";
 }
 
 .aws-iot_servo::before {
-  content: "\eb96";
+  content: "\eaf4";
 }
 
 .aws-iot_shadow::before {
-  content: "\eb97";
+  content: "\eaf5";
 }
 
 .aws-iot_simulator::before {
-  content: "\eb98";
+  content: "\eaf6";
 }
 
 .aws-iot_thing_bank::before {
-  content: "\eb99";
+  content: "\eaf7";
 }
 
 .aws-iot_thing_bicycle::before {
-  content: "\eb9a";
+  content: "\eaf8";
 }
 
 .aws-iot_thing_camera::before {
-  content: "\eb9b";
+  content: "\eaf9";
 }
 
 .aws-iot_thing_car::before {
-  content: "\eb9c";
+  content: "\eafa";
 }
 
 .aws-iot_thing_cart::before {
-  content: "\eb9d";
+  content: "\eafb";
 }
 
 .aws-iot_thing_coffee_pot::before {
-  content: "\eb9e";
+  content: "\eafc";
 }
 
 .aws-iot_thing_door_lock::before {
-  content: "\eb9f";
+  content: "\eafd";
 }
 
 .aws-iot_thing_factory::before {
-  content: "\eba0";
+  content: "\eafe";
 }
 
 .aws-iot_thing_freertos_device::before {
-  content: "\eba1";
+  content: "\eaff";
 }
 
 .aws-iot_thing_generic::before {
-  content: "\eba2";
+  content: "\eb00";
 }
 
 .aws-iot_thing_house::before {
-  content: "\eba3";
+  content: "\eb01";
 }
 
 .aws-iot_thing_humidity_sensor::before {
-  content: "\eba4";
+  content: "\eb02";
 }
 
 .aws-iot_thing_industrial_pc::before {
-  content: "\eba7";
+  content: "\eb03";
 }
 
 .aws-iot_thing_lightbulb::before {
-  content: "\eba6";
-}
-
-.aws-iot_thing_medical_emergency::before {
-  content: "\eba5";
+  content: "\eb04";
 }
 
 .aws-iot_thing_plc::before {
-  content: "\eba8";
+  content: "\eb05";
 }
 
 .aws-iot_thing_police_emergency::before {
-  content: "\eba9";
-}
-
-.aws-iot_thing_relay::before {
-  content: "\ebaa";
+  content: "\eb06";
 }
 
 .aws-iot_thing_stacklight::before {
-  content: "\ebab";
-}
-
-.aws-iot_thing_temperature_humidity_sensor::before {
-  content: "\ebac";
+  content: "\eb07";
 }
 
 .aws-iot_thing_temperature_sensor::before {
-  content: "\ebad";
+  content: "\eb08";
+}
+
+.aws-iot_thing_medical_emergency::before {
+  content: "\eb09";
 }
 
 .aws-iot_thing_temperature_vibration_sensor::before {
-  content: "\ebae";
+  content: "\eb0a";
 }
 
 .aws-iot_thing_thermostat::before {
-  content: "\ebaf";
+  content: "\eb0b";
 }
 
 .aws-iot_thing_travel::before {
-  content: "\ebb0";
+  content: "\eb0c";
 }
 
 .aws-iot_thing_utility::before {
-  content: "\ebb1";
+  content: "\eb0d";
 }
 
 .aws-iot_thing_vibration_sensor::before {
-  content: "\ebb2";
+  content: "\eb0e";
 }
 
 .aws-iot_thing_windfarm::before {
-  content: "\ebb3";
+  content: "\eb0f";
 }
 
 .aws-iot_topic::before {
-  content: "\ebb4";
-}
-
-.aws-iq::before {
-  content: "\ebb5";
-}
-
-.aws-kendra::before {
-  content: "\ebb6";
-}
-
-.aws-key-management-service::before {
-  content: "\ebb7";
-}
-
-.aws-keyspaces::before {
-  content: "\ebb8";
-}
-
-.aws-kinesis-data-analytics::before {
-  content: "\ebb9";
-}
-
-.aws-kinesis-data-streams::before {
-  content: "\ebba";
-}
-
-.aws-kinesis-firehose::before {
-  content: "\ebbb";
-}
-
-.aws-kinesis-video-streams::before {
-  content: "\ebbc";
-}
-
-.aws-kinesis::before {
-  content: "\ebbd";
-}
-
-.aws-lake-formation::before {
-  content: "\ebbe";
+  content: "\eb10";
 }
 
 .aws-lake_formation_data_lake::before {
-  content: "\ebbf";
-}
-
-.aws-lambda::before {
-  content: "\ebc0";
+  content: "\eb11";
 }
 
 .aws-lambda_lambda_function::before {
-  content: "\ebc1";
-}
-
-.aws-launch-wizard::before {
-  content: "\ebc2";
-}
-
-.aws-lex::before {
-  content: "\ebc3";
-}
-
-.aws-license-manager::before {
-  content: "\ebc4";
+  content: "\eb12";
 }
 
 .aws-license_manager_application_discovery::before {
-  content: "\ebc5";
+  content: "\eb13";
 }
 
 .aws-license_manager_license_blending::before {
-  content: "\ebc6";
-}
-
-.aws-lightsail::before {
-  content: "\ebc7";
-}
-
-.aws-local-zones::before {
-  content: "\ebc8";
-}
-
-.aws-location-service::before {
-  content: "\ebc9";
+  content: "\eb14";
 }
 
 .aws-location_service_geofence::before {
-  content: "\ebca";
+  content: "\eb15";
 }
 
 .aws-location_service_map::before {
-  content: "\ebcb";
+  content: "\eb16";
 }
 
 .aws-location_service_place::before {
-  content: "\ebcc";
+  content: "\eb17";
 }
 
 .aws-location_service_routes::before {
-  content: "\ebcd";
+  content: "\eb18";
 }
 
 .aws-location_service_track::before {
-  content: "\ebce";
-}
-
-.aws-lookout-for-equipment::before {
-  content: "\ebcf";
-}
-
-.aws-lookout-for-metrics::before {
-  content: "\ebd0";
-}
-
-.aws-lookout-for-vision::before {
-  content: "\ebd1";
-}
-
-.aws-lumberyard::before {
-  content: "\ebd2";
-}
-
-.aws-machine_learning::before {
-  content: "\ebd3";
-}
-
-.aws-macie::before {
-  content: "\ebd4";
-}
-
-.aws-managed-blockchain::before {
-  content: "\ebd5";
-}
-
-.aws-managed-service-for-grafana::before {
-  content: "\ebd6";
-}
-
-.aws-managed-service-for-prometheus::before {
-  content: "\ebd7";
-}
-
-.aws-managed-services::before {
-  content: "\ebd8";
-}
-
-.aws-managed-streaming-for-apache-kafka::before {
-  content: "\ebd9";
-}
-
-.aws-managed-workflows-for-apache-airflow::before {
-  content: "\ebda";
+  content: "\eb19";
 }
 
 .aws-managed_blockchain_blockchain::before {
-  content: "\ebdb";
-}
-
-.aws-management-console::before {
-  content: "\ebdc";
-}
-
-.aws-management_governance::before {
-  content: "\ebdd";
-}
-
-.aws-marketplace_dark::before {
-  content: "\ebe0";
-}
-
-.aws-marketplace_light::before {
-  content: "\ebde";
-}
-
-.aws-media_services::before {
-  content: "\ebdf";
-}
-
-.aws-migration-evaluator::before {
-  content: "\ebe1";
-}
-
-.aws-migration-hub::before {
-  content: "\ebe2";
-}
-
-.aws-migration_transfer::before {
-  content: "\ebe3";
+  content: "\eb1a";
 }
 
 .aws-mobile_client::before {
-  content: "\ebe4";
-}
-
-.aws-monitron::before {
-  content: "\ebe5";
-}
-
-.aws-mq::before {
-  content: "\ebe6";
+  content: "\eb1b";
 }
 
 .aws-mq_broker::before {
-  content: "\ebe7";
+  content: "\eb1c";
 }
 
 .aws-multimedia::before {
-  content: "\ebe8";
-}
-
-.aws-neptune::before {
-  content: "\ebe9";
-}
-
-.aws-network-firewall::before {
-  content: "\ebea";
+  content: "\eb1d";
 }
 
 .aws-network_firewall_endpoints::before {
-  content: "\ebeb";
-}
-
-.aws-networking_content_delivery::before {
-  content: "\ebec";
-}
-
-.aws-neuron::before {
-  content: "\ebed";
-}
-
-.aws-nice-dcv::before {
-  content: "\ebee";
-}
-
-.aws-nimble-studio::before {
-  content: "\ebef";
-}
-
-.aws-nitro-enclaves::before {
-  content: "\ebf0";
+  content: "\eb1e";
 }
 
 .aws-office_building::before {
-  content: "\ebf1";
-}
-
-.aws-opensearch-service::before {
-  content: "\ebf2";
-}
-
-.aws-opsworks::before {
-  content: "\ebf3";
+  content: "\eb1f";
 }
 
 .aws-opsworks_apps::before {
-  content: "\ebf4";
+  content: "\eb20";
 }
 
 .aws-opsworks_deployments::before {
-  content: "\ebf5";
+  content: "\eb21";
 }
 
 .aws-opsworks_instances::before {
-  content: "\ebf6";
+  content: "\eb22";
 }
 
 .aws-opsworks_layers::before {
-  content: "\ebf7";
+  content: "\eb23";
 }
 
 .aws-opsworks_monitoring::before {
-  content: "\ebf8";
+  content: "\eb24";
 }
 
 .aws-opsworks_permissions::before {
-  content: "\ebf9";
+  content: "\eb25";
 }
 
 .aws-opsworks_resources::before {
-  content: "\ebfa";
+  content: "\eb26";
 }
 
 .aws-opsworks_stack2::before {
-  content: "\ebfb";
-}
-
-.aws-organizations::before {
-  content: "\ebfc";
+  content: "\eb27";
 }
 
 .aws-organizations_account::before {
-  content: "\ebfd";
+  content: "\eb28";
 }
 
 .aws-organizations_management_account::before {
-  content: "\ebfe";
+  content: "\eb29";
 }
 
 .aws-organizations_organizational_unit::before {
-  content: "\ebff";
-}
-
-.aws-outposts-1u-and-2u-servers::before {
-  content: "\ec00";
-}
-
-.aws-outposts::before {
-  content: "\ec01";
-}
-
-.aws-panorama::before {
-  content: "\ec02";
-}
-
-.aws-parallelcluster::before {
-  content: "\ec03";
-}
-
-.aws-personal-health-dashboard::before {
-  content: "\ec04";
-}
-
-.aws-personalize::before {
-  content: "\ec05";
-}
-
-.aws-pinpoint-apis::before {
-  content: "\ec06";
-}
-
-.aws-pinpoint::before {
-  content: "\ec07";
+  content: "\eb2a";
 }
 
 .aws-pinpoint_journey::before {
-  content: "\ec08";
-}
-
-.aws-polly::before {
-  content: "\ec09";
-}
-
-.aws-privatelink::before {
-  content: "\ec0a";
-}
-
-.aws-professional-services::before {
-  content: "\ec0b";
-}
-
-.aws-proton::before {
-  content: "\ec0c";
-}
-
-.aws-quantum-ledger-database::before {
-  content: "\ec0d";
-}
-
-.aws-quantum_technologies::before {
-  content: "\ec0f";
+  content: "\eb2b";
 }
 
 .aws-question::before {
-  content: "\ec0e";
-}
-
-.aws-quicksight::before {
-  content: "\ec10";
-}
-
-.aws-rds-on-vmware::before {
-  content: "\ec11";
-}
-
-.aws-rds::before {
-  content: "\ec12";
-}
-
-.aws-red-hat-openshift::before {
-  content: "\ec13";
-}
-
-.aws-redshift::before {
-  content: "\ec14";
+  content: "\eb2c";
 }
 
 .aws-redshift_dense_compute_node::before {
-  content: "\ec15";
+  content: "\eb2d";
 }
 
 .aws-redshift_dense_storage_node::before {
-  content: "\ec16";
+  content: "\eb2e";
 }
 
 .aws-redshift_ml::before {
-  content: "\ec17";
+  content: "\eb2f";
 }
 
 .aws-redshift_ra3::before {
-  content: "\ec18";
-}
-
-.aws-rekognition::before {
-  content: "\ec19";
+  content: "\eb30";
 }
 
 .aws-rekognition_image::before {
-  content: "\ec1a";
+  content: "\eb31";
 }
 
 .aws-rekognition_video::before {
-  content: "\ec1b";
-}
-
-.aws-reserved-instance-reporting::before {
-  content: "\ec1c";
-}
-
-.aws-resource-access-manager::before {
-  content: "\ec1d";
-}
-
-.aws-robomaker::before {
-  content: "\ec1e";
+  content: "\eb32";
 }
 
 .aws-robomaker_cloud_extensions_ros::before {
-  content: "\ec1f";
+  content: "\eb33";
 }
 
 .aws-robomaker_development_environment::before {
-  content: "\ec20";
+  content: "\eb34";
 }
 
 .aws-robomaker_fleet_management::before {
-  content: "\ec21";
+  content: "\eb35";
 }
 
 .aws-robomaker_simulation::before {
-  content: "\ec22";
-}
-
-.aws-robotics::before {
-  content: "\ec23";
-}
-
-.aws-route-53::before {
-  content: "\ec24";
+  content: "\eb36";
 }
 
 .aws-route_53_hosted_zone::before {
-  content: "\ec25";
-}
-
-.aws-route_53_resolver::before {
-  content: "\ec26";
+  content: "\eb37";
 }
 
 .aws-route_53_resolver_dns_firewall::before {
-  content: "\ec27";
+  content: "\eb38";
 }
 
 .aws-route_53_resolver_query_logging::before {
-  content: "\ec28";
+  content: "\eb39";
+}
+
+.aws-route_53_resolver::before {
+  content: "\eb3a";
 }
 
 .aws-route_53_route_table::before {
-  content: "\ec2a";
-}
-
-.aws-s3-on-outposts_storage::before {
-  content: "\ec29";
-}
-
-.aws-sagemaker-ground-truth::before {
-  content: "\ec2b";
-}
-
-.aws-sagemaker::before {
-  content: "\ec2c";
+  content: "\eb3b";
 }
 
 .aws-sagemaker_model::before {
-  content: "\ec2d";
+  content: "\eb3c";
+}
+
+.aws-iot_thing_relay::before {
+  content: "\eb3d";
 }
 
 .aws-sagemaker_notebook::before {
-  content: "\ec2e";
+  content: "\eb3e";
 }
 
 .aws-sagemaker_train::before {
-  content: "\ec2f";
+  content: "\eb3f";
 }
 
 .aws-saml_token::before {
-  content: "\ec30";
-}
-
-.aws-satellite::before {
-  content: "\ec31";
-}
-
-.aws-savings-plans::before {
-  content: "\ec32";
+  content: "\eb40";
 }
 
 .aws-sdk::before {
-  content: "\ec33";
-}
-
-.aws-secrets-manager::before {
-  content: "\ec34";
-}
-
-.aws-security-hub::before {
-  content: "\ec35";
+  content: "\eb41";
 }
 
 .aws-security_hub_finding::before {
-  content: "\ec36";
-}
-
-.aws-security_identity_compliance::before {
-  content: "\ec37";
-}
-
-.aws-server-migration-service::before {
-  content: "\ec38";
-}
-
-.aws-serverless-application-repository::before {
-  content: "\ec39";
-}
-
-.aws-serverless::before {
-  content: "\ec3a";
-}
-
-.aws-service-catalog::before {
-  content: "\ec3b";
-}
-
-.aws-shield::before {
-  content: "\ec3c";
+  content: "\eb42";
 }
 
 .aws-shield_aws_shield_advanced::before {
-  content: "\ec3d";
-}
-
-.aws-signer::before {
-  content: "\ec3f";
-}
-
-.aws-simple-email-service::before {
-  content: "\ec3e";
-}
-
-.aws-simple-notification-service::before {
-  content: "\ec40";
-}
-
-.aws-simple-queue-service::before {
-  content: "\ec41";
-}
-
-.aws-simple-storage-service-glacier::before {
-  content: "\ec42";
-}
-
-.aws-simple-storage-service::before {
-  content: "\ec43";
+  content: "\eb43";
 }
 
 .aws-simple_email_service_email::before {
-  content: "\ec44";
+  content: "\eb44";
 }
 
 .aws-simple_notification_service_email_notification::before {
-  content: "\ec45";
+  content: "\eb45";
 }
 
 .aws-simple_notification_service_http_notification::before {
-  content: "\ec46";
+  content: "\eb46";
 }
 
 .aws-simple_notification_service_topic::before {
-  content: "\ec47";
+  content: "\eb47";
 }
 
 .aws-simple_queue_service_message::before {
-  content: "\ec48";
+  content: "\eb48";
 }
 
 .aws-simple_queue_service_queue::before {
-  content: "\ec49";
-}
-
-.aws-simple_storage_service_bucket::before {
-  content: "\ec4a";
+  content: "\eb49";
 }
 
 .aws-simple_storage_service_bucket_with_objects::before {
-  content: "\ec4b";
+  content: "\eb4a";
+}
+
+.aws-simple_storage_service_bucket::before {
+  content: "\eb4b";
 }
 
 .aws-simple_storage_service_general_access_points::before {
-  content: "\ec4c";
+  content: "\eb4c";
 }
 
 .aws-simple_storage_service_glacier_archive::before {
-  content: "\ec4d";
+  content: "\eb4d";
 }
 
 .aws-simple_storage_service_glacier_vault::before {
-  content: "\ec4e";
+  content: "\eb4e";
 }
 
 .aws-simple_storage_service_object::before {
-  content: "\ec4f";
-}
-
-.aws-simple_storage_service_s3_glacier::before {
-  content: "\ec50";
+  content: "\eb4f";
 }
 
 .aws-simple_storage_service_s3_glacier_deep_archive::before {
-  content: "\ec51";
+  content: "\eb50";
+}
+
+.aws-simple_storage_service_s3_glacier::before {
+  content: "\eb51";
 }
 
 .aws-simple_storage_service_s3_intelligent_tiering::before {
-  content: "\ec52";
-}
-
-.aws-simple_storage_service_s3_object_lambda::before {
-  content: "\ec53";
+  content: "\eb52";
 }
 
 .aws-simple_storage_service_s3_object_lambda_access_points::before {
-  content: "\ec54";
+  content: "\eb53";
+}
+
+.aws-simple_storage_service_s3_object_lambda::before {
+  content: "\eb54";
 }
 
 .aws-simple_storage_service_s3_on_outposts::before {
-  content: "\ec55";
+  content: "\eb55";
 }
 
 .aws-simple_storage_service_s3_one_zone_ia::before {
-  content: "\ec56";
-}
-
-.aws-simple_storage_service_s3_replication::before {
-  content: "\ec57";
+  content: "\eb56";
 }
 
 .aws-simple_storage_service_s3_replication_time_control::before {
-  content: "\ec58";
+  content: "\eb57";
 }
 
-.aws-simple_storage_service_s3_standard::before {
-  content: "\ec59";
+.aws-simple_storage_service_s3_replication::before {
+  content: "\eb58";
 }
 
 .aws-simple_storage_service_s3_standard_ia::before {
-  content: "\ec5a";
+  content: "\eb59";
+}
+
+.aws-simple_storage_service_s3_standard::before {
+  content: "\eb5a";
 }
 
 .aws-simple_storage_service_s3_storage_lens::before {
-  content: "\ec5b";
+  content: "\eb5b";
 }
 
 .aws-simple_storage_service_vpc_access_points::before {
-  content: "\ec5c";
-}
-
-.aws-single-sign-on::before {
-  content: "\ec5d";
-}
-
-.aws-site-to-site-vpn::before {
-  content: "\ec5e";
-}
-
-.aws-snowball-edge::before {
-  content: "\ec5f";
-}
-
-.aws-snowball::before {
-  content: "\ec60";
+  content: "\eb5c";
 }
 
 .aws-snowball_snowball_import_export::before {
-  content: "\ec61";
-}
-
-.aws-snowcone::before {
-  content: "\ec62";
-}
-
-.aws-snowmobile::before {
-  content: "\ec63";
+  content: "\eb5d";
 }
 
 .aws-ssl_padlock::before {
-  content: "\ec64";
-}
-
-.aws-step-functions::before {
-  content: "\ec65";
-}
-
-.aws-storage-gateway::before {
-  content: "\ec66";
-}
-
-.aws-storage::before {
-  content: "\ec67";
+  content: "\eb5e";
 }
 
 .aws-storage_gateway_amazon_fsx_file_gateway::before {
-  content: "\ec68";
+  content: "\eb5f";
 }
 
 .aws-storage_gateway_amazon_s3_file_gateway::before {
-  content: "\ec69";
+  content: "\eb60";
 }
 
 .aws-storage_gateway_cached_volume::before {
-  content: "\ec6a";
+  content: "\eb61";
 }
 
 .aws-storage_gateway_file_gateway::before {
-  content: "\ec6b";
+  content: "\eb62";
 }
 
 .aws-storage_gateway_non_cached_volume::before {
-  content: "\ec6c";
+  content: "\eb63";
 }
 
 .aws-storage_gateway_tape_gateway::before {
-  content: "\ec6d";
+  content: "\eb64";
 }
 
 .aws-storage_gateway_virtual_tape_library::before {
-  content: "\ec6e";
+  content: "\eb65";
 }
 
 .aws-storage_gateway_volume_gateway::before {
-  content: "\ec6f";
-}
-
-.aws-sumerian::before {
-  content: "\ec70";
-}
-
-.aws-support::before {
-  content: "\ec71";
-}
-
-.aws-systems-manager-incident-manager::before {
-  content: "\ec72";
-}
-
-.aws-systems-manager::before {
-  content: "\ec73";
+  content: "\eb66";
 }
 
 .aws-systems_manager_automation::before {
-  content: "\ec74";
+  content: "\eb67";
 }
 
 .aws-systems_manager_documents::before {
-  content: "\ec76";
+  content: "\eb68";
 }
 
 .aws-systems_manager_inventory::before {
-  content: "\ec75";
+  content: "\eb69";
 }
 
 .aws-systems_manager_maintenance_windows::before {
-  content: "\ec77";
+  content: "\eb6a";
 }
 
 .aws-systems_manager_opscenter::before {
-  content: "\ec78";
+  content: "\eb6b";
 }
 
 .aws-systems_manager_parameter_store::before {
-  content: "\ec79";
+  content: "\eb6c";
 }
 
 .aws-systems_manager_patch_manager::before {
-  content: "\ec7a";
+  content: "\eb6d";
 }
 
 .aws-systems_manager_run_command::before {
-  content: "\ec7b";
+  content: "\eb6e";
 }
 
 .aws-systems_manager_state_manager::before {
-  content: "\ec7d";
+  content: "\eb6f";
 }
 
 .aws-tape_storage::before {
-  content: "\ec7c";
-}
-
-.aws-tensorflow-on-aws::before {
-  content: "\ec7e";
-}
-
-.aws-textract::before {
-  content: "\ec7f";
-}
-
-.aws-thinkbox-deadline::before {
-  content: "\ec80";
-}
-
-.aws-thinkbox-frost::before {
-  content: "\ec81";
-}
-
-.aws-thinkbox-krakatoa::before {
-  content: "\ec82";
-}
-
-.aws-thinkbox-sequoia::before {
-  content: "\ec83";
-}
-
-.aws-thinkbox-stoke::before {
-  content: "\ec84";
-}
-
-.aws-thinkbox-xmesh::before {
-  content: "\ec85";
-}
-
-.aws-timestream::before {
-  content: "\ec86";
+  content: "\eb70";
 }
 
 .aws-toolkit::before {
-  content: "\ec87";
-}
-
-.aws-tools-and-sdks::before {
-  content: "\ec88";
-}
-
-.aws-torchserve::before {
-  content: "\ec89";
+  content: "\eb71";
 }
 
 .aws-traditional_server::before {
-  content: "\ec8a";
-}
-
-.aws-training-certification::before {
-  content: "\ec8b";
-}
-
-.aws-transcribe::before {
-  content: "\ec8c";
-}
-
-.aws-transfer-family::before {
-  content: "\ec8d";
+  content: "\eb72";
 }
 
 .aws-transfer_family_aws_ftp::before {
-  content: "\ec8e";
+  content: "\eb73";
 }
 
 .aws-transfer_family_aws_ftps::before {
-  content: "\ec8f";
+  content: "\eb74";
 }
 
 .aws-transfer_family_aws_sftp::before {
-  content: "\ec90";
-}
-
-.aws-transit-gateway::before {
-  content: "\ec91";
-}
-
-.aws-translate::before {
-  content: "\ec92";
-}
-
-.aws-trusted-advisor::before {
-  content: "\ec93";
-}
-
-.aws-trusted_advisor_checklist::before {
-  content: "\ec94";
+  content: "\eb75";
 }
 
 .aws-trusted_advisor_checklist_cost::before {
-  content: "\ec95";
+  content: "\eb76";
 }
 
 .aws-trusted_advisor_checklist_fault_tolerant::before {
-  content: "\ec96";
+  content: "\eb77";
 }
 
 .aws-trusted_advisor_checklist_performance::before {
-  content: "\ec97";
+  content: "\eb78";
 }
 
 .aws-trusted_advisor_checklist_security::before {
-  content: "\ec98";
+  content: "\eb79";
+}
+
+.aws-trusted_advisor_checklist::before {
+  content: "\eb7a";
 }
 
 .aws-user::before {
-  content: "\ec99";
+  content: "\eb7b";
 }
 
 .aws-users::before {
-  content: "\ec9a";
-}
-
-.aws-virtual-private-cloud::before {
-  content: "\ec9b";
-}
-
-.aws-vmware-cloud-on-aws::before {
-  content: "\ec9d";
+  content: "\eb7c";
 }
 
 .aws-vpc_carrier_gateway::before {
-  content: "\ec9c";
+  content: "\eb7d";
 }
 
 .aws-vpc_customer_gateway::before {
-  content: "\ec9e";
+  content: "\eb7e";
 }
 
 .aws-vpc_elastic_network_adapter::before {
-  content: "\ec9f";
+  content: "\eb7f";
 }
 
 .aws-vpc_elastic_network_interface::before {
-  content: "\eca0";
+  content: "\eb80";
 }
 
 .aws-vpc_endpoints::before {
-  content: "\eca1";
+  content: "\eb81";
 }
 
 .aws-vpc_flow_logs::before {
-  content: "\eca2";
+  content: "\eb82";
 }
 
 .aws-vpc_internet_gateway::before {
-  content: "\eca3";
+  content: "\eb83";
 }
 
 .aws-vpc_nat_gateway::before {
-  content: "\eca4";
+  content: "\eb84";
 }
 
 .aws-vpc_network_access_control_list::before {
-  content: "\eca5";
+  content: "\eb85";
 }
 
 .aws-vpc_peering_connection::before {
-  content: "\eca6";
+  content: "\eb86";
 }
 
 .aws-vpc_reachability_analyzer::before {
-  content: "\eca7";
+  content: "\eb87";
 }
 
 .aws-vpc_router::before {
-  content: "\eca8";
+  content: "\eb88";
 }
 
 .aws-vpc_traffic_mirroring::before {
-  content: "\eca9";
+  content: "\eb89";
 }
 
 .aws-vpc_vpn_connection::before {
-  content: "\ecaa";
+  content: "\eb8a";
 }
 
 .aws-vpc_vpn_gateway::before {
-  content: "\ecab";
-}
-
-.aws-waf::before {
-  content: "\ecac";
+  content: "\eb8b";
 }
 
 .aws-waf_bad_bot::before {
-  content: "\ecad";
-}
-
-.aws-waf_bot::before {
-  content: "\ecae";
+  content: "\eb8c";
 }
 
 .aws-waf_bot_control::before {
-  content: "\ecaf";
+  content: "\eb8d";
+}
+
+.aws-waf_bot::before {
+  content: "\eb8e";
 }
 
 .aws-waf_filtering_rule::before {
-  content: "\ecb0";
+  content: "\eb8f";
 }
 
 .aws-waf_labels::before {
-  content: "\ecb1";
+  content: "\eb90";
 }
 
 .aws-waf_managed_rule::before {
-  content: "\ecb2";
+  content: "\eb91";
 }
 
 .aws-waf_rule::before {
+  content: "\eb92";
+}
+
+.aws-iot_thing_temperature_humidity_sensor::before {
+  content: "\eb93";
+}
+
+.aws-ec2_t4g_instance::before {
+  content: "\eb94";
+}
+
+.aws-iot_greengrass_component_machine_learning::before {
+  content: "\eb95";
+}
+
+.aws-iot_greengrass_component_nucleus::before {
+  content: "\eb96";
+}
+
+.aws-storage-1::before {
+  content: "\eb97";
+}
+
+.aws-application_integration-1::before {
+  content: "\eb98";
+}
+
+.aws-security_identity_compliance-1::before {
+  content: "\eb99";
+}
+
+.aws-satellite-1::before {
+  content: "\eb9a";
+}
+
+.aws-robotics-1::before {
+  content: "\eb9b";
+}
+
+.aws-quantum_technologies-1::before {
+  content: "\eb9c";
+}
+
+.aws-ar_vr-1::before {
+  content: "\eb9d";
+}
+
+.aws-migration_transfer-1::before {
+  content: "\eb9e";
+}
+
+.aws-media_services-1::before {
+  content: "\eb9f";
+}
+
+.aws-networking_content_delivery-1::before {
+  content: "\eba0";
+}
+
+.aws-customer_enablement-1::before {
+  content: "\eba1";
+}
+
+.aws-containers-1::before {
+  content: "\eba2";
+}
+
+.aws-compute-1::before {
+  content: "\eba3";
+}
+
+.aws-machine_learning-1::before {
+  content: "\eba4";
+}
+
+.aws-internet_of_things-1::before {
+  content: "\eba5";
+}
+
+.aws-game_tech-1::before {
+  content: "\eba6";
+}
+
+.aws-front_end_web_mobile-1::before {
+  content: "\eba7";
+}
+
+.aws-end_user_computing-1::before {
+  content: "\eba8";
+}
+
+.aws-developer_tools-1::before {
+  content: "\eba9";
+}
+
+.aws-database-1::before {
+  content: "\ebaa";
+}
+
+.aws-blockchain-1::before {
+  content: "\ebab";
+}
+
+.aws-business_applications-1::before {
+  content: "\ebac";
+}
+
+.aws-analytics-1::before {
+  content: "\ebad";
+}
+
+.aws-aws_cost_management-1::before {
+  content: "\ebae";
+}
+
+.aws-serverless-1::before {
+  content: "\ebaf";
+}
+
+.aws-management_governance-1::before {
+  content: "\ebb0";
+}
+
+.aws-simple-queue-service-1::before {
+  content: "\ebb1";
+}
+
+.aws-simple-storage-service-glacier-1::before {
+  content: "\ebb2";
+}
+
+.aws-site-to-site-vpn-1::before {
+  content: "\ebb3";
+}
+
+.aws-transit-gateway-1::before {
+  content: "\ebb4";
+}
+
+.aws-workspaces-1::before {
+  content: "\ebb5";
+}
+
+.aws-workmail-1::before {
+  content: "\ebb6";
+}
+
+.aws-workdocs-sdk-1::before {
+  content: "\ebb7";
+}
+
+.aws-well-architected-tool-1::before {
+  content: "\ebb8";
+}
+
+.aws-wavelength-1::before {
+  content: "\ebb9";
+}
+
+.aws-waf-1::before {
+  content: "\ebba";
+}
+
+.aws-worklink-1::before {
+  content: "\ebbb";
+}
+
+.aws-workdocs-1::before {
+  content: "\ebbc";
+}
+
+.aws-x-ray-1::before {
+  content: "\ebbd";
+}
+
+.aws-trusted-advisor-1::before {
+  content: "\ebbe";
+}
+
+.aws-virtual-private-cloud-1::before {
+  content: "\ebbf";
+}
+
+.aws-vmware-cloud-on-aws-1::before {
+  content: "\ebc0";
+}
+
+.aws-transcribe-1::before {
+  content: "\ebc1";
+}
+
+.aws-transfer-family-1::before {
+  content: "\ebc2";
+}
+
+.aws-translate-1::before {
+  content: "\ebc3";
+}
+
+.aws-training-certification-1::before {
+  content: "\ebc4";
+}
+
+.aws-torchserve-1::before {
+  content: "\ebc5";
+}
+
+.aws-tools-and-sdks-1::before {
+  content: "\ebc6";
+}
+
+.aws-timestream-1::before {
+  content: "\ebc7";
+}
+
+.aws-thinkbox-xmesh-1::before {
+  content: "\ebc8";
+}
+
+.aws-thinkbox-stoke-1::before {
+  content: "\ebc9";
+}
+
+.aws-thinkbox-sequoia-1::before {
+  content: "\ebca";
+}
+
+.aws-thinkbox-krakatoa-1::before {
+  content: "\ebcb";
+}
+
+.aws-thinkbox-frost-1::before {
+  content: "\ebcc";
+}
+
+.aws-systems-manager-1::before {
+  content: "\ebcd";
+}
+
+.aws-textract-1::before {
+  content: "\ebce";
+}
+
+.aws-tensorflow-on-aws-1::before {
+  content: "\ebcf";
+}
+
+.aws-thinkbox-deadline-1::before {
+  content: "\ebd0";
+}
+
+.aws-systems-manager-incident-manager-1::before {
+  content: "\ebd1";
+}
+
+.aws-support-1::before {
+  content: "\ebd2";
+}
+
+.aws-sumerian-1::before {
+  content: "\ebd3";
+}
+
+.aws-storage-gateway-1::before {
+  content: "\ebd4";
+}
+
+.aws-step-functions-1::before {
+  content: "\ebd5";
+}
+
+.aws-simple-storage-service-1::before {
+  content: "\ebd6";
+}
+
+.aws-snowmobile-1::before {
+  content: "\ebd7";
+}
+
+.aws-snowcone-1::before {
+  content: "\ebd8";
+}
+
+.aws-snowball-1::before {
+  content: "\ebd9";
+}
+
+.aws-snowball-edge-1::before {
+  content: "\ebda";
+}
+
+.aws-single-sign-on-1::before {
+  content: "\ebdb";
+}
+
+.aws-simple-notification-service-1::before {
+  content: "\ebdc";
+}
+
+.aws-iot-button-1::before {
+  content: "\ebdd";
+}
+
+.aws-iot-sitewise-1::before {
+  content: "\ebde";
+}
+
+.aws-iot-events-1::before {
+  content: "\ebdf";
+}
+
+.aws-simple-email-service-1::before {
+  content: "\ebe0";
+}
+
+.aws-signer-1::before {
+  content: "\ebe1";
+}
+
+.aws-shield-1::before {
+  content: "\ebe2";
+}
+
+.aws-service-catalog-1::before {
+  content: "\ebe3";
+}
+
+.aws-serverless-application-repository-1::before {
+  content: "\ebe4";
+}
+
+.aws-server-migration-service-1::before {
+  content: "\ebe5";
+}
+
+.aws-security-hub-1::before {
+  content: "\ebe6";
+}
+
+.aws-secrets-manager-1::before {
+  content: "\ebe7";
+}
+
+.aws-savings-plans-1::before {
+  content: "\ebe8";
+}
+
+.aws-sagemaker-1::before {
+  content: "\ebe9";
+}
+
+.aws-sagemaker-ground-truth-1::before {
+  content: "\ebea";
+}
+
+.aws-s3-on-outposts_storage-1::before {
+  content: "\ebeb";
+}
+
+.aws-route-53-1::before {
+  content: "\ebec";
+}
+
+.aws-robomaker-1::before {
+  content: "\ebed";
+}
+
+.aws-resource-access-manager-1::before {
+  content: "\ebee";
+}
+
+.aws-reserved-instance-reporting-1::before {
+  content: "\ebef";
+}
+
+.aws-rekognition-1::before {
+  content: "\ebf0";
+}
+
+.aws-redshift-1::before {
+  content: "\ebf1";
+}
+
+.aws-red-hat-openshift-1::before {
+  content: "\ebf2";
+}
+
+.aws-rds-1::before {
+  content: "\ebf3";
+}
+
+.aws-rds-on-vmware-1::before {
+  content: "\ebf4";
+}
+
+.aws-quicksight-1::before {
+  content: "\ebf5";
+}
+
+.aws-quantum-ledger-database-1::before {
+  content: "\ebf6";
+}
+
+.aws-proton-1::before {
+  content: "\ebf7";
+}
+
+.aws-professional-services-1::before {
+  content: "\ebf8";
+}
+
+.aws-privatelink-1::before {
+  content: "\ebf9";
+}
+
+.aws-polly-1::before {
+  content: "\ebfa";
+}
+
+.aws-pinpoint-1::before {
+  content: "\ebfb";
+}
+
+.aws-pinpoint-apis-1::before {
+  content: "\ebfc";
+}
+
+.aws-personalize-1::before {
+  content: "\ebfd";
+}
+
+.aws-personal-health-dashboard-1::before {
+  content: "\ebfe";
+}
+
+.aws-parallelcluster-1::before {
+  content: "\ebff";
+}
+
+.aws-panorama-1::before {
+  content: "\ec00";
+}
+
+.aws-outposts-1::before {
+  content: "\ec01";
+}
+
+.aws-outposts-1u-and-2u-servers-1::before {
+  content: "\ec02";
+}
+
+.aws-organizations-1::before {
+  content: "\ec03";
+}
+
+.aws-opsworks-1::before {
+  content: "\ec04";
+}
+
+.aws-opensearch-service-1::before {
+  content: "\ec05";
+}
+
+.aws-nitro-enclaves-1::before {
+  content: "\ec06";
+}
+
+.aws-nimble-studio-1::before {
+  content: "\ec07";
+}
+
+.aws-nice-dcv-1::before {
+  content: "\ec08";
+}
+
+.aws-neuron-1::before {
+  content: "\ec09";
+}
+
+.aws-network-firewall-1::before {
+  content: "\ec0a";
+}
+
+.aws-neptune-1::before {
+  content: "\ec0b";
+}
+
+.aws-mq-1::before {
+  content: "\ec0c";
+}
+
+.aws-monitron-1::before {
+  content: "\ec0d";
+}
+
+.aws-marketplace_dark-1::before {
+  content: "\ec0e";
+}
+
+.aws-migration-evaluator-1::before {
+  content: "\ec0f";
+}
+
+.aws-marketplace_light-1::before {
+  content: "\ec10";
+}
+
+.aws-migration-hub-1::before {
+  content: "\ec11";
+}
+
+.aws-management-console-1::before {
+  content: "\ec12";
+}
+
+.aws-managed-workflows-for-apache-airflow-1::before {
+  content: "\ec13";
+}
+
+.aws-managed-streaming-for-apache-kafka-1::before {
+  content: "\ec14";
+}
+
+.aws-managed-services-1::before {
+  content: "\ec15";
+}
+
+.aws-managed-service-for-prometheus-1::before {
+  content: "\ec16";
+}
+
+.aws-lumberyard-1::before {
+  content: "\ec17";
+}
+
+.aws-managed-service-for-grafana-1::before {
+  content: "\ec18";
+}
+
+.aws-local-zones-1::before {
+  content: "\ec19";
+}
+
+.aws-lookout-for-equipment-1::before {
+  content: "\ec1a";
+}
+
+.aws-lightsail-1::before {
+  content: "\ec1b";
+}
+
+.aws-lex-1::before {
+  content: "\ec1c";
+}
+
+.aws-launch-wizard-1::before {
+  content: "\ec1d";
+}
+
+.aws-location-service-1::before {
+  content: "\ec1e";
+}
+
+.aws-lake-formation-1::before {
+  content: "\ec1f";
+}
+
+.aws-kinesis-1::before {
+  content: "\ec20";
+}
+
+.aws-kinesis-video-streams-1::before {
+  content: "\ec21";
+}
+
+.aws-lambda-1::before {
+  content: "\ec22";
+}
+
+.aws-managed-blockchain-1::before {
+  content: "\ec23";
+}
+
+.aws-kinesis-data-analytics-1::before {
+  content: "\ec24";
+}
+
+.aws-keyspaces-1::before {
+  content: "\ec25";
+}
+
+.aws-key-management-service-1::before {
+  content: "\ec26";
+}
+
+.aws-macie-1::before {
+  content: "\ec27";
+}
+
+.aws-license-manager-1::before {
+  content: "\ec28";
+}
+
+.aws-lookout-for-vision-1::before {
+  content: "\ec29";
+}
+
+.aws-iq-1::before {
+  content: "\ec2a";
+}
+
+.aws-iot-things-graph-1::before {
+  content: "\ec2b";
+}
+
+.aws-kendra-1::before {
+  content: "\ec2c";
+}
+
+.aws-elastic-transcoder-1::before {
+  content: "\ec2d";
+}
+
+.aws-iot-greengrass-1::before {
+  content: "\ec2e";
+}
+
+.aws-iot-device-defender-1::before {
+  content: "\ec2f";
+}
+
+.aws-iot-device-management-1::before {
+  content: "\ec30";
+}
+
+.aws-healthlake-1::before {
+  content: "\ec31";
+}
+
+.aws-iot-core-1::before {
+  content: "\ec32";
+}
+
+.aws-inspector-1::before {
+  content: "\ec33";
+}
+
+.aws-iot-analytics-1::before {
+  content: "\ec34";
+}
+
+.aws-iot-1-click-1::before {
+  content: "\ec35";
+}
+
+.aws-interactive-video-service-1::before {
+  content: "\ec36";
+}
+
+.aws-guardduty-1::before {
+  content: "\ec37";
+}
+
+.aws-identity-and-access-management-1::before {
+  content: "\ec38";
+}
+
+.aws-honeycode-1::before {
+  content: "\ec39";
+}
+
+.aws-elemental-mediastore-1::before {
+  content: "\ec3a";
+}
+
+.aws-glue-databrew-1::before {
+  content: "\ec3b";
+}
+
+.aws-ground-station-1::before {
+  content: "\ec3c";
+}
+
+.aws-glue-1::before {
+  content: "\ec3d";
+}
+
+.aws-glue-elastic-views-1::before {
+  content: "\ec3e";
+}
+
+.aws-fault-injection-simulator-1::before {
+  content: "\ec3f";
+}
+
+.aws-global-accelerator-1::before {
+  content: "\ec40";
+}
+
+.aws-gamelift-1::before {
+  content: "\ec41";
+}
+
+.aws-fsx-1::before {
+  content: "\ec42";
+}
+
+.aws-fsx-for-windows-file-server-1::before {
+  content: "\ec43";
+}
+
+.aws-fsx-for-lustre-1::before {
+  content: "\ec44";
+}
+
+.aws-freertos-1::before {
+  content: "\ec45";
+}
+
+.aws-fraud-detector-1::before {
+  content: "\ec46";
+}
+
+.aws-forecast-1::before {
+  content: "\ec47";
+}
+
+.aws-firewall-manager-1::before {
+  content: "\ec48";
+}
+
+.aws-finspace-1::before {
+  content: "\ec49";
+}
+
+.aws-eventbridge-1::before {
+  content: "\ec4a";
+}
+
+.aws-fargate-1::before {
+  content: "\ec4b";
+}
+
+.aws-express-workflows-1::before {
+  content: "\ec4c";
+}
+
+.aws-elemental-appliances-&amp;-software-1::before {
+  content: "\ec4d";
+}
+
+.aws-emr-1::before {
+  content: "\ec4e";
+}
+
+.aws-elemental-server-1::before {
+  content: "\ec4f";
+}
+
+.aws-elemental-mediatailor-1::before {
+  content: "\ec50";
+}
+
+.aws-elemental-mediaconnect-1::before {
+  content: "\ec51";
+}
+
+.aws-elemental-mediapackage-1::before {
+  content: "\ec52";
+}
+
+.aws-elemental-medialive-1::before {
+  content: "\ec53";
+}
+
+.aws-elemental-mediaconvert-1::before {
+  content: "\ec54";
+}
+
+.aws-elemental-delta-1::before {
+  content: "\ec55";
+}
+
+.aws-elemental-live-1::before {
+  content: "\ec56";
+}
+
+.aws-elemental-link-1::before {
+  content: "\ec57";
+}
+
+.aws-elastic-beanstalk-1::before {
+  content: "\ec58";
+}
+
+.aws-elemental-conductor-1::before {
+  content: "\ec59";
+}
+
+.aws-eks-distro-1::before {
+  content: "\ec5a";
+}
+
+.aws-elasticache-1::before {
+  content: "\ec5b";
+}
+
+.aws-elastic-fabric-adapter-1::before {
+  content: "\ec5c";
+}
+
+.aws-elastic-load-balancing-1::before {
+  content: "\ec5d";
+}
+
+.aws-elastic-kubernetes-service-1::before {
+  content: "\ec5e";
+}
+
+.aws-elastic-inference-1::before {
+  content: "\ec5f";
+}
+
+.aws-elastic-file-system-1::before {
+  content: "\ec60";
+}
+
+.aws-eks-cloud-1::before {
+  content: "\ec61";
+}
+
+.aws-elastic-container-service-1::before {
+  content: "\ec62";
+}
+
+.aws-elastic-container-registry-1::before {
+  content: "\ec63";
+}
+
+.aws-elastic-block-store-1::before {
+  content: "\ec64";
+}
+
+.aws-eks-anywhere-1::before {
+  content: "\ec65";
+}
+
+.aws-device-farm-1::before {
+  content: "\ec66";
+}
+
+.aws-ec2-auto-scaling-1::before {
+  content: "\ec67";
+}
+
+.aws-ec2-image-builder-1::before {
+  content: "\ec68";
+}
+
+.aws-ec2-1::before {
+  content: "\ec69";
+}
+
+.aws-documentdb-1::before {
+  content: "\ec6a";
+}
+
+.aws-detective-1::before {
+  content: "\ec6b";
+}
+
+.aws-dynamodb-1::before {
+  content: "\ec6c";
+}
+
+.aws-devops-guru-1::before {
+  content: "\ec6d";
+}
+
+.aws-distro-for-opentelemetry-1::before {
+  content: "\ec6e";
+}
+
+.aws-directory-service-1::before {
+  content: "\ec6f";
+}
+
+.aws-direct-connect-1::before {
+  content: "\ec70";
+}
+
+.aws-data-exchange-1::before {
+  content: "\ec71";
+}
+
+.aws-deepcomposer-1::before {
+  content: "\ec72";
+}
+
+.aws-data-pipeline-1::before {
+  content: "\ec73";
+}
+
+.aws-deepracer-1::before {
+  content: "\ec74";
+}
+
+.aws-deeplens-1::before {
+  content: "\ec75";
+}
+
+.aws-cost-explorer-1::before {
+  content: "\ec76";
+}
+
+.aws-deep-learning-containers-1::before {
+  content: "\ec77";
+}
+
+.aws-deep-learning-amis-1::before {
+  content: "\ec78";
+}
+
+.aws-datasync-1::before {
+  content: "\ec79";
+}
+
+.aws-database-migration-service-1::before {
+  content: "\ec7a";
+}
+
+.aws-cost-and-usage-report-1::before {
+  content: "\ec7b";
+}
+
+.aws-config-1::before {
+  content: "\ec7c";
+}
+
+.aws-cognito-1::before {
+  content: "\ec7d";
+}
+
+.aws-corretto-1::before {
+  content: "\ec7e";
+}
+
+.aws-comprehend-1::before {
+  content: "\ec7f";
+}
+
+.aws-control-tower-1::before {
+  content: "\ec80";
+}
+
+.aws-console-mobile-application-1::before {
+  content: "\ec81";
+}
+
+.aws-connect-1::before {
+  content: "\ec82";
+}
+
+.aws-compute-optimizer-1::before {
+  content: "\ec83";
+}
+
+.aws-cloud-map-1::before {
+  content: "\ec84";
+}
+
+.aws-command-line-interface-1::before {
+  content: "\ec85";
+}
+
+.aws-cloud-directory-1::before {
+  content: "\ec86";
+}
+
+.aws-codeguru-1::before {
+  content: "\ec87";
+}
+
+.aws-codestar-1::before {
+  content: "\ec88";
+}
+
+.aws-codepipeline-1::before {
+  content: "\ec89";
+}
+
+.aws-backint-agent-1::before {
+  content: "\ec8a";
+}
+
+.aws-codedeploy-1::before {
+  content: "\ec8b";
+}
+
+.aws-codecommit-1::before {
+  content: "\ec8c";
+}
+
+.aws-codebuild-1::before {
+  content: "\ec8d";
+}
+
+.aws-codeartifact-1::before {
+  content: "\ec8e";
+}
+
+.aws-cloudwatch-1::before {
+  content: "\ec8f";
+}
+
+.aws-cloudtrail-1::before {
+  content: "\ec90";
+}
+
+.aws-cloudshell-1::before {
+  content: "\ec91";
+}
+
+.aws-cloudsearch-1::before {
+  content: "\ec92";
+}
+
+.aws-cloudhsm-1::before {
+  content: "\ec93";
+}
+
+.aws-cloudfront-1::before {
+  content: "\ec94";
+}
+
+.aws-cloudformation-1::before {
+  content: "\ec95";
+}
+
+.aws-cloudendure-disaster-recovery-1::before {
+  content: "\ec96";
+}
+
+.aws-cloud9-1::before {
+  content: "\ec97";
+}
+
+.aws-batch-1::before {
+  content: "\ec98";
+}
+
+.aws-client-vpn-1::before {
+  content: "\ec99";
+}
+
+.aws-cloud-development-kit-1::before {
+  content: "\ec9a";
+}
+
+.aws-chime-1::before {
+  content: "\ec9b";
+}
+
+.aws-chime-voice-connector-1::before {
+  content: "\ec9c";
+}
+
+.aws-certificate-manager-1::before {
+  content: "\ec9d";
+}
+
+.aws-chime-sdk-1::before {
+  content: "\ec9e";
+}
+
+.aws-chatbot-1::before {
+  content: "\ec9f";
+}
+
+.aws-application-discovery-service-1::before {
+  content: "\eca0";
+}
+
+.aws-braket-1::before {
+  content: "\eca1";
+}
+
+.aws-budgets-1::before {
+  content: "\eca2";
+}
+
+.aws-bottlerocket-1::before {
+  content: "\eca3";
+}
+
+.aws-aws-application-auto-scaling-1::before {
+  content: "\eca4";
+}
+
+.aws-backup-1::before {
+  content: "\eca5";
+}
+
+.aws-application-cost-profiler-1::before {
+  content: "\eca6";
+}
+
+.aws-auto-scaling-1::before {
+  content: "\eca7";
+}
+
+.aws-aurora-1::before {
+  content: "\eca8";
+}
+
+.aws-augmented-ai-a2i-1::before {
+  content: "\eca9";
+}
+
+.aws-audit-manager-1::before {
+  content: "\ecaa";
+}
+
+.aws-athena-1::before {
+  content: "\ecab";
+}
+
+.aws-appstream-1::before {
+  content: "\ecac";
+}
+
+.aws-artifact-1::before {
+  content: "\ecad";
+}
+
+.aws-appsync-1::before {
+  content: "\ecae";
+}
+
+.aws-application-auto-scaling-1::before {
+  content: "\ecaf";
+}
+
+.aws-application-migration-service-1::before {
+  content: "\ecb0";
+}
+
+.aws-appflow-1::before {
+  content: "\ecb1";
+}
+
+.aws-appconfig-1::before {
+  content: "\ecb2";
+}
+
+.aws-app-runner-1::before {
   content: "\ecb3";
 }
 
-.aws-wavelength::before {
+.aws-app-mesh-1::before {
   content: "\ecb4";
 }
 
-.aws-well-architected-tool::before {
+.aws-api-gateway-1::before {
   content: "\ecb5";
 }
 
-.aws-workdocs-sdk::before {
+.aws-apache-mxnet-on-aws-1::before {
   content: "\ecb6";
 }
 
-.aws-workdocs::before {
+.aws-amplify-1::before {
   content: "\ecb7";
 }
 
-.aws-worklink::before {
+.aws-alexa-for-business-1::before {
   content: "\ecb8";
 }
 
-.aws-workmail::before {
+.aws-activate-1::before {
   content: "\ecb9";
 }
 
-.aws-workspaces::before {
+.aws-kinesis-data-streams-1::before {
   content: "\ecba";
 }
 
-.aws-x-ray::before {
+.aws-lookout-for-metrics-1::before {
   content: "\ecbb";
+}
+
+.aws-kinesis-firehose-1::before {
+  content: "\ecbc";
+}
+
+.aws-Amazon-Sumerian_dark-bg-1::before {
+  content: "\f02e";
+}
+
+.aws-Amazon-Sumerian-1-1::before {
+  content: "\f02f";
+}
+
+.aws-AR-VR_dark-bg-1::before {
+  content: "\f030";
+}
+
+.aws-AR-VR-1-1::before {
+  content: "\f031";
+}
+
+.aws-Savings-Plans_dark-bg-1::before {
+  content: "\f032";
+}
+
+.aws-Reserved-Instance-Reporting_dark-bg-1::before {
+  content: "\f033";
+}
+
+.aws-AWS-Cost-Management_dark-bg-1::before {
+  content: "\f034";
+}
+
+.aws-AWS-Cost-Explorer-1-1::before {
+  content: "\f035";
+}
+
+.aws-AWS-Cost-and-Usage-Report-1-1::before {
+  content: "\f036";
+}
+
+.aws-Reserved-Instance-Reporting-1-1::before {
+  content: "\f037";
+}
+
+.aws-AWS-Cost-Explorer_dark-bg-1::before {
+  content: "\f038";
+}
+
+.aws-AWS-Cost-Management-1-1::before {
+  content: "\f039";
+}
+
+.aws-AWS-Cost-and-Usage-Report_dark-bg-1::before {
+  content: "\f03a";
+}
+
+.aws-AWS-Budgets_dark-bg-1::before {
+  content: "\f03b";
+}
+
+.aws-AWS-Budgets-1-1::before {
+  content: "\f03c";
+}
+
+.aws-Analytics_dark-bg-1::before {
+  content: "\f03d";
+}
+
+.aws-Amazon-Quicksight-1-1::before {
+  content: "\f03e";
+}
+
+.aws-Amazon-Managed-Streaming-for-Kafka_dark-bg-1::before {
+  content: "\f03f";
+}
+
+.aws-Analytics-1-1::before {
+  content: "\f040";
+}
+
+.aws-Amazon-Managed-Streaming-for-Kafka-1-1::before {
+  content: "\f041";
+}
+
+.aws-Amazon-Kinesis_dark-bg-1::before {
+  content: "\f042";
+}
+
+.aws-Amazon-Kinesis-1-1::before {
+  content: "\f043";
+}
+
+.aws-Amazon-Kinesis-Video-Streams_dark-bg-1-1::before {
+  content: "\f044";
+}
+
+.aws-Amazon-Kinesis-Video-Streams-1-1::before {
+  content: "\f045";
+}
+
+.aws-Amazon-Redshift_dark-bg-1-1::before {
+  content: "\f046";
+}
+
+.aws-Amazon-Kinesis-Data-Streams_dark-bg-1::before {
+  content: "\f047";
+}
+
+.aws-Amazon-Redshift_Dense-storage-node_dark-bg-1::before {
+  content: "\f048";
+}
+
+.aws-Amazon-Kinesis-Data-Streams-1-1::before {
+  content: "\f049";
+}
+
+.aws-Amazon-Redshift_Dense-compute-node_dark-bg-1::before {
+  content: "\f04a";
+}
+
+.aws-Amazon-Kinesis-Data-Firehose_dark-bg-1::before {
+  content: "\f04b";
+}
+
+.aws-Amazon-Kinesis-Data-Firehose-1-1::before {
+  content: "\f04c";
+}
+
+.aws-Amazon-Kinesis-Data-Analytics_dark-bg-1::before {
+  content: "\f04d";
+}
+
+.aws-Amazon-Kinesis-Data-Analytics-1-1::before {
+  content: "\f04e";
+}
+
+.aws-Amazon-Elasticsearch-Service_dark-bg-1::before {
+  content: "\f04f";
+}
+
+.aws-Amazon-Elasticsearch-Service-1-1::before {
+  content: "\f050";
+}
+
+.aws-Amazon-EMR_dark-bg-1::before {
+  content: "\f051";
+}
+
+.aws-Amazon-EMR_HDFS-cluster_dark-bg-1::before {
+  content: "\f052";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M3_dark-bg-1::before {
+  content: "\f053";
+}
+
+.aws-Amazon-EMR_Cluster_dark-bg-1::before {
+  content: "\f054";
+}
+
+.aws-Amazon-EMR-1-1::before {
+  content: "\f055";
+}
+
+.aws-Amazon-CloudSearch_dark-bg-1::before {
+  content: "\f056";
+}
+
+.aws-Amazon-CloudSearch_Search-documents_dark-bg-1::before {
+  content: "\f057";
+}
+
+.aws-Amazon-CloudSearch-1-1::before {
+  content: "\f058";
+}
+
+.aws-Amazon-Athena_dark-bg-1::before {
+  content: "\f059";
+}
+
+.aws-Amazon-Athena-1-1::before {
+  content: "\f05a";
+}
+
+.aws-AWS-Lake-Formation_dark-bg-1::before {
+  content: "\f05b";
+}
+
+.aws-AWS-Lake-Formation-1-1::before {
+  content: "\f05c";
+}
+
+.aws-Amazon-EMR_EMR-engine_dark-bg-1::before {
+  content: "\f05d";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M7_dark-bg-1::before {
+  content: "\f05e";
+}
+
+.aws-AWS-Glue_Data-catalog_dark-bg-1::before {
+  content: "\f05f";
+}
+
+.aws-AWS-Glue_dark-bg-1::before {
+  content: "\f060";
+}
+
+.aws-AWS-Data-lake_Resource-icon_dark-bg-1::before {
+  content: "\f061";
+}
+
+.aws-AWS-Data-Pipeline_dark-bg-1::before {
+  content: "\f062";
+}
+
+.aws-AWS-Data-Pipeline-1-1::before {
+  content: "\f063";
+}
+
+.aws-AWS-Glue_Crawlers_dark-bg-1::before {
+  content: "\f064";
+}
+
+.aws-AWS-Glue-1-1::before {
+  content: "\f065";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M5_dark-bg-1::before {
+  content: "\f066";
+}
+
+.aws-Amazon-Redshift-1-1::before {
+  content: "\f067";
+}
+
+.aws-Amazon-Quicksight_dark-bg-1::before {
+  content: "\f068";
+}
+
+.aws-SaaS-Event-Bus_Resource_Icon_64_White-1-1::before {
+  content: "\f069";
+}
+
+.aws-Custom-Event-Bus_Resource_Icon_64_White-1-1::before {
+  content: "\f06a";
+}
+
+.aws-Custom-Event-Bus_Resource_Icon_64_Squid-1-1::before {
+  content: "\f06b";
+}
+
+.aws-Application-Integration_dark-bg-1::before {
+  content: "\f06c";
+}
+
+.aws-Application-Integration_Event_Resource_dark-bg-1::before {
+  content: "\f06d";
+}
+
+.aws-Application-Integration-1-1::before {
+  content: "\f06e";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_dark-bg-1::before {
+  content: "\f06f";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_Queue_dark-bg-1::before {
+  content: "\f070";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_Message_dark-bg-1::before {
+  content: "\f071";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS-1-1::before {
+  content: "\f072";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_dark-bg-1::before {
+  content: "\f073";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_Topic_dark-bg-1::before {
+  content: "\f074";
+}
+
+.aws-Default-Event-Bus_Resource_Icon_64_White-1-1::before {
+  content: "\f075";
+}
+
+.aws-Default-Event-Bus_Resource_Icon_64_Squid-1-1::before {
+  content: "\f076";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS-1-1::before {
+  content: "\f077";
+}
+
+.aws-Amazon-MQ_dark-bg-1::before {
+  content: "\f078";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_HTTP-Notification_dark-bg-1::before {
+  content: "\f079";
+}
+
+.aws-Amazon-EventBridge_dark-bg-1::before {
+  content: "\f07a";
+}
+
+.aws-Amazon-EventBridge_Saas-Partner-event-bus_resource-icon_dark-bg-1::before {
+  content: "\f07b";
+}
+
+.aws-Amazon-EventBridge_Default-event-bus_resource-icon_dark-bg-1::before {
+  content: "\f07c";
+}
+
+.aws-Amazon-EventBridge_Custom-event-bus_resource-icon_dark-bg-1::before {
+  content: "\f07d";
+}
+
+.aws-Amazon-EventBridge-1-1::before {
+  content: "\f07e";
+}
+
+.aws-Amazon-AppSync_dark-bg-1::before {
+  content: "\f07f";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_Email-Notification_dark-bg-1::before {
+  content: "\f080";
+}
+
+.aws-AWS-Step-Functions_dark-bg-1::before {
+  content: "\f081";
+}
+
+.aws-SaaS-Event-Bus_Resource_Icon_64_Squid-1-1::before {
+  content: "\f082";
+}
+
+.aws-AWS-Step-Functions-1-1::before {
+  content: "\f083";
+}
+
+.aws-AWS-Express-Workflows_dark-bg-1::before {
+  content: "\f084";
+}
+
+.aws-AWS-Console-Mobile-Application_dark-bg-1::before {
+  content: "\f085";
+}
+
+.aws-AWS-Console-Mobile-Application-1-1::before {
+  content: "\f086";
+}
+
+.aws-Amazon-AppSync-1-1::before {
+  content: "\f087";
+}
+
+.aws-AWS-Express-Workflows-1-1::before {
+  content: "\f088";
+}
+
+.aws-Amazon-MQ-1-1::before {
+  content: "\f089";
+}
+
+.aws-Blockchain_dark-bg-1::before {
+  content: "\f08a";
+}
+
+.aws-Blockchain_Resource-Icon_dark-bg-1::before {
+  content: "\f08b";
+}
+
+.aws-Amazon-Managed-Blockchain_dark-bg-1::before {
+  content: "\f08c";
+}
+
+.aws-Amazon-Quantum-Ledger-Database-QLDB_dark-bg-1::before {
+  content: "\f08d";
+}
+
+.aws-Amazon-Quantum-Ledger-Database-QLDB-1-1::before {
+  content: "\f08e";
+}
+
+.aws-Blockchain-1-1::before {
+  content: "\f08f";
+}
+
+.aws-Amazon-Managed-Blockchain-1-1::before {
+  content: "\f090";
+}
+
+.aws-Business-Applications_dark-bg-1::before {
+  content: "\f091";
+}
+
+.aws-Amazon-Chime_dark-bg-1::before {
+  content: "\f092";
+}
+
+.aws-Amazon-Chime-1-1::before {
+  content: "\f093";
+}
+
+.aws-Alexa-For-Business_dark-bg-1::before {
+  content: "\f094";
+}
+
+.aws-Alexa-For-Business-1-1::before {
+  content: "\f095";
+}
+
+.aws-Amazon-WorkMail_dark-bg-1::before {
+  content: "\f096";
+}
+
+.aws-Amazon-WorkMail-1-1::before {
+  content: "\f097";
+}
+
+.aws-Business-Applications-1-1::before {
+  content: "\f098";
+}
+
+.aws-Customer-Enablement_dark-bg-1::before {
+  content: "\f099";
+}
+
+.aws-AWS-Professional-Services_dark-bg-1::before {
+  content: "\f09a";
+}
+
+.aws-AWS-Professional-Services-1-1::before {
+  content: "\f09b";
+}
+
+.aws-AWS-Managed-Services_dark-bg-1-1::before {
+  content: "\f09c";
+}
+
+.aws-AWS-Managed-Services-1-1::before {
+  content: "\f09d";
+}
+
+.aws-AWS-IQ_dark-bg-1::before {
+  content: "\f09e";
+}
+
+.aws-AWS-IQ-1-1::before {
+  content: "\f09f";
+}
+
+.aws-Customer-Enablement-1-1::before {
+  content: "\f0a0";
+}
+
+.aws-AWS-Support_dark-bg-1::before {
+  content: "\f0a1";
+}
+
+.aws-AWS-Support-1-1::before {
+  content: "\f0a2";
+}
+
+.aws-Customer-Engagement_dark-bg-1::before {
+  content: "\f0a3";
+}
+
+.aws-Customer-Engagement-1-1::before {
+  content: "\f0a4";
+}
+
+.aws-Amazon-Simple-Email-Service-SES_dark-bg-1::before {
+  content: "\f0a5";
+}
+
+.aws-Amazon-Simple-Email-Service-SES_Email_dark-bg-1::before {
+  content: "\f0a6";
+}
+
+.aws-Amazon-Simple-Email-Service-SES-1-1::before {
+  content: "\f0a7";
+}
+
+.aws-Amazon-Pinpoint_dark-bg-1-1::before {
+  content: "\f0a8";
+}
+
+.aws-Amazon-Pinpoint-1-1::before {
+  content: "\f0a9";
+}
+
+.aws-Amazon-Connect_dark-bg-1::before {
+  content: "\f0aa";
+}
+
+.aws-Amazon-Connect-1-1::before {
+  content: "\f0ab";
+}
+
+.aws-Database_dark-bg-1::before {
+  content: "\f0ac";
+}
+
+.aws-Database-1-1::before {
+  content: "\f0ad";
+}
+
+.aws-Amazon-Timestream_dark-bg-1::before {
+  content: "\f0ae";
+}
+
+.aws-Amazon-Timestream-1-1::before {
+  content: "\f0af";
+}
+
+.aws-Amazon-Redshift_Dense-Compute-Node_dark-bg-1::before {
+  content: "\f0b0";
+}
+
+.aws-Amazon-RDS_dark-bg-1::before {
+  content: "\f0b1";
+}
+
+.aws-Amazon-RDS_SQL-Server_instance_dark-bg-1::before {
+  content: "\f0b2";
+}
+
+.aws-Amazon-RDS_SQL-Server_instance-alt_dark-bg-1::before {
+  content: "\f0b3";
+}
+
+.aws-Amazon-RDS_PostgreSQL_instance_dark-bg-1::before {
+  content: "\f0b4";
+}
+
+.aws-Amazon-RDS_PostgreSQL_instance-alt_dark-bg-1::before {
+  content: "\f0b5";
+}
+
+.aws-Amazon-RDS_PIOP_dark-bg-1::before {
+  content: "\f0b6";
+}
+
+.aws-Amazon-RDS_PIOPS_dark-bg-1::before {
+  content: "\f0b7";
+}
+
+.aws-Amazon-RDS_Oracle_instance_dark-bg-1::before {
+  content: "\f0b8";
+}
+
+.aws-Amazon-RDS_Oracle_instance-alt_dark-bg-1::before {
+  content: "\f0b9";
+}
+
+.aws-Amazon-RDS_MySQL_instance_dark-bg-1::before {
+  content: "\f0ba";
+}
+
+.aws-Amazon-RDS_MySQL_instance-alt_dark-bg-1::before {
+  content: "\f0bb";
+}
+
+.aws-Amazon-RDS_MariaDB_instance_dark-bg-1::before {
+  content: "\f0bc";
+}
+
+.aws-Amazon-RDS_MariaDB_instance-alt_dark-bg-1::before {
+  content: "\f0bd";
+}
+
+.aws-Amazon-RDS_Amazon-RDS_instance_dark-bg-1::before {
+  content: "\f0be";
+}
+
+.aws-Amazon-RDS_Amazon-RDS_instance-alt_dark-bg-1::before {
+  content: "\f0bf";
+}
+
+.aws-Amazon-RDS_Amazon-Aurora_instance_dark-bg-1::before {
+  content: "\f0c0";
+}
+
+.aws-Amazon-RDS_Amazon-Aurora_instance-alt_dark-bg-1::before {
+  content: "\f0c1";
+}
+
+.aws-Amazon-RDS-1-1::before {
+  content: "\f0c2";
+}
+
+.aws-Amazon-RDS-on-VMware_dark-bg-1::before {
+  content: "\f0c3";
+}
+
+.aws-Amazon-RDS-on-VMware-1-1::before {
+  content: "\f0c4";
+}
+
+.aws-Amazon-Quantum-Ledger-Database_QLDB_dark-bg-1::before {
+  content: "\f0c5";
+}
+
+.aws-Amazon-Quantum-Ledger-Database_QLDB-1::before {
+  content: "\f0c6";
+}
+
+.aws-Amazon-Neptune_dark-bg-1::before {
+  content: "\f0c7";
+}
+
+.aws-Amazon-Neptune-1-1::before {
+  content: "\f0c8";
+}
+
+.aws-Amazon-Managed-Apache-Cassandra-Service_dark-bg-1::before {
+  content: "\f0c9";
+}
+
+.aws-Amazon-Managed-Apache-Cassandra-Service-1-1::before {
+  content: "\f0ca";
+}
+
+.aws-Amazon-Redshift-2-1::before {
+  content: "\f0cb";
+}
+
+.aws-Amazon-Redshift_Dense-Storage-Node_dark-bg-1::before {
+  content: "\f0cc";
+}
+
+.aws-Amazon-ElastiCache_For-Memcached_dark-bg-1::before {
+  content: "\f0cd";
+}
+
+.aws-Amazon-ElastiCache_Cache-Node_dark-bg-1::before {
+  content: "\f0ce";
+}
+
+.aws-Amazon-ElastiCache-1-1::before {
+  content: "\f0cf";
+}
+
+.aws-Amazon-ElastiCache_For-Redis_dark-bg-1::before {
+  content: "\f0d0";
+}
+
+.aws-Amazon-DynamoDB_dark-bg-1::before {
+  content: "\f0d1";
+}
+
+.aws-Amazon-DynamoDB_Table_dark-bg-1::before {
+  content: "\f0d2";
+}
+
+.aws-Amazon-DynamoDB_Item_dark-bg-1::before {
+  content: "\f0d3";
+}
+
+.aws-Amazon-Redshift_dark-bg-2-1::before {
+  content: "\f0d4";
+}
+
+.aws-Amazon-DynamoDB_Global-Secondary-Index_dark-bg-1::before {
+  content: "\f0d5";
+}
+
+.aws-Amazon-DynamoDB_Attributes_dark-bg-1::before {
+  content: "\f0d6";
+}
+
+.aws-Amazon-DynamoDB_Items_dark-bg-1::before {
+  content: "\f0d7";
+}
+
+.aws-Amazon-DynamoDB_DAX_dark-bg-1::before {
+  content: "\f0d8";
+}
+
+.aws-Amazon-DocumentDB-with-MongoDB-compatibility_dark-bg-1::before {
+  content: "\f0d9";
+}
+
+.aws-Amazon-DocumentDB-with-MongoDB-compatibility-1::before {
+  content: "\f0da";
+}
+
+.aws-Amazon-Aurora_dark-bg-1::before {
+  content: "\f0db";
+}
+
+.aws-Amazon-Aurora-1-1::before {
+  content: "\f0dc";
+}
+
+.aws-Amazon-ElastiCache_dark-bg-1::before {
+  content: "\f0dd";
+}
+
+.aws-Amazon-DynamoDB_Attribute_dark-bg-1::before {
+  content: "\f0de";
+}
+
+.aws-AWS-Database-Migration-Service-1-1::before {
+  content: "\f0df";
+}
+
+.aws-Amazon-DynamoDB-1-1::before {
+  content: "\f0e0";
+}
+
+.aws-AWS-Database-Migration-Service_dark-bg-1-1::before {
+  content: "\f0e1";
+}
+
+.aws-AWS-Database-Migration-Service_Database-Migration-Workflow_dark-bg-1::before {
+  content: "\f0e2";
+}
+
+.aws-Developer-Tools_dark-bg-1::before {
+  content: "\f0e3";
+}
+
+.aws-AWS-X-Ray-1-1::before {
+  content: "\f0e4";
+}
+
+.aws-AWS-Tools-And-SDKs_dark-bg-1::before {
+  content: "\f0e5";
+}
+
+.aws-Cloud9_Resource_dark-bg-1::before {
+  content: "\f0e6";
+}
+
+.aws-AWS-Command-Line-Interface_dark-bg-1-1::before {
+  content: "\f0e7";
+}
+
+.aws-AWS-Command-Line-Interface-1-1::before {
+  content: "\f0e8";
+}
+
+.aws-AWS-CodeStar_dark-bg-1::before {
+  content: "\f0e9";
+}
+
+.aws-AWS-CodeStar-1-1::before {
+  content: "\f0ea";
+}
+
+.aws-AWS-CodePipeline_dark-bg-1::before {
+  content: "\f0eb";
+}
+
+.aws-AWS-CodePipeline-1-1::before {
+  content: "\f0ec";
+}
+
+.aws-AWS-CodeDeploy_dark-bg-1::before {
+  content: "\f0ed";
+}
+
+.aws-Developer-Tools-1-1::before {
+  content: "\f0ee";
+}
+
+.aws-AWS-CodeCommit_dark-bg-1::before {
+  content: "\f0ef";
+}
+
+.aws-AWS-CodeCommit-1-1::before {
+  content: "\f0f0";
+}
+
+.aws-AWS-CodeBuild_dark-bg-1::before {
+  content: "\f0f1";
+}
+
+.aws-AWS-CodeBuild-1-1::before {
+  content: "\f0f2";
+}
+
+.aws-AWS-Cloud9_dark-bg-1::before {
+  content: "\f0f3";
+}
+
+.aws-AWS-Cloud9-1-1::before {
+  content: "\f0f4";
+}
+
+.aws-AWS-Cloud-Development-Kit_dark-bg-1::before {
+  content: "\f0f5";
+}
+
+.aws-AWS-Cloud-Development-Kit-1-1::before {
+  content: "\f0f6";
+}
+
+.aws-AWS-CodeDeploy-1-1::before {
+  content: "\f0f7";
+}
+
+.aws-AWS-X-Ray_dark-bg-1::before {
+  content: "\f0f8";
+}
+
+.aws-AWS-Tools-And-SDKs-1-1::before {
+  content: "\f0f9";
+}
+
+.aws-End-User-Computing_dark-bg-1::before {
+  content: "\f0fa";
+}
+
+.aws-Amazon-WorkLink_dark-bg-1::before {
+  content: "\f0fb";
+}
+
+.aws-Amazon-Workspaces_dark-bg-1::before {
+  content: "\f0fc";
+}
+
+.aws-Amazon-WorkDocs_dark-bg-1::before {
+  content: "\f0fd";
+}
+
+.aws-Amazon-WorkDocs-1-1::before {
+  content: "\f0fe";
+}
+
+.aws-Amazon-Appstream-2-1-1::before {
+  content: "\f0ff";
+}
+
+.aws-Amazon-Appstream-2-2-1::before {
+  content: "\f100";
+}
+
+.aws-End-User-Computing-1-1::before {
+  content: "\f101";
+}
+
+.aws-Amazon-WorkLink-1-1::before {
+  content: "\f102";
+}
+
+.aws-Amazon-Workspaces-1-1::before {
+  content: "\f103";
+}
+
+.aws-Game-Tech_dark-bg-1::before {
+  content: "\f104";
+}
+
+.aws-Game-Tech-1-1::before {
+  content: "\f105";
+}
+
+.aws-Amazon-GameLift_dark-bg-1::before {
+  content: "\f106";
+}
+
+.aws-Amazon-GameLift-1-1::before {
+  content: "\f107";
+}
+
+.aws-IoT_Windfarm_dark-bg-1::before {
+  content: "\f108";
+}
+
+.aws-IoT_Thermostat_dark-bg-1::before {
+  content: "\f109";
+}
+
+.aws-IoT_Simulator_dark-bg-1::before {
+  content: "\f10a";
+}
+
+.aws-IoT_Shadow_dark-bg-1::before {
+  content: "\f10b";
+}
+
+.aws-IoT_Servo_dark-bg-1::before {
+  content: "\f10c";
+}
+
+.aws-IoT_Sensor_dark-bg-1::before {
+  content: "\f10d";
+}
+
+.aws-IoT_Topic_dark-bg-1::before {
+  content: "\f10e";
+}
+
+.aws-IoT_Travel_dark-bg-1::before {
+  content: "\f10f";
+}
+
+.aws-IoT_Reported-state_dark-bg-1::before {
+  content: "\f110";
+}
+
+.aws-IoT_Police-emergency_dark-bg-1::before {
+  content: "\f111";
+}
+
+.aws-IoT_Over-the-air-update_dark-bg-1::before {
+  content: "\f112";
+}
+
+.aws-IoT_Medical-emergency_dark-bg-1::before {
+  content: "\f113";
+}
+
+.aws-IoT_MQTT-protocol_dark-bg-1::before {
+  content: "\f114";
+}
+
+.aws-IoT_Lightbulb_dark-bg-1::before {
+  content: "\f115";
+}
+
+.aws-IoT_Lambda-function_dark-bg-1::before {
+  content: "\f116";
+}
+
+.aws-IoT_House_dark-bg-1::before {
+  content: "\f117";
+}
+
+.aws-IoT_Utility_dark-bg-1::before {
+  content: "\f118";
+}
+
+.aws-IoT_Rule_dark-bg-1::before {
+  content: "\f119";
+}
+
+.aws-IoT_HTTP-2-protocol_dark-bg-1::before {
+  content: "\f11a";
+}
+
+.aws-IoT_Generic_dark-bg-1::before {
+  content: "\f11b";
+}
+
+.aws-IoT_Fire-TV_dark-bg-1::before {
+  content: "\f11c";
+}
+
+.aws-IoT_Hardware-board_dark-bg-1::before {
+  content: "\f11d";
+}
+
+.aws-IoT_Factory_dark-bg-1::before {
+  content: "\f11e";
+}
+
+.aws-IoT_HTTP-protocol_dark-bg-1::before {
+  content: "\f11f";
+}
+
+.aws-IoT_Door-lock_dark-bg-1::before {
+  content: "\f120";
+}
+
+.aws-IoT_Device-gateway_dark-bg-1::before {
+  content: "\f121";
+}
+
+.aws-IoT_Fire-TV-stick_dark-bg-1::before {
+  content: "\f122";
+}
+
+.aws-IoT_Coffee-pot_dark-bg-1::before {
+  content: "\f123";
+}
+
+.aws-IoT_Desired-state_dark-bg-1::before {
+  content: "\f124";
+}
+
+.aws-IoT_Cart_dark-bg-1::before {
+  content: "\f125";
+}
+
+.aws-IoT_Car_dark-bg-1::before {
+  content: "\f126";
+}
+
+.aws-IoT_Certificate-manager_dark-bg-1::before {
+  content: "\f127";
+}
+
+.aws-IoT_Bicycle_dark-bg-1::before {
+  content: "\f128";
+}
+
+.aws-IoT_Bank_dark-bg-1::before {
+  content: "\f129";
+}
+
+.aws-IoT_Alexa-voice-service_dark-bg-1::before {
+  content: "\f12a";
+}
+
+.aws-IoT_Alexa-skill_dark-bg-1::before {
+  content: "\f12b";
+}
+
+.aws-IoT_Alexa-enabled-device_dark-bg-1::before {
+  content: "\f12c";
+}
+
+.aws-IoT_Policy_dark-bg-1::before {
+  content: "\f12d";
+}
+
+.aws-IoT_Action_dark-bg-1::before {
+  content: "\f12e";
+}
+
+.aws-IoT-Device-Jobs_Resource_dark-bg-1::before {
+  content: "\f12f";
+}
+
+.aws-Internet-of-Things_dark-bg-1::before {
+  content: "\f130";
+}
+
+.aws-Internet-of-Things-1-1::before {
+  content: "\f131";
+}
+
+.aws-Amazon-FreeRTOS_dark-bg-1::before {
+  content: "\f132";
+}
+
+.aws-Amazon-FreeRTOS-1-1::before {
+  content: "\f133";
+}
+
+.aws-AWS-IoT-Things-Graph_dark-bg-1::before {
+  content: "\f134";
+}
+
+.aws-AWS-IoT-Things-Graph-1-1::before {
+  content: "\f135";
+}
+
+.aws-AWS-IoT-SiteWise_dark-bg-1::before {
+  content: "\f136";
+}
+
+.aws-AWS-IoT-SiteWise-1-1::before {
+  content: "\f137";
+}
+
+.aws-AWS-IoT-Greengrass_dark-bg-1::before {
+  content: "\f138";
+}
+
+.aws-IoT_Actuator_dark-bg-1::before {
+  content: "\f139";
+}
+
+.aws-IoT_Camera_dark-bg-1::before {
+  content: "\f13a";
+}
+
+.aws-AWS-IoT-Greengrass-1-1::before {
+  content: "\f13b";
+}
+
+.aws-AWS-IoT-Events-1-1::before {
+  content: "\f13c";
+}
+
+.aws-IoT_Echo_dark-bg-1::before {
+  content: "\f13d";
+}
+
+.aws-AWS-IoT-Greengrass_Connector_dark-bg-1::before {
+  content: "\f13e";
+}
+
+.aws-AWS-IoT-Device-Defender_dark-bg-1::before {
+  content: "\f13f";
+}
+
+.aws-AWS-IoT-Events_dark-bg-1::before {
+  content: "\f140";
+}
+
+.aws-AWS-IoT-Device-Management-1::before {
+  content: "\f141";
+}
+
+.aws-AWS-IoT-Core-1-1::before {
+  content: "\f142";
+}
+
+.aws-AWS-IoT-Device-Defender-1-1::before {
+  content: "\f143";
+}
+
+.aws-AWS-IoT-Core_dark-bg-1::before {
+  content: "\f144";
+}
+
+.aws-AWS-IoT-Analytics_dark-bg-1::before {
+  content: "\f145";
+}
+
+.aws-AWS-IoT-Button_dark-bg-1::before {
+  content: "\f146";
+}
+
+.aws-AWS-IoT-Button-1-1::before {
+  content: "\f147";
+}
+
+.aws-AWS-IoT-Analytics_Data-Store_dark-bg-1::before {
+  content: "\f148";
+}
+
+.aws-AWS-IoT-Analytics_Data-Set_dark-bg-1::before {
+  content: "\f149";
+}
+
+.aws-AWS-IoT-Analytics_Notebook_dark-bg-1::before {
+  content: "\f14a";
+}
+
+.aws-AWS-IoT-Device-Management_dark-bg-1::before {
+  content: "\f14b";
+}
+
+.aws-AWS-IoT-Analytics-1-1::before {
+  content: "\f14c";
+}
+
+.aws-AWS-IoT-1-Click-1-1::before {
+  content: "\f14d";
+}
+
+.aws-AWS-IoT-Analytics_Channel_dark-bg-1::before {
+  content: "\f14e";
+}
+
+.aws-AWS-IoT-1-Click_dark-bg-1::before {
+  content: "\f14f";
+}
+
+.aws-AWS-IoT-Analytics_Pipeline_dark-bg-1::before {
+  content: "\f150";
+}
+
+.aws-TensorFlow-on-AWS_dark-bg-1::before {
+  content: "\f151";
+}
+
+.aws-TensorFlow-on-AWS-1-1::before {
+  content: "\f152";
+}
+
+.aws-Machine-Learning_dark-bg-1::before {
+  content: "\f153";
+}
+
+.aws-Machine-Learning-1-1::before {
+  content: "\f154";
+}
+
+.aws-Apache-MXNet-on-AWS_dark-bg-1::before {
+  content: "\f155";
+}
+
+.aws-Apache-MXNet-on-AWS-1-1::before {
+  content: "\f156";
+}
+
+.aws-Amazon-Translate_dark-bg-1::before {
+  content: "\f157";
+}
+
+.aws-Amazon-Translate-1-1::before {
+  content: "\f158";
+}
+
+.aws-Amazon-Transcribe_dark-bg-1::before {
+  content: "\f159";
+}
+
+.aws-Amazon-Transcribe-1-1::before {
+  content: "\f15a";
+}
+
+.aws-Amazon-Textract_dark-bg-1::before {
+  content: "\f15b";
+}
+
+.aws-Amazon-Textract-1-1::before {
+  content: "\f15c";
+}
+
+.aws-Amazon-SageMaker_dark-bg-1::before {
+  content: "\f15d";
+}
+
+.aws-Amazon-SageMaker_Train_dark-bg-1::before {
+  content: "\f15e";
+}
+
+.aws-Amazon-SageMaker_Notebook_dark-bg-1::before {
+  content: "\f15f";
+}
+
+.aws-Amazon-SageMaker_Model_dark-bg-1::before {
+  content: "\f160";
+}
+
+.aws-Amazon-SageMaker-1-1::before {
+  content: "\f161";
+}
+
+.aws-Amazon-Rekognition_dark-bg-1::before {
+  content: "\f162";
+}
+
+.aws-Amazon-Rekognition_Image_dark-bg-1::before {
+  content: "\f163";
+}
+
+.aws-Amazon-Rekognition-1-1::before {
+  content: "\f164";
+}
+
+.aws-Amazon-Polly_dark-bg-1::before {
+  content: "\f165";
+}
+
+.aws-Amazon-Polly-1-1::before {
+  content: "\f166";
+}
+
+.aws-Amazon-Personalize_dark-bg-1::before {
+  content: "\f167";
+}
+
+.aws-Amazon-Personalize-1-1::before {
+  content: "\f168";
+}
+
+.aws-Amazon-Lex_dark-bg-1::before {
+  content: "\f169";
+}
+
+.aws-Amazon-Lex-1-1::before {
+  content: "\f16a";
+}
+
+.aws-Amazon-Kendra_dark-bg-1::before {
+  content: "\f16b";
+}
+
+.aws-Amazon-Kendra-1-1::before {
+  content: "\f16c";
+}
+
+.aws-Amazon-Fraud-Detector_dark-bg-1::before {
+  content: "\f16d";
+}
+
+.aws-Amazon-Fraud-Detector-1-1::before {
+  content: "\f16e";
+}
+
+.aws-Amazon-Forecast_dark-bg-1::before {
+  content: "\f16f";
+}
+
+.aws-Amazon-Forecast-1-1::before {
+  content: "\f170";
+}
+
+.aws-Amazon-Elastic-Inference_dark-bg-1::before {
+  content: "\f171";
+}
+
+.aws-Amazon-Elastic-Inference-1-1::before {
+  content: "\f172";
+}
+
+.aws-Amazon-Comprehend_dark-bg-1::before {
+  content: "\f173";
+}
+
+.aws-Amazon-Comprehend-1-1::before {
+  content: "\f174";
+}
+
+.aws-Amazon-CodeGuru_dark-bg-1::before {
+  content: "\f175";
+}
+
+.aws-Amazon-SageMaker-Ground-Truth_dark-bg-1::before {
+  content: "\f176";
+}
+
+.aws-Amazon-CodeGuru-1-1::before {
+  content: "\f177";
+}
+
+.aws-Amazon-Augmented-AI_dark-bg-1::before {
+  content: "\f178";
+}
+
+.aws-Amazon-Augmented-AI-1-1::before {
+  content: "\f179";
+}
+
+.aws-AWS-DeepRacer-1-1::before {
+  content: "\f17a";
+}
+
+.aws-AWS-DeepLens_dark-bg-1::before {
+  content: "\f17b";
+}
+
+.aws-Amazon-Rekognition_Video_dark-bg-1::before {
+  content: "\f17c";
+}
+
+.aws-Amazon-SageMaker-Ground-Truth-1-1::before {
+  content: "\f17d";
+}
+
+.aws-AWS-DeepComposer_dark-bg-1::before {
+  content: "\f17e";
+}
+
+.aws-AWS-Deep-Learning-Containers_dark-bg-1::before {
+  content: "\f17f";
+}
+
+.aws-AWS-Deep-Learning-Containers-1-1::before {
+  content: "\f180";
+}
+
+.aws-AWS-Deep-Learning-AMIs_dark-bg-1::before {
+  content: "\f181";
+}
+
+.aws-AWS-Deep-Learning-AMIs-1-1::before {
+  content: "\f182";
+}
+
+.aws-AWS-DeepRacer_dark-bg-1::before {
+  content: "\f183";
+}
+
+.aws-AWS-DeepLens-1-1::before {
+  content: "\f184";
+}
+
+.aws-AWS-DeepComposer_primary-bg-1-1::before {
+  content: "\f185";
+}
+
+.aws-Systems-Manager_OpsCenter_dark-bg-1::before {
+  content: "\f186";
+}
+
+.aws-Management-and-Governance_dark-bg-1::before {
+  content: "\f187";
+}
+
+.aws-Amazon-CloudWatch_Event-Time-Based_dark-bg-1::before {
+  content: "\f188";
+}
+
+.aws-Amazon-CloudWatch_Event-Event-Based_dark-bg-1::before {
+  content: "\f189";
+}
+
+.aws-Amazon-CloudWatch_Alarm_dark-bg-1::before {
+  content: "\f18a";
+}
+
+.aws-Amazon-CloudWatch-1-1::before {
+  content: "\f18b";
+}
+
+.aws-AWS-Well-Architected-Tool_dark-bg-1::before {
+  content: "\f18c";
+}
+
+.aws-AWS-Well-Architected-Tool-1-1::before {
+  content: "\f18d";
+}
+
+.aws-AWS-Trusted-Advisor_dark-bg-1::before {
+  content: "\f18e";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist_dark-bg-1::before {
+  content: "\f18f";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Security_dark-bg-1::before {
+  content: "\f190";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Performance_dark-bg-1::before {
+  content: "\f191";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Fault-Tolerant_dark-bg-1::before {
+  content: "\f192";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Cost_dark-bg-1::before {
+  content: "\f193";
+}
+
+.aws-AWS-Trusted-Advisor-1-1::before {
+  content: "\f194";
+}
+
+.aws-AWS-Systems-Manager_dark-bg-1::before {
+  content: "\f195";
+}
+
+.aws-AWS-Systems-Manager_State-Manager_dark-bg-1::before {
+  content: "\f196";
+}
+
+.aws-Amazon-CloudWatch_dark-bg-1::before {
+  content: "\f197";
+}
+
+.aws-AWS-Systems-Manager_Patch-Manager_dark-bg-1::before {
+  content: "\f198";
+}
+
+.aws-AWS-Systems-Manager_Parameter-Store_dark-bg-1::before {
+  content: "\f199";
+}
+
+.aws-AWS-Systems-Manager_Maintenance-Windows_dark-bg-1::before {
+  content: "\f19a";
+}
+
+.aws-AWS-Systems-Manager_Inventory-Windows_dark-bg-1::before {
+  content: "\f19b";
+}
+
+.aws-AWS-Systems-Manager_Documents_dark-bg-1::before {
+  content: "\f19c";
+}
+
+.aws-AWS-Systems-Manager_Automation_dark-bg-1::before {
+  content: "\f19d";
+}
+
+.aws-AWS-Systems-Manager-1-1::before {
+  content: "\f19e";
+}
+
+.aws-AWS-Service-Catalog_dark-bg-1::before {
+  content: "\f19f";
+}
+
+.aws-AWS-Service-Catalog-1-1::before {
+  content: "\f1a0";
+}
+
+.aws-AWS-Personal-Health-Dashboard_dark-bg-1::before {
+  content: "\f1a1";
+}
+
+.aws-AWS-Personal-Health-Dashboard-1-1::before {
+  content: "\f1a2";
+}
+
+.aws-AWS-Organizations_dark-bg-1::before {
+  content: "\f1a3";
+}
+
+.aws-AWS-Organizations_Account_dark-bg-1::before {
+  content: "\f1a4";
+}
+
+.aws-AWS-Organizations-1-1::before {
+  content: "\f1a5";
+}
+
+.aws-AWS-OpsWorks_dark-bg-1::before {
+  content: "\f1a6";
+}
+
+.aws-AWS-OpsWorks_Stack2_Automation_dark-bg-1::before {
+  content: "\f1a7";
+}
+
+.aws-AWS-OpsWorks_Resources_dark-bg-1::before {
+  content: "\f1a8";
+}
+
+.aws-AWS-OpsWorks_Permissions_dark-bg-1::before {
+  content: "\f1a9";
+}
+
+.aws-AWS-OpsWorks_Monitoring_dark-bg-1::before {
+  content: "\f1aa";
+}
+
+.aws-AWS-OpsWorks_Layers_dark-bg-1::before {
+  content: "\f1ab";
+}
+
+.aws-AWS-Organizations_Organizational-unit_dark-bg-1::before {
+  content: "\f1ac";
+}
+
+.aws-AWS-OpsWorks_Instances_dark-bg-1::before {
+  content: "\f1ad";
+}
+
+.aws-AWS-OpsWorks_Deployments_dark-bg-1::before {
+  content: "\f1ae";
+}
+
+.aws-Amazon-CloudWatch_Rule_dark-bg-1::before {
+  content: "\f1af";
+}
+
+.aws-AWS-OpsWorks-1-1::before {
+  content: "\f1b0";
+}
+
+.aws-AWS-Management-Console_dark-bg-1::before {
+  content: "\f1b1";
+}
+
+.aws-AWS-Management-Console-1-1::before {
+  content: "\f1b2";
+}
+
+.aws-AWS-Managed-Services_dark-bg-2-1::before {
+  content: "\f1b3";
+}
+
+.aws-AWS-Managed-Services-2-1::before {
+  content: "\f1b4";
+}
+
+.aws-AWS-License-Manager_dark-bg-1::before {
+  content: "\f1b5";
+}
+
+.aws-AWS-License-Manager-1-1::before {
+  content: "\f1b6";
+}
+
+.aws-AWS-Control-Tower_dark-bg-1::before {
+  content: "\f1b7";
+}
+
+.aws-AWS-Control-Tower-1-1::before {
+  content: "\f1b8";
+}
+
+.aws-Management-and-Governance-1-1::before {
+  content: "\f1b9";
+}
+
+.aws-AWS-Config-1-1::before {
+  content: "\f1ba";
+}
+
+.aws-AWS-Command-Line-Interface_dark-bg-2-1::before {
+  content: "\f1bb";
+}
+
+.aws-AWS-Config_dark-bg-1::before {
+  content: "\f1bc";
+}
+
+.aws-AWS-CloudTrail_dark-bg-1::before {
+  content: "\f1bd";
+}
+
+.aws-AWS-CloudTrail-1-1::before {
+  content: "\f1be";
+}
+
+.aws-AWS-CloudFormation_dark-bg-1::before {
+  content: "\f1bf";
+}
+
+.aws-AWS-CloudFormation_Template_dark-bg-1::before {
+  content: "\f1c0";
+}
+
+.aws-AWS-CloudFormation_Stack_dark-bg-1::before {
+  content: "\f1c1";
+}
+
+.aws-AWS-CloudFormation_Change-Set_dark-bg-1::before {
+  content: "\f1c2";
+}
+
+.aws-AWS-CloudFormation-1-1::before {
+  content: "\f1c3";
+}
+
+.aws-AWS-Auto-Scaling_dark-bg-1::before {
+  content: "\f1c4";
+}
+
+.aws-AWS-Auto-Scaling-1-1::before {
+  content: "\f1c5";
+}
+
+.aws-AWS-OpsWorks_Apps_dark-bg-1::before {
+  content: "\f1c6";
+}
+
+.aws-AWS-Command-Line-Interface-2-1::before {
+  content: "\f1c7";
+}
+
+.aws-AWS-Systems-Manager_Run-Command_dark-bg-1::before {
+  content: "\f1c8";
+}
+
+.aws-AWS-App-Config-1-1::before {
+  content: "\f1c9";
+}
+
+.aws-AWS-App-Config_dark-bg-1::before {
+  content: "\f1ca";
+}
+
+.aws-Media-Services_dark-bg-1::before {
+  content: "\f1cb";
+}
+
+.aws-Amazon-Kinesis-Video-Streams_dark-bg-2-1::before {
+  content: "\f1cc";
+}
+
+.aws-Media-Services-1-1::before {
+  content: "\f1cd";
+}
+
+.aws-Amazon-Elastic-Transcoder-1-1::before {
+  content: "\f1ce";
+}
+
+.aws-AWS-Elemental-Server_dark-bg-1::before {
+  content: "\f1cf";
+}
+
+.aws-AWS-Elemental-MediaTailor-1::before {
+  content: "\f1d0";
+}
+
+.aws-AWS-Elemental-MediaPackage_dark-bg-1::before {
+  content: "\f1d1";
+}
+
+.aws-AWS-Elemental-MediaPackage-1::before {
+  content: "\f1d2";
+}
+
+.aws-AWS-Elemental-MediaLive_dark-bg-1::before {
+  content: "\f1d3";
+}
+
+.aws-AWS-Elemental-MediaStore_dark-bg-1::before {
+  content: "\f1d4";
+}
+
+.aws-AWS-Elemental-MediaLive-1-1::before {
+  content: "\f1d5";
+}
+
+.aws-AWS-Elemental-MediaConvert-1::before {
+  content: "\f1d6";
+}
+
+.aws-AWS-Elemental-MediaConnect_dark-bg-1::before {
+  content: "\f1d7";
+}
+
+.aws-AWS-Elemental-MediaStore-1::before {
+  content: "\f1d8";
+}
+
+.aws-AWS-Elemental-MediaConnect-1-1::before {
+  content: "\f1d9";
+}
+
+.aws-AWS-Elemental-Live-1-1::before {
+  content: "\f1da";
+}
+
+.aws-AWS-Elemental-Delta_dark-bg-1::before {
+  content: "\f1db";
+}
+
+.aws-AWS-Elemental-MediaTailor_dark-bg-1::before {
+  content: "\f1dc";
+}
+
+.aws-AWS-Elemental-Conductor_dark-bg-1::before {
+  content: "\f1dd";
+}
+
+.aws-AWS-Elemental-Conductor-1-1::before {
+  content: "\f1de";
+}
+
+.aws-AWS-Elemental-Live_dark-bg-1::before {
+  content: "\f1df";
+}
+
+.aws-Amazon-Elastic-Transcoder_dark-bg-1::before {
+  content: "\f1e0";
+}
+
+.aws-AWS-Elemental-Server-1-1::before {
+  content: "\f1e1";
+}
+
+.aws-Amazon-Kinesis-Video-Streams-2-1::before {
+  content: "\f1e2";
+}
+
+.aws-AWS-Elemental-MediaConvert_dark-bg-1::before {
+  content: "\f1e3";
+}
+
+.aws-AWS-Elemental-Delta-1-1::before {
+  content: "\f1e4";
+}
+
+.aws-Migration-and-Transfer_dark-bg-1::before {
+  content: "\f1e5";
+}
+
+.aws-AWS-Transfer-for-SFTP_Resource-Icon_dark-bg-1::before {
+  content: "\f1e6";
+}
+
+.aws-CloudEndure-Migration-1-1::before {
+  content: "\f1e7";
+}
+
+.aws-CloudEndure-Migration_dark-bg-1::before {
+  content: "\f1e8";
+}
+
+.aws-AWS-Transfer-for-FTP_Resource-Icon_dark-bg-1::before {
+  content: "\f1e9";
+}
+
+.aws-AWS-Transfer-for-FTPS_Resource-Icon_dark-bg-1::before {
+  content: "\f1ea";
+}
+
+.aws-AWS-Snowmobile-1-1::before {
+  content: "\f1eb";
+}
+
+.aws-AWS-Snowball_dark-bg-1-1::before {
+  content: "\f1ec";
+}
+
+.aws-AWS-Snowball-1-1::before {
+  content: "\f1ed";
+}
+
+.aws-AWS-Transfer-Family_dark-bg-1::before {
+  content: "\f1ee";
+}
+
+.aws-AWS-Snowmobile_dark-bg-1-1::before {
+  content: "\f1ef";
+}
+
+.aws-AWS-Server-Migration-Service_dark-bg-1::before {
+  content: "\f1f0";
+}
+
+.aws-AWS-Server-Migration-Service-1-1::before {
+  content: "\f1f1";
+}
+
+.aws-AWS-Migration-Hub_dark-bg-1::before {
+  content: "\f1f2";
+}
+
+.aws-AWS-Migration-Hub-1-1::before {
+  content: "\f1f3";
+}
+
+.aws-AWS-Snowball-Edge_dark-bg-1-1::before {
+  content: "\f1f4";
+}
+
+.aws-AWS-Database-Migration-Service_dark-bg-2-1::before {
+  content: "\f1f5";
+}
+
+.aws-AWS-Snowball-Edge-1-1::before {
+  content: "\f1f6";
+}
+
+.aws-AWS-DataSync_dark-bg-1::before {
+  content: "\f1f7";
+}
+
+.aws-AWS-DataSync_Agent_dark-bg-1::before {
+  content: "\f1f8";
+}
+
+.aws-AWS-DataSync-1-1::before {
+  content: "\f1f9";
+}
+
+.aws-AWS-Application-Discovery-Service-1-1::before {
+  content: "\f1fa";
+}
+
+.aws-AWS-Application-Discovery-Service_dark-bg-1::before {
+  content: "\f1fb";
+}
+
+.aws-AWS-Database-Migration-Service-2-1::before {
+  content: "\f1fc";
+}
+
+.aws-Migration-and-Transfer-1-1::before {
+  content: "\f1fd";
+}
+
+.aws-Mobile_dark-bg-1::before {
+  content: "\f1fe";
+}
+
+.aws-Mobile-1-1::before {
+  content: "\f1ff";
+}
+
+.aws-Amazon-API-Gateway_dark-bg-1-1::before {
+  content: "\f200";
+}
+
+.aws-Amazon-API-Gateway_Endpoint_dark-bg-1-1::before {
+  content: "\f201";
+}
+
+.aws-Amazon-API-Gateway-1-1::before {
+  content: "\f202";
+}
+
+.aws-AWS-Device-Farm_dark-bg-1::before {
+  content: "\f203";
+}
+
+.aws-AWS-Device-Farm-1-1::before {
+  content: "\f204";
+}
+
+.aws-Amazon-Pinpoint-2-1::before {
+  content: "\f205";
+}
+
+.aws-AWS-Amplify_dark-bg-1::before {
+  content: "\f206";
+}
+
+.aws-AWS-Amplify-1-1::before {
+  content: "\f207";
+}
+
+.aws-AWS-AppSync_dark-bg-1::before {
+  content: "\f208";
+}
+
+.aws-AWS-AppSync-1-1::before {
+  content: "\f209";
+}
+
+.aws-Amazon-Pinpoint_dark-bg-2-1::before {
+  content: "\f20a";
+}
+
+.aws-Networking-and-Content-Delivery_dark-bg-1::before {
+  content: "\f20b";
+}
+
+.aws-Elastic-Load-Balancing-1-1::before {
+  content: "\f20c";
+}
+
+.aws-Elastic-Load-Balancing-ELB_Network-load-balancer_dark-bg-1::before {
+  content: "\f20d";
+}
+
+.aws-Amazon-VPC_VPN-Connection_dark-bg-1::before {
+  content: "\f20e";
+}
+
+.aws-Amazon-VPC_Router_dark-bg-1::before {
+  content: "\f20f";
+}
+
+.aws-Amazon-VPC_Peering_dark-bg-1::before {
+  content: "\f210";
+}
+
+.aws-Elastic-Load-Balancing_Classic-load-balancer_dark-bg-1::before {
+  content: "\f211";
+}
+
+.aws-Amazon-VPC_Network-Access-Control-List_dark-bg-1::before {
+  content: "\f212";
+}
+
+.aws-Amazon-VPC_Internet-Gateway_dark-bg-1::before {
+  content: "\f213";
+}
+
+.aws-Amazon-VPC_Flow-Logs_dark-bg-1::before {
+  content: "\f214";
+}
+
+.aws-Elastic-Load-Balancing_dark-bg-1::before {
+  content: "\f215";
+}
+
+.aws-Amazon-VPC_Elastic-Network-Interface_dark-bg-1::before {
+  content: "\f216";
+}
+
+.aws-Amazon-VPC_Endpoints_dark-bg-1::before {
+  content: "\f217";
+}
+
+.aws-Amazon-VPC_dark-bg-1::before {
+  content: "\f218";
+}
+
+.aws-Amazon-VPC_Customer-Gateway_dark-bg-1::before {
+  content: "\f219";
+}
+
+.aws-Amazon-VPC_VPN-Gateway_dark-bg-1::before {
+  content: "\f21a";
+}
+
+.aws-Amazon-VPC-1-1::before {
+  content: "\f21b";
+}
+
+.aws-Amazon-VPC-Traffic-Mirroring_dark-bg-1::before {
+  content: "\f21c";
+}
+
+.aws-Amazon-Route-53_dark-bg-1::before {
+  content: "\f21d";
+}
+
+.aws-Amazon-Route-53_Route-Table_dark-bg-1::before {
+  content: "\f21e";
+}
+
+.aws-Amazon-Route-53_Hosted-Zone_dark-bg-1::before {
+  content: "\f21f";
+}
+
+.aws-Amazon-Route-53-1-1::before {
+  content: "\f220";
+}
+
+.aws-Elastic-Load-Balancing-ELB_Application-load-balancer_dark-bg-1::before {
+  content: "\f221";
+}
+
+.aws-Amazon-VPC_Elastic-Network-Adapter_dark-bg-1::before {
+  content: "\f222";
+}
+
+.aws-Networking-and-Content-Delivery-1-1::before {
+  content: "\f223";
+}
+
+.aws-Amazon-CloudFront_Edge-Location_dark-bg-1::before {
+  content: "\f224";
+}
+
+.aws-Amazon-CloudFront_Streaming-Distribution_dark-bg-1::before {
+  content: "\f225";
+}
+
+.aws-Amazon-CloudFront-1-1::before {
+  content: "\f226";
+}
+
+.aws-Amazon-API-Gateway_dark-bg-2-1::before {
+  content: "\f227";
+}
+
+.aws-Amazon-API-Gateway_Endpoint_dark-bg-2-1::before {
+  content: "\f228";
+}
+
+.aws-Amazon-API-Gateway-2-1::before {
+  content: "\f229";
+}
+
+.aws-AWS-Transit-Gateway_dark-bg-1::before {
+  content: "\f22a";
+}
+
+.aws-AWS-Transit-Gateway-1-1::before {
+  content: "\f22b";
+}
+
+.aws-AWS-Site-to-Site-VPN_dark-bg-1::before {
+  content: "\f22c";
+}
+
+.aws-AWS-Site-to-Site-VPN-1-1::before {
+  content: "\f22d";
+}
+
+.aws-AWS-PrivateLink_dark-bg-1::before {
+  content: "\f22e";
+}
+
+.aws-AWS-PrivateLink-1-1::before {
+  content: "\f22f";
+}
+
+.aws-AWS-Global-Accelerator_dark-bg-1::before {
+  content: "\f230";
+}
+
+.aws-AWS-Global-Accelerator-1-1::before {
+  content: "\f231";
+}
+
+.aws-AWS-Direct-Connect_dark-bg-1::before {
+  content: "\f232";
+}
+
+.aws-AWS-Direct-Connect-1-1::before {
+  content: "\f233";
+}
+
+.aws-AWS-Cloud-Map_dark-bg-1::before {
+  content: "\f234";
+}
+
+.aws-AWS-Cloud-Map-1-1::before {
+  content: "\f235";
+}
+
+.aws-AWS-Client-VPN_dark-bg-1::before {
+  content: "\f236";
+}
+
+.aws-AWS-Client-VPN-1-1::before {
+  content: "\f237";
+}
+
+.aws-AWS-App-Mesh_dark-bg-1::before {
+  content: "\f238";
+}
+
+.aws-AWS-App-Mesh-1-1::before {
+  content: "\f239";
+}
+
+.aws-Amazon-CloudFront_dark-bg-1::before {
+  content: "\f23a";
+}
+
+.aws-Amazon-VPC_NAT-Gateway_dark-bg-1::before {
+  content: "\f23b";
+}
+
+.aws-Amazon-CloudFront_Download-Distribution_dark-bg-1::before {
+  content: "\f23c";
+}
+
+.aws-Quantum-Technologies_dark-bg-1::before {
+  content: "\f23d";
+}
+
+.aws-Quantum-Technologies-1-1::before {
+  content: "\f23e";
+}
+
+.aws-AWS-Braket_dark-bg-1::before {
+  content: "\f23f";
+}
+
+.aws-AWS-Braket-1-1::before {
+  content: "\f240";
+}
+
+.aws-Robotics_dark-bg-1::before {
+  content: "\f241";
+}
+
+.aws-Robotics-1-1::before {
+  content: "\f242";
+}
+
+.aws-AWS-RoboMaker_Development-Environment_dark-bg-1::before {
+  content: "\f243";
+}
+
+.aws-AWS-RoboMaker_Cloud-Extension-ROS_dark-bg-1::before {
+  content: "\f244";
+}
+
+.aws-AWS-RoboMaker-1-1::before {
+  content: "\f245";
+}
+
+.aws-AWS-RoboMaker_dark-bg-1::before {
+  content: "\f246";
+}
+
+.aws-AWS-RoboMaker_Simulation_dark-bg-1::before {
+  content: "\f247";
+}
+
+.aws-AWS-RoboMaker_Fleet-Management_dark-bg-1::before {
+  content: "\f248";
+}
+
+.aws-Satellite_dark-bg-1::before {
+  content: "\f249";
+}
+
+.aws-Satellite-1-1::before {
+  content: "\f24a";
+}
+
+.aws-AWS-Ground-Station_dark-bg-1::before {
+  content: "\f24b";
+}
+
+.aws-AWS-Ground-Station-1-1::before {
+  content: "\f24c";
+}
+
+.aws-Simple-AD_dark-bg-1::before {
+  content: "\f24d";
+}
+
+.aws-Security-Identity-and-Compliance_dark-bg-1::before {
+  content: "\f24e";
+}
+
+.aws-Amazon-Macie_dark-bg-1::before {
+  content: "\f24f";
+}
+
+.aws-Amazon-Macie-1-1::before {
+  content: "\f250";
+}
+
+.aws-Security-Hub_Finding_dark-bg-1::before {
+  content: "\f251";
+}
+
+.aws-Security-Identity-and-Compliance-1-1::before {
+  content: "\f252";
+}
+
+.aws-Amazon-Inspector-1-1::before {
+  content: "\f253";
+}
+
+.aws-Amazon-Inspector_dark-bg-1::before {
+  content: "\f254";
+}
+
+.aws-Amazon-GuardDuty-1-1::before {
+  content: "\f255";
+}
+
+.aws-Amazon-Detective_dark-bg-1::before {
+  content: "\f256";
+}
+
+.aws-Amazon-Detective-1-1::before {
+  content: "\f257";
+}
+
+.aws-Amazon-Cognito_dark-bg-1::before {
+  content: "\f258";
+}
+
+.aws-Amazon-Cognito-1-1::before {
+  content: "\f259";
+}
+
+.aws-Amazon-Inspector_Agent_dark-bg-1::before {
+  content: "\f25a";
+}
+
+.aws-Amazon-GuardDuty_dark-bg-1::before {
+  content: "\f25b";
+}
+
+.aws-Amazon-Cloud-Directory-1-1::before {
+  content: "\f25c";
+}
+
+.aws-Amazon-Cloud-Directory_dark-bg-1::before {
+  content: "\f25d";
+}
+
+.aws-AWS-WAF_dark-bg-1::before {
+  content: "\f25e";
+}
+
+.aws-AWS-Single-Sign-On-1-1::before {
+  content: "\f25f";
+}
+
+.aws-AWS-Shield_dark-bg-1::before {
+  content: "\f260";
+}
+
+.aws-AWS-Single-Sign-On_dark-bg-1::before {
+  content: "\f261";
+}
+
+.aws-AWS-Security-Hub-1-1::before {
+  content: "\f262";
+}
+
+.aws-AWS-WAF-1-1::before {
+  content: "\f263";
+}
+
+.aws-AWS-Resource-Access-Manager_dark-bg-1::before {
+  content: "\f264";
+}
+
+.aws-AWS-Shield_Shield-Advanced_dark-bg-1::before {
+  content: "\f265";
+}
+
+.aws-AWS-WAF_Filtering-rule_dark-bg-1::before {
+  content: "\f266";
+}
+
+.aws-AWS-Shield-1-1::before {
+  content: "\f267";
+}
+
+.aws-AWS-Secrets-Manager_dark-bg-1::before {
+  content: "\f268";
+}
+
+.aws-AWS-Resource-Access-Manager-1-1::before {
+  content: "\f269";
+}
+
+.aws-AWS-Secrets-Manager-1-1::before {
+  content: "\f26a";
+}
+
+.aws-AWS-Key-Management-Service-1-1::before {
+  content: "\f26b";
+}
+
+.aws-AWS-Identity-and-Access-Management_IAM-1::before {
+  content: "\f26c";
+}
+
+.aws-AWS-Security-Hub_dark-bg-1::before {
+  content: "\f26d";
+}
+
+.aws-AWS-Managed-Microsoft-AD_dark-bg-1::before {
+  content: "\f26e";
+}
+
+.aws-AWS-Key-Management-Service_dark-bg-1::before {
+  content: "\f26f";
+}
+
+.aws-AWS-Identity-and-Access-Management_IAM_dark-bg-1::before {
+  content: "\f270";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_MFA-Token_dark-bg-1::before {
+  content: "\f271";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Temporary-Security-Credential_dark-bg-1::before {
+  content: "\f272";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Permissions_dark-bg-1::before {
+  content: "\f273";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Encrypted-Data_dark-bg-1::before {
+  content: "\f274";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Access-Analyzer_dark-bg-1::before {
+  content: "\f275";
+}
+
+.aws-AWS-Firewall-Manager_dark-bg-1::before {
+  content: "\f276";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Long-term-Security-Credential_dark-bg-1::before {
+  content: "\f277";
+}
+
+.aws-AWS-Firewall-Manager-1-1::before {
+  content: "\f278";
+}
+
+.aws-AWS-Directory-Service_dark-bg-1::before {
+  content: "\f279";
+}
+
+.aws-AWS-Directory-Service-1-1::before {
+  content: "\f27a";
+}
+
+.aws-AWS-CloudHSM_dark-bg-1::before {
+  content: "\f27b";
+}
+
+.aws-AWS-CloudHSM-1-1::before {
+  content: "\f27c";
+}
+
+.aws-AWS-Certificate-Manager_dark-bg-1::before {
+  content: "\f27d";
+}
+
+.aws-AWS-Certificate-Manager-1-1::before {
+  content: "\f27e";
+}
+
+.aws-AWS-Certificate-Authority_dark-bg-1::before {
+  content: "\f27f";
+}
+
+.aws-AWS-Artifact_dark-bg-1::before {
+  content: "\f280";
+}
+
+.aws-AWS-Artifact-1-1::before {
+  content: "\f281";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Data-Encryption-Key_dark-bg-1::before {
+  content: "\f282";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Role_dark-bg-1::before {
+  content: "\f283";
+}
+
+.aws-AD-Connector_dark-bg-1::before {
+  content: "\f284";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_AWS-STS_dark-bg-1::before {
+  content: "\f285";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Add-on_dark-bg-1::before {
+  content: "\f286";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_AWS-STS-Alternate_dark-bg-1::before {
+  content: "\f287";
+}
+
+.aws-VPC-Access-Points-light-bg-1::before {
+  content: "\f288";
+}
+
+.aws-General-Access-Points-light-bg-1::before {
+  content: "\f289";
+}
+
+.aws-EFS-InfrequentAccess_dark-bg-1::before {
+  content: "\f28a";
+}
+
+.aws-EFS-Standard_dark-bg-1::before {
+  content: "\f28b";
+}
+
+.aws-EFS-InfrequentAccess_primary-bg-1-1::before {
+  content: "\f28c";
+}
+
+.aws-EFS-Standard_primary-bg-1-1::before {
+  content: "\f28d";
+}
+
+.aws-CloudEndure-Disaster-Recovery_dark-bg-1::before {
+  content: "\f28e";
+}
+
+.aws-Storage_dark-bg-1::before {
+  content: "\f28f";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_dark-bg-1::before {
+  content: "\f290";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Bucket_dark-bg-1::before {
+  content: "\f291";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Object_dark-bg-1::before {
+  content: "\f292";
+}
+
+.aws-Amazon-S3-Glacier_Vault_dark-bg-1::before {
+  content: "\f293";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Bucket-with-Objects_dark-bg-1::before {
+  content: "\f294";
+}
+
+.aws-Amazon-S3-Glacier-1-1::before {
+  content: "\f295";
+}
+
+.aws-Amazon-FSx_dark-bg-1::before {
+  content: "\f296";
+}
+
+.aws-Amazon-FSx-1-1::before {
+  content: "\f297";
+}
+
+.aws-Amazon-FSx-for-Windows-File-Server_dark-bg-1::before {
+  content: "\f298";
+}
+
+.aws-Amazon-FSx-for-Windows-File-Server-1-1::before {
+  content: "\f299";
+}
+
+.aws-Amazon-FSx-for-Lustre_dark-bg-1::before {
+  content: "\f29a";
+}
+
+.aws-Amazon-S3-Glacier_dark-bg-1::before {
+  content: "\f29b";
+}
+
+.aws-Amazon-FSx-for-Lustre-1-1::before {
+  content: "\f29c";
+}
+
+.aws-Amazon-S3-Glacier_Archive_dark-bg-1::before {
+  content: "\f29d";
+}
+
+.aws-Amazon-Elastic-File-System_EFS_dark-bg-1::before {
+  content: "\f29e";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3-1::before {
+  content: "\f29f";
+}
+
+.aws-Amazon-Elastic-File-System_EFS_File-system_dark-bg-1::before {
+  content: "\f2a0";
+}
+
+.aws-Amazon-Elastic-File-System_EFS-1-1::before {
+  content: "\f2a1";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_dark-bg-1::before {
+  content: "\f2a2";
+}
+
+.aws-Storage-1-1::before {
+  content: "\f2a3";
+}
+
+.aws-Multiple-volumes_Resource-Icon_dark-bg-1::before {
+  content: "\f2a4";
+}
+
+.aws-CloudEndure-Disaster-Recovery-1-1::before {
+  content: "\f2a5";
+}
+
+.aws-AWS-Storage-Gateway_dark-bg-1::before {
+  content: "\f2a6";
+}
+
+.aws-AWS-Storage-Gateway_Volume-Gateway_dark-bg-1::before {
+  content: "\f2a7";
+}
+
+.aws-AWS-Storage-Gateway_Virtual-Tape-Library_dark-bg-1::before {
+  content: "\f2a8";
+}
+
+.aws-AWS-Storage-Gateway_Tape-Gateway_dark-bg-1::before {
+  content: "\f2a9";
+}
+
+.aws-AWS-Storage-Gateway_Non-Cached-Volume_dark-bg-1::before {
+  content: "\f2aa";
+}
+
+.aws-AWS-Storage-Gateway_File-Gateway_dark-bg-1::before {
+  content: "\f2ab";
+}
+
+.aws-AWS-Storage-Gateway_Cached-Volume_dark-bg-1::before {
+  content: "\f2ac";
+}
+
+.aws-AWS-Snowmobile_dark-bg-2-1::before {
+  content: "\f2ad";
+}
+
+.aws-AWS-Snowmobile-2-1::before {
+  content: "\f2ae";
+}
+
+.aws-AWS-Storage-Gateway-1-1::before {
+  content: "\f2af";
+}
+
+.aws-AWS-Snowball_dark-bg-2-1::before {
+  content: "\f2b0";
+}
+
+.aws-AWS-Snowball-2-1::before {
+  content: "\f2b1";
+}
+
+.aws-AWS-Snowball-Edge_dark-bg-2-1::before {
+  content: "\f2b2";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_Volume_dark-bg-1::before {
+  content: "\f2b3";
+}
+
+.aws-AWS-Snow-Family_Snowball-Import-Export_dark-bg-1::before {
+  content: "\f2b4";
+}
+
+.aws-AWS-Backup_dark-bg-1::before {
+  content: "\f2b5";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS-1-1::before {
+  content: "\f2b6";
+}
+
+.aws-AWS-Snowball-Edge-2-1::before {
+  content: "\f2b7";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_Snapshot_dark-bg-1::before {
+  content: "\f2b8";
+}
+
+.aws-AWS-Backup-1-1::before {
+  content: "\f2b9";
+}
+
+.aws-Users_dark-bg-1::before {
+  content: "\f2ba";
+}
+
+.aws-Tape-storage_dark-bg-1::before {
+  content: "\f2bb";
+}
+
+.aws-SSL-padlock_dark-bg-1::before {
+  content: "\f2bc";
+}
+
+.aws-SDK_dark-bg-1::before {
+  content: "\f2bd";
+}
+
+.aws-SAML-token_dark-bg-1::before {
+  content: "\f2be";
+}
+
+.aws-Office-building_dark-bg-1::before {
+  content: "\f2bf";
+}
+
+.aws-Multimedia_dark-bg-1::before {
+  content: "\f2c0";
+}
+
+.aws-Mobile-client_dark-bg-1::before {
+  content: "\f2c1";
+}
+
+.aws-Internet-gateway_dark-bg-1::before {
+  content: "\f2c2";
+}
+
+.aws-Internet-alt2_dark-bg-1::before {
+  content: "\f2c3";
+}
+
+.aws-User_dark-bg-1::before {
+  content: "\f2c4";
+}
+
+.aws-Internet-alt1_dark-bg-1::before {
+  content: "\f2c5";
+}
+
+.aws-Generic-database_dark-bg-1::before {
+  content: "\f2c6";
+}
+
+.aws-General_dark-bg-1::before {
+  content: "\f2c7";
+}
+
+.aws-General-1-1::before {
+  content: "\f2c8";
+}
+
+.aws-Generic_Firewall-1-1::before {
+  content: "\f2c9";
+}
+
+.aws-Disk_dark-bg-1::before {
+  content: "\f2ca";
+}
+
+.aws-Client_dark-bg-1::before {
+  content: "\f2cb";
+}
+
+.aws-AWS-Marketplace_dark-bg-1::before {
+  content: "\f2cc";
+}
+
+.aws-Toolkit_dark-bg-1::before {
+  content: "\f2cd";
+}
+
+.aws-AWS-Email_dark-bg-1::before {
+  content: "\f2ce";
+}
+
+.aws-Forums_dark-bg-1::before {
+  content: "\f2cf";
+}
+
+.aws-Traditional-server_dark-bg-1::before {
+  content: "\f2d0";
+}
+
+.aws-AWS-Marketplace-1-1::before {
+  content: "\f2d1";
+}
+
+.aws-Virtual-private-cloud-VPC_dark-bg-1::before {
+  content: "\f2d2";
+}
+
+.aws-Spot-fleet_dark-bg-1::before {
+  content: "\f2d3";
+}
+
+.aws-Server-contents_dark-bg-1::before {
+  content: "\f2d4";
+}
+
+.aws-Region_dark-bg-1::before {
+  content: "\f2d5";
+}
+
+.aws-Corporate-data-center_dark-bg-1::before {
+  content: "\f2d6";
+}
+
+.aws-Auto-Scaling_dark-bg-1::before {
+  content: "\f2d7";
+}
+
+.aws-AWS-Step-Function_dark-bg-1::before {
+  content: "\f2d8";
+}
+
+.aws-AWS-Cloud_dark-bg-1::before {
+  content: "\f2d9";
+}
+
+.aws-AWS-Cloud-alt_dark-bg-1::before {
+  content: "\f2da";
+}
+
+.aws-Elastic-Beanstalk-container_dark-bg-1::before {
+  content: "\f2db";
+}
+
+.aws-VPC-subnet-private_dark-bg-1::before {
+  content: "\f2dc";
+}
+
+.aws-VPC-subnet-public_dark-bg-1::before {
+  content: "\f2dd";
+}
+
+.aws-EC2-instance-contents_dark-bg-1::before {
+  content: "\f2de";
+}
+
+.aws-VMware-Cloud-On-AWS_dark-bg-1::before {
+  content: "\f2df";
+}
+
+.aws-VMware-Cloud-On-AWS-1-1::before {
+  content: "\f2e0";
+}
+
+.aws-Parallel-Cluster_dark-bg-1::before {
+  content: "\f2e1";
+}
+
+.aws-Bottlerocket_dark-bg-1::before {
+  content: "\f2e2";
+}
+
+.aws-Bottlerocket-1-1::before {
+  content: "\f2e3";
+}
+
+.aws-EC2-Image-Builder_dark-bg-1::before {
+  content: "\f2e4";
+}
+
+.aws-Compute_dark-bg-1::before {
+  content: "\f2e5";
+}
+
+.aws-Amazon-Elastic-Kubernetes-Service_dark-bg-1::before {
+  content: "\f2e6";
+}
+
+.aws-Amazon-Elastic-Kubernetes-Service-1-1::before {
+  content: "\f2e7";
+}
+
+.aws-Amazon-Elastic-Container-Service_dark-bg-1::before {
+  content: "\f2e8";
+}
+
+.aws-Compute-1-1::before {
+  content: "\f2e9";
+}
+
+.aws-Amazon-Lightsail_dark-bg-1::before {
+  content: "\f2ea";
+}
+
+.aws-Amazon-Lightsail-1-1::before {
+  content: "\f2eb";
+}
+
+.aws-Amazon-Elastic-Container-Service_Task_dark-bg-1::before {
+  content: "\f2ec";
+}
+
+.aws-Amazon-Elastic-Container-Service_Service_dark-bg-1::before {
+  content: "\f2ed";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container3_dark-bg-1::before {
+  content: "\f2ee";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container2_dark-bg-1::before {
+  content: "\f2ef";
+}
+
+.aws-EC2-Image-Builder-1-1::before {
+  content: "\f2f0";
+}
+
+.aws-Amazon-EC2_Rescue_dark-bg-1::before {
+  content: "\f2f1";
+}
+
+.aws-Amazon-EC2_Elastic-IP-Address_dark-bg-1::before {
+  content: "\f2f2";
+}
+
+.aws-Amazon-EC2_Auto-Scaling_dark-bg-1::before {
+  content: "\f2f3";
+}
+
+.aws-Amazon-EC2_AMI_dark-bg-1::before {
+  content: "\f2f4";
+}
+
+.aws-Amazon-EC2-1-1::before {
+  content: "\f2f5";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container1_dark-bg-1::before {
+  content: "\f2f6";
+}
+
+.aws-Amazon-EC2_dark-bg-1::before {
+  content: "\f2f7";
+}
+
+.aws-Amazon-EC2-Container-Registry_Image_dark-bg-1::before {
+  content: "\f2f8";
+}
+
+.aws-Amazon-EC2-Container-Registry_dark-bg-1::before {
+  content: "\f2f9";
+}
+
+.aws-Amazon-EC2-Container-Registry_Registry_dark-bg-1::before {
+  content: "\f2fa";
+}
+
+.aws-Amazon-EC2-Auto-Scaling-1-1::before {
+  content: "\f2fb";
+}
+
+.aws-Amazon-EC2-Container-Registry-1-1::before {
+  content: "\f2fc";
+}
+
+.aws-Amazon-EC2-Auto-Scaling_dark-bg-1::before {
+  content: "\f2fd";
+}
+
+.aws-Amazon-Elastic-Container-Service-1-1::before {
+  content: "\f2fe";
+}
+
+.aws-AWS-Wavelength-1-1::before {
+  content: "\f2ff";
+}
+
+.aws-Amazon-Application-Auto-Scaling-1-1::before {
+  content: "\f300";
+}
+
+.aws-AWS-Wavelength_dark-bg-1::before {
+  content: "\f301";
+}
+
+.aws-Amazon-Application-Auto-Scaling_dark-bg-1::before {
+  content: "\f302";
+}
+
+.aws-AWS-Thinkbox_XMesh_dark-bg-1::before {
+  content: "\f303";
+}
+
+.aws-AWS-Thinkbox-Krakatoa-1-1::before {
+  content: "\f304";
+}
+
+.aws-AWS-Thinkbox-Frost_dark-bg-1::before {
+  content: "\f305";
+}
+
+.aws-AWS-Thinkbox-Stoke-1-1::before {
+  content: "\f306";
+}
+
+.aws-AWS-Thinkbox_XMesh-1-1::before {
+  content: "\f307";
+}
+
+.aws-AWS-Thinkbox-Frost-1-1::before {
+  content: "\f308";
+}
+
+.aws-AWS-Thinkbox-Sequoia-1-1::before {
+  content: "\f309";
+}
+
+.aws-AWS-Thinkbox-Sequoia_dark-bg-1::before {
+  content: "\f30a";
+}
+
+.aws-AWS-Thinkbox-Stoke_dark-bg-1::before {
+  content: "\f30b";
+}
+
+.aws-AWS-Thinkbox-Deadline_dark-bg-1::before {
+  content: "\f30c";
+}
+
+.aws-AWS-Serverless-Application-Repository_dark-bg-1::before {
+  content: "\f30d";
+}
+
+.aws-AWS-Thinkbox-Krakatoa_dark-bg-1::before {
+  content: "\f30e";
+}
+
+.aws-AWS-Thinkbox-Draft-1-1::before {
+  content: "\f30f";
+}
+
+.aws-AWS-Outposts_dark-bg-1::before {
+  content: "\f310";
+}
+
+.aws-AWS-Outposts-1-1::before {
+  content: "\f311";
+}
+
+.aws-AWS-Local-Zones_dark-bg-1::before {
+  content: "\f312";
+}
+
+.aws-AWS-Lambda_Lambda-Function_dark-bg-1::before {
+  content: "\f313";
+}
+
+.aws-AWS-Fargate_dark-bg-1::before {
+  content: "\f314";
+}
+
+.aws-AWS-Serverless-Application-Repository-1-1::before {
+  content: "\f315";
+}
+
+.aws-AWS-Elastic-Beanstalk_dark-bg-1::before {
+  content: "\f316";
+}
+
+.aws-AWS-Thinkbox-Deadline-1-1::before {
+  content: "\f317";
+}
+
+.aws-AWS-Fargate-1-1::before {
+  content: "\f318";
+}
+
+.aws-AWS-Elastic-Beanstalk-1-1::before {
+  content: "\f319";
+}
+
+.aws-AWS-Compute-Optimizer_dark-bg-1::before {
+  content: "\f31a";
+}
+
+.aws-AWS-Elastic-Beanstalk_Deployment_dark-bg-1::before {
+  content: "\f31b";
+}
+
+.aws-AWS-Elastic-Beanstalk_Application_dark-bg-1::before {
+  content: "\f31c";
+}
+
+.aws-AWS-Batch-1-1::before {
+  content: "\f31d";
+}
+
+.aws-AWS-Compute-Optimizer-1-1::before {
+  content: "\f31e";
+}
+
+.aws-AWS-Lambda-1-1::before {
+  content: "\f31f";
+}
+
+.aws-AWS-Thinkbox-Draft_dark-bg-1::before {
+  content: "\f320";
+}
+
+.aws-AWS-Local-Zones-1-1::before {
+  content: "\f321";
+}
+
+.aws-AWS-Batch_dark-bg-1::before {
+  content: "\f322";
+}
+
+.aws-AWS-Lambda_dark-bg-1::before {
+  content: "\f323";
+}
+
+.aws-Amazon-EC2_z1d-Instance_dark-bg-1::before {
+  content: "\f324";
+}
+
+.aws-Amazon-EC2_X1e-Instance_dark-bg-1::before {
+  content: "\f325";
+}
+
+.aws-Amazon-EC2_X1-Instance_dark-bg-1::before {
+  content: "\f326";
+}
+
+.aws-Amazon-EC2_T2-Instance_dark-bg-1::before {
+  content: "\f327";
+}
+
+.aws-Amazon-EC2_T3a-Instance_dark-bg-1::before {
+  content: "\f328";
+}
+
+.aws-Amazon-EC2_Spot-instance_dark-bg-1::before {
+  content: "\f329";
+}
+
+.aws-Amazon-EC2_R5-Instance_dark-bg-1::before {
+  content: "\f32a";
+}
+
+.aws-Amazon-EC2_T3-Instance_dark-bg-1::before {
+  content: "\f32b";
+}
+
+.aws-Amazon-EC2_R4-Instance_dark-bg-1::before {
+  content: "\f32c";
+}
+
+.aws-Amazon-EC2_R5a-Instance_dark-bg-1::before {
+  content: "\f32d";
+}
+
+.aws-Amazon-EC2_M5a-Instance_dark-bg-1::before {
+  content: "\f32e";
+}
+
+.aws-Amazon-EC2_P2-Instance_dark-bg-1::before {
+  content: "\f32f";
+}
+
+.aws-Amazon-EC2_P3-Instance_dark-bg-1::before {
+  content: "\f330";
+}
+
+.aws-Amazon-EC2_M4-Instance_dark-bg-1::before {
+  content: "\f331";
+}
+
+.aws-Amazon-EC2_Instances_dark-bg-1::before {
+  content: "\f332";
+}
+
+.aws-Amazon-EC2_Instance_dark-bg-1::before {
+  content: "\f333";
+}
+
+.aws-Amazon-EC2_M5-Instance_dark-bg-1::before {
+  content: "\f334";
+}
+
+.aws-Amazon-EC2_Optimized-Instance_dark-bg-1::before {
+  content: "\f335";
+}
+
+.aws-Amazon-EC2_G3-Instance_dark-bg-1::before {
+  content: "\f336";
+}
+
+.aws-Amazon-EC2_F1-Instance_dark-bg-1::before {
+  content: "\f337";
+}
+
+.aws-Amazon-EC2_C5n-Instance_dark-bg-1::before {
+  content: "\f338";
+}
+
+.aws-Amazon-EC2_C5-Instance_dark-bg-1::before {
+  content: "\f339";
+}
+
+.aws-Amazon-EC2_C4-Instance_dark-bg-1::before {
+  content: "\f33a";
+}
+
+.aws-Amazon-EC2_A1-Instance_dark-bg-1::before {
+  content: "\f33b";
+}
+
+.aws-Amazon-EC2_DB-on-Instance_dark-bg-1::before {
+  content: "\f33c";
+}
+
+.aws-Amazon-EC2_I3-Instance_dark-bg-1::before {
+  content: "\f33d";
+}
+
+.aws-Amazon-EC2_Instance-with-CloudWatch_dark-bg-1::before {
+  content: "\f33e";
+}
+
+.aws-Amazon-EC2_D2-Instance_dark-bg-1::before {
+  content: "\f33f";
+}
+
+.aws-Amazon-EC2_H1-Instance_dark-bg-1::before {
+  content: "\f340";
+}
+
+.aws-Amazon-EC2_High-Memory-Instance_dark-bg-1::before {
+  content: "\f341";
+}
+
+.aws-Amazon-Sumerian_light-bg-1::before {
+  content: "\f342";
+}
+
+.aws-AR-VR-2-1::before {
+  content: "\f343";
+}
+
+.aws-Amazon-Sumerian-2-1::before {
+  content: "\f344";
+}
+
+.aws-AR-VR_light-bg-1::before {
+  content: "\f345";
+}
+
+.aws-Savings-Plans_light-bg-1::before {
+  content: "\f346";
+}
+
+.aws-AWS-Cost-and-Usage-Report_light-bg-1::before {
+  content: "\f347";
+}
+
+.aws-AWS-Cost-and-Usage-Report-2-1::before {
+  content: "\f348";
+}
+
+.aws-AWS-Cost-Management_light-bg-1::before {
+  content: "\f349";
+}
+
+.aws-AWS-Cost-Management-2-1::before {
+  content: "\f34a";
+}
+
+.aws-AWS-Cost-Explorer_light-bg-1::before {
+  content: "\f34b";
+}
+
+.aws-AWS-Cost-Explorer-2-1::before {
+  content: "\f34c";
+}
+
+.aws-AWS-Budgets_light-bg-1::before {
+  content: "\f34d";
+}
+
+.aws-AWS-Budgets-2-1::before {
+  content: "\f34e";
+}
+
+.aws-Reserved-Instance-Reporting_light-bg-1::before {
+  content: "\f34f";
+}
+
+.aws-Reserved-Instance-Reporting-2-1::before {
+  content: "\f350";
+}
+
+.aws-Savings-Plans-1::before {
+  content: "\f351";
+}
+
+.aws-Analytics-2-1::before {
+  content: "\f352";
+}
+
+.aws-Amazon-Redshift_Dense-compute-node_light-bg-1::before {
+  content: "\f353";
+}
+
+.aws-Amazon-Redshift-3-1::before {
+  content: "\f354";
+}
+
+.aws-Amazon-Quicksight_light-bg-1::before {
+  content: "\f355";
+}
+
+.aws-Amazon-Quicksight-2-1::before {
+  content: "\f356";
+}
+
+.aws-Amazon-Managed-Streaming-for-Kafka_light-bg-1::before {
+  content: "\f357";
+}
+
+.aws-Amazon-Managed-Streaming-for-Kafka-2-1::before {
+  content: "\f358";
+}
+
+.aws-Amazon-Kinesis_light-bg-1::before {
+  content: "\f359";
+}
+
+.aws-Amazon-Kinesis-2-1::before {
+  content: "\f35a";
+}
+
+.aws-Amazon-Kinesis-Video-Streams_light-bg-1-1::before {
+  content: "\f35b";
+}
+
+.aws-Amazon-Kinesis-Video-Streams-3-1::before {
+  content: "\f35c";
+}
+
+.aws-Amazon-Kinesis-Data-Streams_light-bg-1::before {
+  content: "\f35d";
+}
+
+.aws-Amazon-Kinesis-Data-Streams-2-1::before {
+  content: "\f35e";
+}
+
+.aws-Amazon-Kinesis-Data-Firehose_light-bg-1::before {
+  content: "\f35f";
+}
+
+.aws-Amazon-Kinesis-Data-Firehose-2-1::before {
+  content: "\f360";
+}
+
+.aws-Amazon-Kinesis-Data-Analytics_light-bg-1::before {
+  content: "\f361";
+}
+
+.aws-Amazon-Kinesis-Data-Analytics-2-1::before {
+  content: "\f362";
+}
+
+.aws-Amazon-Elasticsearch-Service_light-bg-1::before {
+  content: "\f363";
+}
+
+.aws-Amazon-Elasticsearch-Service-2-1::before {
+  content: "\f364";
+}
+
+.aws-Amazon-EMR_light-bg-1::before {
+  content: "\f365";
+}
+
+.aws-Amazon-EMR_HDFS-cluster_light-bg-1::before {
+  content: "\f366";
+}
+
+.aws-Amazon-EMR_EMR-engine_light-bg-1::before {
+  content: "\f367";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M7_light-bg-1::before {
+  content: "\f368";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M5_light-bg-1::before {
+  content: "\f369";
+}
+
+.aws-Amazon-EMR_EMR-engine-MapR-M3_light-bg-1::before {
+  content: "\f36a";
+}
+
+.aws-Amazon-EMR_Cluster_light-bg-1::before {
+  content: "\f36b";
+}
+
+.aws-Amazon-EMR-2-1::before {
+  content: "\f36c";
+}
+
+.aws-Amazon-CloudSearch_light-bg-1::before {
+  content: "\f36d";
+}
+
+.aws-Amazon-CloudSearch_Search-documents_light-bg-1::before {
+  content: "\f36e";
+}
+
+.aws-Amazon-CloudSearch-2-1::before {
+  content: "\f36f";
+}
+
+.aws-Amazon-Athena_light-bg-1::before {
+  content: "\f370";
+}
+
+.aws-Amazon-Athena-2-1::before {
+  content: "\f371";
+}
+
+.aws-AWS-Lake-Formation_light-bg-1::before {
+  content: "\f372";
+}
+
+.aws-Analytics_light-bg-1::before {
+  content: "\f373";
+}
+
+.aws-AWS-Lake-Formation-2-1::before {
+  content: "\f374";
+}
+
+.aws-AWS-Glue_Data-catalog_light-bg-1::before {
+  content: "\f375";
+}
+
+.aws-AWS-Glue-2-1::before {
+  content: "\f376";
+}
+
+.aws-AWS-Data-Pipeline-2-1::before {
+  content: "\f377";
+}
+
+.aws-AWS-Glue_Crawlers_light-bg-1::before {
+  content: "\f378";
+}
+
+.aws-AWS-Data-Pipeline_light-bg-1::before {
+  content: "\f379";
+}
+
+.aws-AWS-Data-lake_Resource-icon_light-bg-1::before {
+  content: "\f37a";
+}
+
+.aws-Amazon-Redshift_Dense-storage-node_light-bg-1::before {
+  content: "\f37b";
+}
+
+.aws-AWS-Glue_light-bg-1::before {
+  content: "\f37c";
+}
+
+.aws-Amazon-Redshift_light-bg-1-1::before {
+  content: "\f37d";
+}
+
+.aws-SaaS-Event-Bus_Resource_Icon_64_White-2-1::before {
+  content: "\f37e";
+}
+
+.aws-Default-Event-Bus_Resource_Icon_64_Squid-2-1::before {
+  content: "\f37f";
+}
+
+.aws-Custom-Event-Bus_Resource_Icon_64_Squid-2-1::before {
+  content: "\f380";
+}
+
+.aws-Application-Integration_light-bg-1::before {
+  content: "\f381";
+}
+
+.aws-Application-Integration_Event_Resource_light-bg-1::before {
+  content: "\f382";
+}
+
+.aws-Application-Integration-2-1::before {
+  content: "\f383";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_light-bg-1::before {
+  content: "\f384";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_Queue_light-bg-1::before {
+  content: "\f385";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS_Message_light-bg-1::before {
+  content: "\f386";
+}
+
+.aws-Amazon-Simple-Queue-Service-SQS-2-1::before {
+  content: "\f387";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_light-bg-1::before {
+  content: "\f388";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_Topic_light-bg-1::before {
+  content: "\f389";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_HTTP-Notification_light-bg-1::before {
+  content: "\f38a";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS_Email-Notification_light-bg-1::before {
+  content: "\f38b";
+}
+
+.aws-Amazon-Simple-Notification-Service-SNS-2-1::before {
+  content: "\f38c";
+}
+
+.aws-Amazon-MQ_light-bg-1::before {
+  content: "\f38d";
+}
+
+.aws-Amazon-MQ-2-1::before {
+  content: "\f38e";
+}
+
+.aws-Amazon-EventBridge_light-bg-1::before {
+  content: "\f38f";
+}
+
+.aws-Amazon-EventBridge_Saas-Partner-event-bus_resource-icon_light-bg-1::before {
+  content: "\f390";
+}
+
+.aws-Amazon-EventBridge_Default-event-bus_resource-icon_light-bg-1::before {
+  content: "\f391";
+}
+
+.aws-Amazon-EventBridge_Custom-event-bus_resource-icon_light-bg-1::before {
+  content: "\f392";
+}
+
+.aws-Amazon-EventBridge-2-1::before {
+  content: "\f393";
+}
+
+.aws-Amazon-AppSync_light-bg-1::before {
+  content: "\f394";
+}
+
+.aws-SaaS-Event-Bus_Resource_Icon_64_Squid-2-1::before {
+  content: "\f395";
+}
+
+.aws-Amazon-AppSync-2-1::before {
+  content: "\f396";
+}
+
+.aws-AWS-Step-Functions_light-bg-1::before {
+  content: "\f397";
+}
+
+.aws-AWS-Step-Functions-2-1::before {
+  content: "\f398";
+}
+
+.aws-AWS-Express-Workflows-2-1::before {
+  content: "\f399";
+}
+
+.aws-AWS-Console-Mobile-Application_light-bg-1::before {
+  content: "\f39a";
+}
+
+.aws-AWS-Console-Mobile-Application-2-1::before {
+  content: "\f39b";
+}
+
+.aws-Default-Event-Bus_Resource_Icon_64_White-2-1::before {
+  content: "\f39c";
+}
+
+.aws-AWS-Express-Workflows_light-bg-1::before {
+  content: "\f39d";
+}
+
+.aws-Custom-Event-Bus_Resource_Icon_64_White-2-1::before {
+  content: "\f39e";
+}
+
+.aws-Blockchain_light-bg-1::before {
+  content: "\f39f";
+}
+
+.aws-Blockchain_Resource-Icon_light-bg-1::before {
+  content: "\f3a0";
+}
+
+.aws-Amazon-Quantum-Ledger-Database-QLDB_light-bg-1::before {
+  content: "\f3a1";
+}
+
+.aws-Amazon-Quantum-Ledger-Database-QLDB-2-1::before {
+  content: "\f3a2";
+}
+
+.aws-Blockchain-2-1::before {
+  content: "\f3a3";
+}
+
+.aws-Amazon-Managed-Blockchain_light-bg-1::before {
+  content: "\f3a4";
+}
+
+.aws-Amazon-Managed-Blockchain-2-1::before {
+  content: "\f3a5";
+}
+
+.aws-Business-Applications_light-bg-1::before {
+  content: "\f3a6";
+}
+
+.aws-Business-Applications-2-1::before {
+  content: "\f3a7";
+}
+
+.aws-Amazon-WorkMail_light-bg-1::before {
+  content: "\f3a8";
+}
+
+.aws-Amazon-Chime-2-1::before {
+  content: "\f3a9";
+}
+
+.aws-Alexa-For-Business_light-bg-1::before {
+  content: "\f3aa";
+}
+
+.aws-Alexa-For-Business-2-1::before {
+  content: "\f3ab";
+}
+
+.aws-Amazon-WorkMail-2-1::before {
+  content: "\f3ac";
+}
+
+.aws-Amazon-Chime_light-bg-1::before {
+  content: "\f3ad";
+}
+
+.aws-Customer-Enablement_light-bg-1::before {
+  content: "\f3ae";
+}
+
+.aws-AWS-Professional-Services_light-bg-1::before {
+  content: "\f3af";
+}
+
+.aws-AWS-Professional-Services-2-1::before {
+  content: "\f3b0";
+}
+
+.aws-AWS-Managed-Services_light-bg-1-1::before {
+  content: "\f3b1";
+}
+
+.aws-AWS-Managed-Services-3-1::before {
+  content: "\f3b2";
+}
+
+.aws-AWS-IQ_light-bg-1::before {
+  content: "\f3b3";
+}
+
+.aws-AWS-IQ-2-1::before {
+  content: "\f3b4";
+}
+
+.aws-AWS-Support_light-bg-1::before {
+  content: "\f3b5";
+}
+
+.aws-AWS-Support-2-1::before {
+  content: "\f3b6";
+}
+
+.aws-Customer-Enablement-2-1::before {
+  content: "\f3b7";
+}
+
+.aws-Customer-Engagement_light-bg-1::before {
+  content: "\f3b8";
+}
+
+.aws-Amazon-Simple-Email-Service-SES-2-1::before {
+  content: "\f3b9";
+}
+
+.aws-Amazon-Pinpoint_light-bg-1-1::before {
+  content: "\f3ba";
+}
+
+.aws-Amazon-Pinpoint-3-1::before {
+  content: "\f3bb";
+}
+
+.aws-Amazon-Simple-Email-Service-SES_light-bg-1::before {
+  content: "\f3bc";
+}
+
+.aws-Amazon-Connect_light-bg-1::before {
+  content: "\f3bd";
+}
+
+.aws-Amazon-Connect-2-1::before {
+  content: "\f3be";
+}
+
+.aws-Amazon-Simple-Email-Service-SES_Email_light-bg-1::before {
+  content: "\f3bf";
+}
+
+.aws-Customer-Engagement-2-1::before {
+  content: "\f3c0";
+}
+
+.aws-Amazon-Redshift_light-bg-2-1::before {
+  content: "\f3c1";
+}
+
+.aws-Amazon-Timestream-2-1::before {
+  content: "\f3c2";
+}
+
+.aws-Amazon-Redshift_Dense-Compute-Node_light-bg-1::before {
+  content: "\f3c3";
+}
+
+.aws-Amazon-Redshift-4-1::before {
+  content: "\f3c4";
+}
+
+.aws-Amazon-RDS_light-bg-1::before {
+  content: "\f3c5";
+}
+
+.aws-Amazon-RDS_SQL-Server_instance_light-bg-1::before {
+  content: "\f3c6";
+}
+
+.aws-Amazon-RDS_PostgreSQL_instance-alt_light-bg-1::before {
+  content: "\f3c7";
+}
+
+.aws-Amazon-RDS_SQL-Server_instance-alt_light-bg-1::before {
+  content: "\f3c8";
+}
+
+.aws-Amazon-RDS_PIOP_light-bg-1::before {
+  content: "\f3c9";
+}
+
+.aws-Amazon-RDS_PIOPS_light-bg-1::before {
+  content: "\f3ca";
+}
+
+.aws-Amazon-RDS_PostgreSQL_instance_light-bg-1::before {
+  content: "\f3cb";
+}
+
+.aws-Amazon-RDS_MySQL_instance_light-bg-1::before {
+  content: "\f3cc";
+}
+
+.aws-Amazon-RDS_MySQL_instance-alt_light-bg-1::before {
+  content: "\f3cd";
+}
+
+.aws-Amazon-RDS_MariaDB_instance_light-bg-1::before {
+  content: "\f3ce";
+}
+
+.aws-Amazon-RDS_MariaDB_instance-alt_light-bg-1::before {
+  content: "\f3cf";
+}
+
+.aws-Amazon-RDS_Amazon-RDS_instance_light-bg-1::before {
+  content: "\f3d0";
+}
+
+.aws-Amazon-RDS_Amazon-RDS_instance-alt_light-bg-1::before {
+  content: "\f3d1";
+}
+
+.aws-Amazon-RDS_Amazon-Aurora_instance_light-bg-1::before {
+  content: "\f3d2";
+}
+
+.aws-Amazon-RDS_Amazon-Aurora_instance-alt_light-bg-1::before {
+  content: "\f3d3";
+}
+
+.aws-Amazon-Redshift_Dense-Storage-Node_light-bg-1::before {
+  content: "\f3d4";
+}
+
+.aws-Amazon-RDS-on-VMware_light-bg-1::before {
+  content: "\f3d5";
+}
+
+.aws-Database-2-1::before {
+  content: "\f3d6";
+}
+
+.aws-Amazon-RDS-on-VMware-2-1::before {
+  content: "\f3d7";
+}
+
+.aws-Amazon-Quantum-Ledger-Database_QLDB-1::before {
+  content: "\f3d8";
+}
+
+.aws-Amazon-Neptune_light-bg-1::before {
+  content: "\f3d9";
+}
+
+.aws-Amazon-Quantum-Ledger-Database_QLDB_light-bg-1::before {
+  content: "\f3da";
+}
+
+.aws-Amazon-Neptune-2-1::before {
+  content: "\f3db";
+}
+
+.aws-Amazon-Managed-Apache-Cassandra-Service_light-bg-1::before {
+  content: "\f3dc";
+}
+
+.aws-Amazon-Managed-Apache-Cassandra-Service-2-1::before {
+  content: "\f3dd";
+}
+
+.aws-Amazon-ElastiCache_light-bg-1::before {
+  content: "\f3de";
+}
+
+.aws-Amazon-ElastiCache_For-Redis_light-bg-1::before {
+  content: "\f3df";
+}
+
+.aws-Amazon-Timestream_light-bg-1::before {
+  content: "\f3e0";
+}
+
+.aws-Amazon-ElastiCache_For-Memcached_light-bg-1::before {
+  content: "\f3e1";
+}
+
+.aws-Amazon-RDS-2-1::before {
+  content: "\f3e2";
+}
+
+.aws-Database_light-bg-1::before {
+  content: "\f3e3";
+}
+
+.aws-Amazon-ElastiCache-2-1::before {
+  content: "\f3e4";
+}
+
+.aws-Amazon-DynamoDB_Item_light-bg-1::before {
+  content: "\f3e5";
+}
+
+.aws-Amazon-DynamoDB_Global-Secondary-Index_light-bg-1::before {
+  content: "\f3e6";
+}
+
+.aws-Amazon-DynamoDB_DAX_light-bg-1-1::before {
+  content: "\f3e7";
+}
+
+.aws-Amazon-RDS_Oracle_instance-alt_light-bg-1::before {
+  content: "\f3e8";
+}
+
+.aws-Amazon-DynamoDB_Attributes_light-bg-1::before {
+  content: "\f3e9";
+}
+
+.aws-Amazon-DynamoDB_Table_light-bg-1::before {
+  content: "\f3ea";
+}
+
+.aws-Amazon-DynamoDB_light-bg-1::before {
+  content: "\f3eb";
+}
+
+.aws-Amazon-DynamoDB_Attribute_light-bg-1::before {
+  content: "\f3ec";
+}
+
+.aws-Amazon-DynamoDB-2-1::before {
+  content: "\f3ed";
+}
+
+.aws-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg-1::before {
+  content: "\f3ee";
+}
+
+.aws-Amazon-RDS_Oracle_instance_light-bg-1::before {
+  content: "\f3ef";
+}
+
+.aws-AWS-Database-Migration-Service_Database-Migration-Workflow_light-bg-1::before {
+  content: "\f3f0";
+}
+
+.aws-AWS-Database-Migration-Service-3-1::before {
+  content: "\f3f1";
+}
+
+.aws-AWS-Database-Migration-Service_light-bg-1::before {
+  content: "\f3f2";
+}
+
+.aws-Amazon-DocumentDB-with-MongoDB-compatibility-1::before {
+  content: "\f3f3";
+}
+
+.aws-Amazon-DynamoDB_Items_light-bg-1::before {
+  content: "\f3f4";
+}
+
+.aws-Amazon-Aurora_light-bg-1::before {
+  content: "\f3f5";
+}
+
+.aws-Amazon-ElastiCache_Cache-Node_light-bg-1::before {
+  content: "\f3f6";
+}
+
+.aws-Amazon-Aurora-2-1::before {
+  content: "\f3f7";
+}
+
+.aws-Developer-Tools_light-bg-1::before {
+  content: "\f3f8";
+}
+
+.aws-AWS-X-Ray_light-bg-1::before {
+  content: "\f3f9";
+}
+
+.aws-AWS-X-Ray-2-1::before {
+  content: "\f3fa";
+}
+
+.aws-AWS-Tools-And-SDKs_light-bg-1::before {
+  content: "\f3fb";
+}
+
+.aws-AWS-Tools-And-SDKs-2-1::before {
+  content: "\f3fc";
+}
+
+.aws-AWS-Command-Line-Interface_light-bg-1-1::before {
+  content: "\f3fd";
+}
+
+.aws-AWS-Command-Line-Interface-3-1::before {
+  content: "\f3fe";
+}
+
+.aws-AWS-CodeStar_light-bg-1::before {
+  content: "\f3ff";
+}
+
+.aws-AWS-CodeStar-2-1::before {
+  content: "\f400";
+}
+
+.aws-AWS-CodePipeline_light-bg-1::before {
+  content: "\f401";
+}
+
+.aws-Developer-Tools-2-1::before {
+  content: "\f402";
+}
+
+.aws-AWS-CodeDeploy_light-bg-1::before {
+  content: "\f403";
+}
+
+.aws-AWS-CodeDeploy-2-1::before {
+  content: "\f404";
+}
+
+.aws-AWS-CodeCommit_light-bg-1::before {
+  content: "\f405";
+}
+
+.aws-Cloud9_Resource_light-bg-1::before {
+  content: "\f406";
+}
+
+.aws-AWS-CodeBuild_light-bg-1::before {
+  content: "\f407";
+}
+
+.aws-AWS-CodeBuild-2-1::before {
+  content: "\f408";
+}
+
+.aws-Amazon-DynamoDB_DAX_light-bg-2-1::before {
+  content: "\f409";
+}
+
+.aws-AWS-Cloud9-2-1::before {
+  content: "\f40a";
+}
+
+.aws-AWS-Cloud-Development-Kit_light-bg-1::before {
+  content: "\f40b";
+}
+
+.aws-AWS-Cloud-Development-Kit-2-1::before {
+  content: "\f40c";
+}
+
+.aws-AWS-CodePipeline-2-1::before {
+  content: "\f40d";
+}
+
+.aws-AWS-CodeCommit-2-1::before {
+  content: "\f40e";
+}
+
+.aws-AWS-Cloud9_light-bg-1::before {
+  content: "\f40f";
+}
+
+.aws-End-User-Computing_light-bg-1::before {
+  content: "\f410";
+}
+
+.aws-Amazon-WorkLink_light-bg-1::before {
+  content: "\f411";
+}
+
+.aws-Amazon-WorkLink-2-1::before {
+  content: "\f412";
+}
+
+.aws-Amazon-WorkDocs_light-bg-1::before {
+  content: "\f413";
+}
+
+.aws-Amazon-WorkDocs-2-1::before {
+  content: "\f414";
+}
+
+.aws-Amazon-Workspaces_light-bg-1::before {
+  content: "\f415";
+}
+
+.aws-Amazon-Appstream-2-3-1::before {
+  content: "\f416";
+}
+
+.aws-Amazon-Workspaces-2-1::before {
+  content: "\f417";
+}
+
+.aws-Amazon-Appstream-2-4-1::before {
+  content: "\f418";
+}
+
+.aws-End-User-Computing-2-1::before {
+  content: "\f419";
+}
+
+.aws-Game-Tech_light-bg-1::before {
+  content: "\f41a";
+}
+
+.aws-Game-Tech-2-1::before {
+  content: "\f41b";
+}
+
+.aws-Amazon-GameLift_light-bg-1::before {
+  content: "\f41c";
+}
+
+.aws-Amazon-GameLift-2-1::before {
+  content: "\f41d";
+}
+
+.aws-IoT_Travel_light-bg-1::before {
+  content: "\f41e";
+}
+
+.aws-IoT_Topic_light-bg-1::before {
+  content: "\f41f";
+}
+
+.aws-IoT_Utility_light-bg-1::before {
+  content: "\f420";
+}
+
+.aws-IoT_Simulator_light-bg-1::before {
+  content: "\f421";
+}
+
+.aws-IoT_Shadow_light-bg-1::before {
+  content: "\f422";
+}
+
+.aws-IoT_Sensor_light-bg-1::before {
+  content: "\f423";
+}
+
+.aws-IoT_Windfarm_light-bg-1::before {
+  content: "\f424";
+}
+
+.aws-IoT_Policy_light-bg-1::before {
+  content: "\f425";
+}
+
+.aws-IoT_Police-emergency_light-bg-1::before {
+  content: "\f426";
+}
+
+.aws-IoT_Thermostat_light-bg-1::before {
+  content: "\f427";
+}
+
+.aws-IoT_Servo_light-bg-1::before {
+  content: "\f428";
+}
+
+.aws-IoT_MQTT-protocol_light-bg-1::before {
+  content: "\f429";
+}
+
+.aws-IoT_Lightbulb_light-bg-1::before {
+  content: "\f42a";
+}
+
+.aws-IoT_Lambda-function_light-bg-1::before {
+  content: "\f42b";
+}
+
+.aws-IoT_Medical-emergency_light-bg-1::before {
+  content: "\f42c";
+}
+
+.aws-IoT_Hardware-board_light-bg-1::before {
+  content: "\f42d";
+}
+
+.aws-IoT_HTTP-protocol_light-bg-1::before {
+  content: "\f42e";
+}
+
+.aws-IoT_HTTP-2-protocol_light-bg-1::before {
+  content: "\f42f";
+}
+
+.aws-IoT_Over-the-air-update_light-bg-1::before {
+  content: "\f430";
+}
+
+.aws-IoT_Generic_light-bg-1::before {
+  content: "\f431";
+}
+
+.aws-IoT_Fire-TV-stick_light-bg-1::before {
+  content: "\f432";
+}
+
+.aws-IoT_Rule_light-bg-1::before {
+  content: "\f433";
+}
+
+.aws-IoT_Door-lock_light-bg-1::before {
+  content: "\f434";
+}
+
+.aws-IoT_Echo_light-bg-1::before {
+  content: "\f435";
+}
+
+.aws-IoT_Desired-state_light-bg-1::before {
+  content: "\f436";
+}
+
+.aws-IoT_Coffee-pot_light-bg-1::before {
+  content: "\f437";
+}
+
+.aws-IoT_Certificate-manager_light-bg-1::before {
+  content: "\f438";
+}
+
+.aws-IoT_Cart_light-bg-1::before {
+  content: "\f439";
+}
+
+.aws-IoT_Device-gateway_light-bg-1::before {
+  content: "\f43a";
+}
+
+.aws-IoT_Camera_light-bg-1::before {
+  content: "\f43b";
+}
+
+.aws-IoT_Bicycle_light-bg-1::before {
+  content: "\f43c";
+}
+
+.aws-IoT_Bank_light-bg-1::before {
+  content: "\f43d";
+}
+
+.aws-IoT_House_light-bg-1::before {
+  content: "\f43e";
+}
+
+.aws-IoT_Fire-TV_light-bg-1::before {
+  content: "\f43f";
+}
+
+.aws-IoT_Alexa-enabled-device_light-bg-1::before {
+  content: "\f440";
+}
+
+.aws-IoT_Alexa-voice-service_light-bg-1::before {
+  content: "\f441";
+}
+
+.aws-IoT_Action_light-bg-1::before {
+  content: "\f442";
+}
+
+.aws-IoT_Actuator_light-bg-1::before {
+  content: "\f443";
+}
+
+.aws-IoT_Alexa-skill_light-bg-1::before {
+  content: "\f444";
+}
+
+.aws-Internet-of-Things-2-1::before {
+  content: "\f445";
+}
+
+.aws-Amazon-FreeRTOS_light-bg-1::before {
+  content: "\f446";
+}
+
+.aws-Amazon-FreeRTOS-2-1::before {
+  content: "\f447";
+}
+
+.aws-AWS-IoT-Things-Graph_light-bg-1::before {
+  content: "\f448";
+}
+
+.aws-IoT-Device-Jobs_Resource_light-bg-1::before {
+  content: "\f449";
+}
+
+.aws-AWS-IoT-SiteWise-2-1::before {
+  content: "\f44a";
+}
+
+.aws-IoT_Car_light-bg-1::before {
+  content: "\f44b";
+}
+
+.aws-AWS-IoT-Greengrass_Connector_light-bg-1::before {
+  content: "\f44c";
+}
+
+.aws-AWS-IoT-Greengrass_light-bg-1::before {
+  content: "\f44d";
+}
+
+.aws-AWS-IoT-Events_light-bg-1::before {
+  content: "\f44e";
+}
+
+.aws-AWS-IoT-Events-2-1::before {
+  content: "\f44f";
+}
+
+.aws-AWS-IoT-Device-Defender_light-bg-1::before {
+  content: "\f450";
+}
+
+.aws-AWS-IoT-Device-Defender-2-1::before {
+  content: "\f451";
+}
+
+.aws-AWS-IoT-Core_light-bg-1::before {
+  content: "\f452";
+}
+
+.aws-Internet-of-Things_light-bg-1::before {
+  content: "\f453";
+}
+
+.aws-AWS-IoT-Button_light-bg-1::before {
+  content: "\f454";
+}
+
+.aws-AWS-IoT-Things-Graph-2-1::before {
+  content: "\f455";
+}
+
+.aws-AWS-IoT-Analytics_light-bg-1::before {
+  content: "\f456";
+}
+
+.aws-AWS-IoT-Analytics_Pipeline_light-bg-1::before {
+  content: "\f457";
+}
+
+.aws-AWS-IoT-Analytics_Notebook_light-bg-1::before {
+  content: "\f458";
+}
+
+.aws-AWS-IoT-Analytics_Data-Store_light-bg-1::before {
+  content: "\f459";
+}
+
+.aws-AWS-IoT-Analytics_Data-Set_light-bg-1::before {
+  content: "\f45a";
+}
+
+.aws-AWS-IoT-Analytics_Channel_light-bg-1::before {
+  content: "\f45b";
+}
+
+.aws-AWS-IoT-Analytics-2-1::before {
+  content: "\f45c";
+}
+
+.aws-AWS-IoT-1-Click_light-bg-1::before {
+  content: "\f45d";
+}
+
+.aws-AWS-IoT-1-Click-2-1::before {
+  content: "\f45e";
+}
+
+.aws-AWS-IoT-Device-Management_light-bg-1::before {
+  content: "\f45f";
+}
+
+.aws-AWS-IoT-Device-Management-1::before {
+  content: "\f460";
+}
+
+.aws-IoT_Factory_light-bg-1::before {
+  content: "\f461";
+}
+
+.aws-AWS-IoT-Greengrass-2-1::before {
+  content: "\f462";
+}
+
+.aws-AWS-IoT-Button-2-1::before {
+  content: "\f463";
+}
+
+.aws-AWS-IoT-Core-2-1::before {
+  content: "\f464";
+}
+
+.aws-IoT_Reported-state_light-bg-1::before {
+  content: "\f465";
+}
+
+.aws-AWS-IoT-SiteWise_light-bg-1::before {
+  content: "\f466";
+}
+
+.aws-TensorFlow-on-AWS_light-bg-1::before {
+  content: "\f467";
+}
+
+.aws-Apache-MXNet-on-AWS_light-bg-1::before {
+  content: "\f468";
+}
+
+.aws-Apache-MXNet-on-AWS-2-1::before {
+  content: "\f469";
+}
+
+.aws-Amazon-Translate_light-bg-1::before {
+  content: "\f46a";
+}
+
+.aws-Amazon-Translate-2-1::before {
+  content: "\f46b";
+}
+
+.aws-Amazon-Transcribe_light-bg-1::before {
+  content: "\f46c";
+}
+
+.aws-Amazon-Transcribe-2-1::before {
+  content: "\f46d";
+}
+
+.aws-Amazon-Textract_light-bg-1::before {
+  content: "\f46e";
+}
+
+.aws-Amazon-Textract-2-1::before {
+  content: "\f46f";
+}
+
+.aws-Amazon-SageMaker_light-bg-1::before {
+  content: "\f470";
+}
+
+.aws-Amazon-SageMaker_Train_light-bg-1::before {
+  content: "\f471";
+}
+
+.aws-TensorFlow-on-AWS-2-1::before {
+  content: "\f472";
+}
+
+.aws-Amazon-SageMaker_Model_light-bg-1::before {
+  content: "\f473";
+}
+
+.aws-Amazon-SageMaker-2-1::before {
+  content: "\f474";
+}
+
+.aws-Amazon-SageMaker-Ground-Truth_light-bg-1::before {
+  content: "\f475";
+}
+
+.aws-Amazon-SageMaker-Ground-Truth-2-1::before {
+  content: "\f476";
+}
+
+.aws-Amazon-Rekognition_light-bg-1::before {
+  content: "\f477";
+}
+
+.aws-Amazon-Rekognition_Video_light-bg-1::before {
+  content: "\f478";
+}
+
+.aws-Machine-Learning_light-bg-1::before {
+  content: "\f479";
+}
+
+.aws-Amazon-SageMaker_Notebook_light-bg-1::before {
+  content: "\f47a";
+}
+
+.aws-Amazon-Polly_light-bg-1::before {
+  content: "\f47b";
+}
+
+.aws-Machine-Learning-2-1::before {
+  content: "\f47c";
+}
+
+.aws-Amazon-Polly-2-1::before {
+  content: "\f47d";
+}
+
+.aws-Amazon-Personalize-2-1::before {
+  content: "\f47e";
+}
+
+.aws-Amazon-Lex_light-bg-1::before {
+  content: "\f47f";
+}
+
+.aws-Amazon-Lex-2-1::before {
+  content: "\f480";
+}
+
+.aws-Amazon-Kendra_light-bg-1::before {
+  content: "\f481";
+}
+
+.aws-Amazon-Kendra-2-1::before {
+  content: "\f482";
+}
+
+.aws-Amazon-Rekognition-2-1::before {
+  content: "\f483";
+}
+
+.aws-Amazon-Rekognition_Image_light-bg-1::before {
+  content: "\f484";
+}
+
+.aws-Amazon-Fraud-Detector-2-1::before {
+  content: "\f485";
+}
+
+.aws-Amazon-Personalize_light-bg-1::before {
+  content: "\f486";
+}
+
+.aws-Amazon-Elastic-Inference_light-bg-1::before {
+  content: "\f487";
+}
+
+.aws-Amazon-Elastic-Inference-2-1::before {
+  content: "\f488";
+}
+
+.aws-Amazon-Comprehend_light-bg-1::before {
+  content: "\f489";
+}
+
+.aws-Amazon-Forecast-2-1::before {
+  content: "\f48a";
+}
+
+.aws-Amazon-CodeGuru_light-bg-1::before {
+  content: "\f48b";
+}
+
+.aws-Amazon-CodeGuru-2-1::before {
+  content: "\f48c";
+}
+
+.aws-Amazon-Augmented-AI_light-bg-1::before {
+  content: "\f48d";
+}
+
+.aws-Amazon-Augmented-AI-2-1::before {
+  content: "\f48e";
+}
+
+.aws-AWS-DeepRacer_light-bg-1::before {
+  content: "\f48f";
+}
+
+.aws-AWS-DeepRacer-2-1::before {
+  content: "\f490";
+}
+
+.aws-AWS-DeepLens_light-bg-1::before {
+  content: "\f491";
+}
+
+.aws-AWS-DeepLens-2-1::before {
+  content: "\f492";
+}
+
+.aws-AWS-DeepComposer_primary-bg-2-1::before {
+  content: "\f493";
+}
+
+.aws-AWS-DeepComposer_light-bg-1::before {
+  content: "\f494";
+}
+
+.aws-AWS-Deep-Learning-Containers_light-bg-1::before {
+  content: "\f495";
+}
+
+.aws-AWS-Deep-Learning-Containers-2-1::before {
+  content: "\f496";
+}
+
+.aws-AWS-Deep-Learning-AMIs_light-bg-1::before {
+  content: "\f497";
+}
+
+.aws-AWS-Deep-Learning-AMIs-2-1::before {
+  content: "\f498";
+}
+
+.aws-Amazon-Forecast_light-bg-1::before {
+  content: "\f499";
+}
+
+.aws-Amazon-Fraud-Detector_light-bg-1::before {
+  content: "\f49a";
+}
+
+.aws-Amazon-Comprehend-2-1::before {
+  content: "\f49b";
+}
+
+.aws-Management-and-Governance_light-bg-1::before {
+  content: "\f49c";
+}
+
+.aws-Amazon-CloudWatch_light-bg-1::before {
+  content: "\f49d";
+}
+
+.aws-Amazon-CloudWatch_Rule_light-bg-1::before {
+  content: "\f49e";
+}
+
+.aws-Amazon-CloudWatch_Event-Time-Based_light-bg-1::before {
+  content: "\f49f";
+}
+
+.aws-Amazon-CloudWatch_Event-Event-Based_light-bg-1::before {
+  content: "\f4a0";
+}
+
+.aws-Amazon-CloudWatch_Alarm_light-bg-1::before {
+  content: "\f4a1";
+}
+
+.aws-Amazon-CloudWatch-2-1::before {
+  content: "\f4a2";
+}
+
+.aws-AWS-Well-Architected-Tool_light-bg-1::before {
+  content: "\f4a3";
+}
+
+.aws-AWS-Well-Architected-Tool-2-1::before {
+  content: "\f4a4";
+}
+
+.aws-AWS-Trusted-Advisor_light-bg-1::before {
+  content: "\f4a5";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist_light-bg-1::before {
+  content: "\f4a6";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Security_light-bg-1::before {
+  content: "\f4a7";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Performance_light-bg-1::before {
+  content: "\f4a8";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Fault-Tolerant_light-bg-1::before {
+  content: "\f4a9";
+}
+
+.aws-AWS-Trusted-Advisor_Checklist-Cost_light-bg-1::before {
+  content: "\f4aa";
+}
+
+.aws-AWS-Trusted-Advisor-2-1::before {
+  content: "\f4ab";
+}
+
+.aws-AWS-Systems-Manager_light-bg-1::before {
+  content: "\f4ac";
+}
+
+.aws-Systems-Manager_OpsCenter_light-bg-1::before {
+  content: "\f4ad";
+}
+
+.aws-AWS-Systems-Manager_Run-Command_light-bg-1::before {
+  content: "\f4ae";
+}
+
+.aws-AWS-Systems-Manager_Patch-Manager_light-bg-1::before {
+  content: "\f4af";
+}
+
+.aws-AWS-Systems-Manager_Parameter-Store_light-bg-1::before {
+  content: "\f4b0";
+}
+
+.aws-AWS-Systems-Manager_State-Manager_light-bg-1::before {
+  content: "\f4b1";
+}
+
+.aws-AWS-Systems-Manager_Inventory_light-bg-1::before {
+  content: "\f4b2";
+}
+
+.aws-AWS-Systems-Manager_Documents_light-bg-1::before {
+  content: "\f4b3";
+}
+
+.aws-AWS-Systems-Manager_Automation_light-bg-1::before {
+  content: "\f4b4";
+}
+
+.aws-AWS-Systems-Manager-2-1::before {
+  content: "\f4b5";
+}
+
+.aws-AWS-Service-Catalog_light-bg-1::before {
+  content: "\f4b6";
+}
+
+.aws-AWS-Service-Catalog-2-1::before {
+  content: "\f4b7";
+}
+
+.aws-AWS-Systems-Manager_Maintenance-Windows_light-bg-1::before {
+  content: "\f4b8";
+}
+
+.aws-AWS-Organizations_light-bg-1::before {
+  content: "\f4b9";
+}
+
+.aws-AWS-Organizations_Organizational-unit_light-bg-1::before {
+  content: "\f4ba";
+}
+
+.aws-AWS-Organizations_Account_light-bg-1::before {
+  content: "\f4bb";
+}
+
+.aws-AWS-Organizations-2-1::before {
+  content: "\f4bc";
+}
+
+.aws-AWS-OpsWorks_light-bg-1::before {
+  content: "\f4bd";
+}
+
+.aws-AWS-OpsWorks_Stack2_light-bg-1::before {
+  content: "\f4be";
+}
+
+.aws-AWS-OpsWorks_Layers_light-bg-1::before {
+  content: "\f4bf";
+}
+
+.aws-AWS-OpsWorks_Instances_light-bg-1::before {
+  content: "\f4c0";
+}
+
+.aws-AWS-OpsWorks_Deployments_light-bg-1::before {
+  content: "\f4c1";
+}
+
+.aws-AWS-OpsWorks_Apps_light-bg-1::before {
+  content: "\f4c2";
+}
+
+.aws-AWS-OpsWorks-2-1::before {
+  content: "\f4c3";
+}
+
+.aws-AWS-Management-Console_light-bg-1::before {
+  content: "\f4c4";
+}
+
+.aws-AWS-Management-Console-2-1::before {
+  content: "\f4c5";
+}
+
+.aws-AWS-Managed-Services_light-bg-2-1::before {
+  content: "\f4c6";
+}
+
+.aws-Management-and-Governance-2-1::before {
+  content: "\f4c7";
+}
+
+.aws-AWS-Managed-Services-4-1::before {
+  content: "\f4c8";
+}
+
+.aws-AWS-Personal-Health-Dashboard-2-1::before {
+  content: "\f4c9";
+}
+
+.aws-AWS-Personal-Health-Dashboard_light-bg-1::before {
+  content: "\f4ca";
+}
+
+.aws-AWS-License-Manager_light-bg-1::before {
+  content: "\f4cb";
+}
+
+.aws-AWS-License-Manager-2-1::before {
+  content: "\f4cc";
+}
+
+.aws-AWS-Control-Tower_light-bg-1::before {
+  content: "\f4cd";
+}
+
+.aws-AWS-Control-Tower-2-1::before {
+  content: "\f4ce";
+}
+
+.aws-AWS-Config_light-bg-1::before {
+  content: "\f4cf";
+}
+
+.aws-AWS-Config-2-1::before {
+  content: "\f4d0";
+}
+
+.aws-AWS-Command-Line-Interface_light-bg-2-1::before {
+  content: "\f4d1";
+}
+
+.aws-AWS-OpsWorks_Permissions_light-bg-1::before {
+  content: "\f4d2";
+}
+
+.aws-AWS-Command-Line-Interface-4-1::before {
+  content: "\f4d3";
+}
+
+.aws-AWS-CloudTrail-2-1::before {
+  content: "\f4d4";
+}
+
+.aws-AWS-CloudFormation_light-bg-1::before {
+  content: "\f4d5";
+}
+
+.aws-AWS-CloudFormation_Template_light-bg-1::before {
+  content: "\f4d6";
+}
+
+.aws-AWS-CloudFormation_Stack_light-bg-1::before {
+  content: "\f4d7";
+}
+
+.aws-AWS-CloudFormation_Change-Set_light-bg-1::before {
+  content: "\f4d8";
+}
+
+.aws-AWS-Auto-Scaling_light-bg-1::before {
+  content: "\f4d9";
+}
+
+.aws-AWS-App-Config-2-1::before {
+  content: "\f4da";
+}
+
+.aws-AWS-CloudFormation-2-1::before {
+  content: "\f4db";
+}
+
+.aws-AWS-CloudTrail_light-bg-1::before {
+  content: "\f4dc";
+}
+
+.aws-AWS-OpsWorks_Resources_light-bg-1::before {
+  content: "\f4dd";
+}
+
+.aws-AWS-OpsWorks_Monitoring_light-bg-1::before {
+  content: "\f4de";
+}
+
+.aws-AWS-Auto-Scaling-2-1::before {
+  content: "\f4df";
+}
+
+.aws-AWS-App-Config_light-bg-1::before {
+  content: "\f4e0";
+}
+
+.aws-Media-Services_light-bg-1::before {
+  content: "\f4e1";
+}
+
+.aws-Amazon-Elastic-Transcoder_light-bg-1::before {
+  content: "\f4e2";
+}
+
+.aws-Amazon-Elastic-Transcoder-2-1::before {
+  content: "\f4e3";
+}
+
+.aws-AWS-Elemental-Server_light-bg-1::before {
+  content: "\f4e4";
+}
+
+.aws-AWS-Elemental-Server-2-1::before {
+  content: "\f4e5";
+}
+
+.aws-AWS-Elemental-MediaLive_light-bg-1::before {
+  content: "\f4e6";
+}
+
+.aws-AWS-Elemental-MediaLive-2-1::before {
+  content: "\f4e7";
+}
+
+.aws-AWS-Elemental-MediaConnect_light-bg-1::before {
+  content: "\f4e8";
+}
+
+.aws-AWS-Elemental-MediaConnect-2-1::before {
+  content: "\f4e9";
+}
+
+.aws-Amazon-Kinesis-Video-Streams-4-1::before {
+  content: "\f4ea";
+}
+
+.aws-AWS-Elemental-Live-2-1::before {
+  content: "\f4eb";
+}
+
+.aws-AWS-Elemental-Delta_light-bg-1::before {
+  content: "\f4ec";
+}
+
+.aws-AWS-Elemental-Delta-2-1::before {
+  content: "\f4ed";
+}
+
+.aws-AWS-Elemental-Conductor_light-bg-1::before {
+  content: "\f4ee";
+}
+
+.aws-Amazon-Kinesis-Video-Streams_light-bg-2-1::before {
+  content: "\f4ef";
+}
+
+.aws-AWS-Elemental-MediaTailor_light-bg-1::before {
+  content: "\f4f0";
+}
+
+.aws-AWS-Elemental-MediaTailor-1::before {
+  content: "\f4f1";
+}
+
+.aws-AWS-Elemental-MediaStore_light-bg-1::before {
+  content: "\f4f2";
+}
+
+.aws-Media-Services-2-1::before {
+  content: "\f4f3";
+}
+
+.aws-AWS-Elemental-MediaPackage-1::before {
+  content: "\f4f4";
+}
+
+.aws-AWS-Elemental-MediaStore-1::before {
+  content: "\f4f5";
+}
+
+.aws-AWS-Elemental-MediaLive_light-bg-1::before {
+  content: "\f4f6";
+}
+
+.aws-AWS-Elemental-MediaLive-1::before {
+  content: "\f4f7";
+}
+
+.aws-AWS-Elemental-Live_light-bg-1::before {
+  content: "\f4f8";
+}
+
+.aws-AWS-Elemental-Conductor-2-1::before {
+  content: "\f4f9";
+}
+
+.aws-AWS-Elemental-MediaPackage_light-bg-1::before {
+  content: "\f4fa";
+}
+
+.aws-Migration-and-Transfer_light-bg-1::before {
+  content: "\f4fb";
+}
+
+.aws-Migration-and-Transfer-2-1::before {
+  content: "\f4fc";
+}
+
+.aws-CloudEndure-Migration_light-bg-1::before {
+  content: "\f4fd";
+}
+
+.aws-CloudEndure-Migration-2-1::before {
+  content: "\f4fe";
+}
+
+.aws-AWS-Transfer-for-SFTP_Resource-Icon_light-bg-1::before {
+  content: "\f4ff";
+}
+
+.aws-AWS-Transfer-for-FTP_Resource-Icon_light-bg-1::before {
+  content: "\f500";
+}
+
+.aws-AWS-Transfer-Family-1::before {
+  content: "\f501";
+}
+
+.aws-AWS-Transfer-Family_light-bg-1::before {
+  content: "\f502";
+}
+
+.aws-AWS-Snowmobile_light-bg-1-1::before {
+  content: "\f503";
+}
+
+.aws-AWS-Transfer-for-FTPS_Resource-Icon_light-bg-1::before {
+  content: "\f504";
+}
+
+.aws-AWS-Snowmobile-3-1::before {
+  content: "\f505";
+}
+
+.aws-AWS-Snowball_light-bg-1-1::before {
+  content: "\f506";
+}
+
+.aws-AWS-Snowball-3-1::before {
+  content: "\f507";
+}
+
+.aws-AWS-Server-Migration-Service-2-1::before {
+  content: "\f508";
+}
+
+.aws-AWS-Migration-Hub_light-bg-1::before {
+  content: "\f509";
+}
+
+.aws-AWS-Snowball-Edge-3-1::before {
+  content: "\f50a";
+}
+
+.aws-AWS-Server-Migration-Service_light-bg-1::before {
+  content: "\f50b";
+}
+
+.aws-AWS-Snowball-Edge_light-bg-1-1::before {
+  content: "\f50c";
+}
+
+.aws-AWS-Migration-Hub-2-1::before {
+  content: "\f50d";
+}
+
+.aws-AWS-DataSync_light-bg-1::before {
+  content: "\f50e";
+}
+
+.aws-AWS-Database-Migration-Service-1::before {
+  content: "\f50f";
+}
+
+.aws-AWS-Database-Migration-Service_light-bg-1::before {
+  content: "\f510";
+}
+
+.aws-AWS-DataSync_Agent_light-bg-1::before {
+  content: "\f511";
+}
+
+.aws-AWS-DataSync-2-1::before {
+  content: "\f512";
+}
+
+.aws-AWS-Application-Discovery-Service_light-bg-1::before {
+  content: "\f513";
+}
+
+.aws-AWS-Application-Discovery-Service-2-1::before {
+  content: "\f514";
+}
+
+.aws-Mobile_light-bg-1::before {
+  content: "\f515";
+}
+
+.aws-Mobile-2-1::before {
+  content: "\f516";
+}
+
+.aws-Amazon-API-Gateway_Endpoint_light-bg-1-1::before {
+  content: "\f517";
+}
+
+.aws-Amazon-API-Gateway-3-1::before {
+  content: "\f518";
+}
+
+.aws-Amazon-API-Gateway_light-bg-1-1::before {
+  content: "\f519";
+}
+
+.aws-AWS-Device-Farm-2-1::before {
+  content: "\f51a";
+}
+
+.aws-AWS-AppSync_light-bg-1::before {
+  content: "\f51b";
+}
+
+.aws-Amazon-Pinpoint_light-bg-2-1::before {
+  content: "\f51c";
+}
+
+.aws-Amazon-Pinpoint-4-1::before {
+  content: "\f51d";
+}
+
+.aws-AWS-Device-Farm_light-bg-1::before {
+  content: "\f51e";
+}
+
+.aws-AWS-AppSync-2-1::before {
+  content: "\f51f";
+}
+
+.aws-AWS-Amplify_light-bg-1::before {
+  content: "\f520";
+}
+
+.aws-AWS-Amplify-2-1::before {
+  content: "\f521";
+}
+
+.aws-Networking-and-Content-Delivery_light-bg-1::before {
+  content: "\f522";
+}
+
+.aws-Elastic-Load-Balancing_light-bg-1::before {
+  content: "\f523";
+}
+
+.aws-Elastic-Load-Balancing_Classic-load-balancer_light-bg-1::before {
+  content: "\f524";
+}
+
+.aws-Elastic-Load-Balancing-2-1::before {
+  content: "\f525";
+}
+
+.aws-Elastic-Load-Balancing-ELB_Application-load-balancer_light-bg-1::before {
+  content: "\f526";
+}
+
+.aws-Amazon-VPC_light-bg-1::before {
+  content: "\f527";
+}
+
+.aws-Amazon-VPC_VPN-Gateway_light-bg-1::before {
+  content: "\f528";
+}
+
+.aws-Amazon-VPC_VPN-Connection_light-bg-1::before {
+  content: "\f529";
+}
+
+.aws-Amazon-VPC_Router_light-bg-1::before {
+  content: "\f52a";
+}
+
+.aws-Amazon-VPC_Peering_light-bg-1::before {
+  content: "\f52b";
+}
+
+.aws-Amazon-VPC_Network-Access-Control-List_light-bg-1::before {
+  content: "\f52c";
+}
+
+.aws-Amazon-VPC_NAT-Gateway_light-bg-1::before {
+  content: "\f52d";
+}
+
+.aws-Amazon-VPC_Internet-Gateway_light-bg-1::before {
+  content: "\f52e";
+}
+
+.aws-Amazon-VPC_Flow-Logs_light-bg-1::before {
+  content: "\f52f";
+}
+
+.aws-Amazon-VPC_Endpoints_light-bg-1::before {
+  content: "\f530";
+}
+
+.aws-Amazon-VPC_Elastic-Network-Interface_light-bg-1::before {
+  content: "\f531";
+}
+
+.aws-Amazon-VPC_Elastic-Network-Adapter_light-bg-1::before {
+  content: "\f532";
+}
+
+.aws-Amazon-VPC_Customer-Gateway_light-bg-1::before {
+  content: "\f533";
+}
+
+.aws-Amazon-VPC-2-1::before {
+  content: "\f534";
+}
+
+.aws-Amazon-VPC-Traffic-Mirroring_light-bg-1::before {
+  content: "\f535";
+}
+
+.aws-Amazon-Route-53_light-bg-1::before {
+  content: "\f536";
+}
+
+.aws-Amazon-Route-53_Route-Table_light-bg-1::before {
+  content: "\f537";
+}
+
+.aws-Amazon-Route-53_Hosted-Zone_light-bg-1::before {
+  content: "\f538";
+}
+
+.aws-Amazon-Route-53-2-1::before {
+  content: "\f539";
+}
+
+.aws-Amazon-CloudFront_light-bg-1::before {
+  content: "\f53a";
+}
+
+.aws-Amazon-CloudFront_Streaming-Distribution_light-bg-1::before {
+  content: "\f53b";
+}
+
+.aws-Amazon-CloudFront_Edge-Location_light-bg-1::before {
+  content: "\f53c";
+}
+
+.aws-Amazon-CloudFront_Download-Distribution_light-bg-1::before {
+  content: "\f53d";
+}
+
+.aws-Elastic-Load-Balancing-ELB_Network-load-balancer_light-bg-1::before {
+  content: "\f53e";
+}
+
+.aws-Networking-and-Content-Delivery-2-1::before {
+  content: "\f53f";
+}
+
+.aws-Amazon-API-Gateway-4-1::before {
+  content: "\f540";
+}
+
+.aws-AWS-Transit-Gateway_light-bg-1::before {
+  content: "\f541";
+}
+
+.aws-Amazon-API-Gateway_light-bg-2-1::before {
+  content: "\f542";
+}
+
+.aws-Amazon-API-Gateway_Endpoint_light-bg-2-1::before {
+  content: "\f543";
+}
+
+.aws-AWS-Transit-Gateway-2-1::before {
+  content: "\f544";
+}
+
+.aws-AWS-PrivateLink_light-bg-1::before {
+  content: "\f545";
+}
+
+.aws-AWS-Site-to-Site-VPN_light-bg-1::before {
+  content: "\f546";
+}
+
+.aws-AWS-Site-to-Site-VPN-2-1::before {
+  content: "\f547";
+}
+
+.aws-AWS-Global-Accelerator-2-1::before {
+  content: "\f548";
+}
+
+.aws-Amazon-CloudFront-2-1::before {
+  content: "\f549";
+}
+
+.aws-AWS-Direct-Connect_light-bg-1::before {
+  content: "\f54a";
+}
+
+.aws-AWS-Global-Accelerator_light-bg-1::before {
+  content: "\f54b";
+}
+
+.aws-AWS-App-Mesh_light-bg-1::before {
+  content: "\f54c";
+}
+
+.aws-AWS-App-Mesh-2-1::before {
+  content: "\f54d";
+}
+
+.aws-AWS-Direct-Connect-2-1::before {
+  content: "\f54e";
+}
+
+.aws-AWS-Cloud-Map_light-bg-1::before {
+  content: "\f54f";
+}
+
+.aws-AWS-PrivateLink-2-1::before {
+  content: "\f550";
+}
+
+.aws-AWS-Cloud-Map-2-1::before {
+  content: "\f551";
+}
+
+.aws-AWS-Client-VPN_light-bg-1::before {
+  content: "\f552";
+}
+
+.aws-AWS-Client-VPN-2-1::before {
+  content: "\f553";
+}
+
+.aws-Quantum-Technologies_light-bg-1::before {
+  content: "\f554";
+}
+
+.aws-AWS-Braket_light-bg-1::before {
+  content: "\f555";
+}
+
+.aws-AWS-Braket-2-1::before {
+  content: "\f556";
+}
+
+.aws-Quantum-Technologies-2-1::before {
+  content: "\f557";
+}
+
+.aws-Robotics_light-bg-1::before {
+  content: "\f558";
+}
+
+.aws-AWS-RoboMaker_Fleet-Management_light-bg-1::before {
+  content: "\f559";
+}
+
+.aws-AWS-RoboMaker_Development-Environment_light-bg-1::before {
+  content: "\f55a";
+}
+
+.aws-AWS-RoboMaker_Cloud-Extension-ROS_light-bg-1::before {
+  content: "\f55b";
+}
+
+.aws-AWS-RoboMaker-2-1::before {
+  content: "\f55c";
+}
+
+.aws-AWS-RoboMaker_Simulation_light-bg-1::before {
+  content: "\f55d";
+}
+
+.aws-Robotics-2-1::before {
+  content: "\f55e";
+}
+
+.aws-AWS-RoboMaker_light-bg-1::before {
+  content: "\f55f";
+}
+
+.aws-Satellite_light-bg-1::before {
+  content: "\f560";
+}
+
+.aws-Satellite-2-1::before {
+  content: "\f561";
+}
+
+.aws-AWS-Ground-Station_light-bg-1::before {
+  content: "\f562";
+}
+
+.aws-AWS-Ground-Station-2-1::before {
+  content: "\f563";
+}
+
+.aws-Simple-AD_light-bg-1::before {
+  content: "\f564";
+}
+
+.aws-Amazon-Macie_light-bg-1::before {
+  content: "\f565";
+}
+
+.aws-Security-Identity-and-Compliance-2-1::before {
+  content: "\f566";
+}
+
+.aws-Security-Hub_Finding_light-bg-1::before {
+  content: "\f567";
+}
+
+.aws-Security-Identity-and-Compliance_light-bg-1::before {
+  content: "\f568";
+}
+
+.aws-Amazon-Inspector-2-1::before {
+  content: "\f569";
+}
+
+.aws-Amazon-Macie-2-1::before {
+  content: "\f56a";
+}
+
+.aws-Amazon-GuardDuty-2-1::before {
+  content: "\f56b";
+}
+
+.aws-Amazon-Detective_light-bg-1::before {
+  content: "\f56c";
+}
+
+.aws-Amazon-Detective-2-1::before {
+  content: "\f56d";
+}
+
+.aws-Amazon-Cognito_light-bg-1::before {
+  content: "\f56e";
+}
+
+.aws-Amazon-Cognito-2-1::before {
+  content: "\f56f";
+}
+
+.aws-Amazon-Cloud-Directory_light-bg-1::before {
+  content: "\f570";
+}
+
+.aws-Amazon-Inspector_light-bg-1::before {
+  content: "\f571";
+}
+
+.aws-Amazon-GuardDuty_light-bg-1::before {
+  content: "\f572";
+}
+
+.aws-AWS-WAF_Filtering-rule_light-bg-1::before {
+  content: "\f573";
+}
+
+.aws-AWS-WAF-2-1::before {
+  content: "\f574";
+}
+
+.aws-AWS-Single-Sign-On_light-bg-1::before {
+  content: "\f575";
+}
+
+.aws-AWS-Single-Sign-On-2-1::before {
+  content: "\f576";
+}
+
+.aws-AWS-Shield_light-bg-1::before {
+  content: "\f577";
+}
+
+.aws-AWS-Shield_Shield-Advanced_light-bg-1::before {
+  content: "\f578";
+}
+
+.aws-AWS-Shield-2-1::before {
+  content: "\f579";
+}
+
+.aws-AWS-Security-Hub_light-bg-1::before {
+  content: "\f57a";
+}
+
+.aws-AWS-Security-Hub-2-1::before {
+  content: "\f57b";
+}
+
+.aws-AWS-Secrets-Manager_light-bg-1::before {
+  content: "\f57c";
+}
+
+.aws-AWS-Secrets-Manager-2-1::before {
+  content: "\f57d";
+}
+
+.aws-AWS-Resource-Access-Manager_light-bg-1::before {
+  content: "\f57e";
+}
+
+.aws-AWS-Resource-Access-Manager-2-1::before {
+  content: "\f57f";
+}
+
+.aws-AWS-Managed-Microsoft-AD_light-bg-1::before {
+  content: "\f580";
+}
+
+.aws-AWS-Key-Management-Service_light-bg-1::before {
+  content: "\f581";
+}
+
+.aws-AWS-Key-Management-Service-2-1::before {
+  content: "\f582";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Temporary-Security-Credential_light-bg-1::before {
+  content: "\f583";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Role_light-bg-1::before {
+  content: "\f584";
+}
+
+.aws-Amazon-Cloud-Directory-2-1::before {
+  content: "\f585";
+}
+
+.aws-Amazon-Inspector_Agent_light-bg-1::before {
+  content: "\f586";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_MFA-Token_light-bg-1::before {
+  content: "\f587";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Encrypted-Data_light-bg-1::before {
+  content: "\f588";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Data-Encryption-Key_light-bg-1::before {
+  content: "\f589";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Add-on_light-bg-1::before {
+  content: "\f58a";
+}
+
+.aws-AWS-WAF_light-bg-1::before {
+  content: "\f58b";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_AWS-STS_light-bg-1::before {
+  content: "\f58c";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_AWS-STS-Alternate_light-bg-1::before {
+  content: "\f58d";
+}
+
+.aws-AWS-Identity-and-Access-Management_IAM_light-bg-1::before {
+  content: "\f58e";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Access-Analyzer_light-bg-1::before {
+  content: "\f58f";
+}
+
+.aws-AWS-Identity-and-Access-Management_IAM-1::before {
+  content: "\f590";
+}
+
+.aws-AWS-Firewall-Manager_light-bg-1::before {
+  content: "\f591";
+}
+
+.aws-AWS-Directory-Service_light-bg-1::before {
+  content: "\f592";
+}
+
+.aws-AWS-Directory-Service-2-1::before {
+  content: "\f593";
+}
+
+.aws-AWS-CloudHSM_light-bg-1::before {
+  content: "\f594";
+}
+
+.aws-AWS-CloudHSM-2-1::before {
+  content: "\f595";
+}
+
+.aws-AWS-Certificate-Manager_light-bg-1::before {
+  content: "\f596";
+}
+
+.aws-AWS-Certificate-Manager-2-1::before {
+  content: "\f597";
+}
+
+.aws-AWS-Certificate-Authority_light-bg-1::before {
+  content: "\f598";
+}
+
+.aws-AWS-Artifact_light-bg-1::before {
+  content: "\f599";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Long-term-Security-Credential_light-bg-1::before {
+  content: "\f59a";
+}
+
+.aws-AD-Connector_light-bg-1::before {
+  content: "\f59b";
+}
+
+.aws-AWS-Artifact-2-1::before {
+  content: "\f59c";
+}
+
+.aws-AWS-Identity-and-Access-Management-IAM_Permissions_light-bg-1::before {
+  content: "\f59d";
+}
+
+.aws-AWS-Firewall-Manager-2-1::before {
+  content: "\f59e";
+}
+
+.aws-VPC-Access-Points-dark-bg-1::before {
+  content: "\f59f";
+}
+
+.aws-General-Access-Points-dark-bg-1::before {
+  content: "\f5a0";
+}
+
+.aws-EFS-Standard_primary-bg-2-1::before {
+  content: "\f5a1";
+}
+
+.aws-EFS-Standard_light-bg-1::before {
+  content: "\f5a2";
+}
+
+.aws-EFS-InfrequentAccess_primary-bg-2-1::before {
+  content: "\f5a3";
+}
+
+.aws-EFS-InfrequentAccess_light-bg-1::before {
+  content: "\f5a4";
+}
+
+.aws-CloudEndure-Disaster-Recovery_light-bg-1::before {
+  content: "\f5a5";
+}
+
+.aws-CloudEndure-Disaster-Recovery-2-1::before {
+  content: "\f5a6";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Object_light-bg-1::before {
+  content: "\f5a7";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Bucket_light-bg-1::before {
+  content: "\f5a8";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_Bucket-with-Objects_light-bg-1::before {
+  content: "\f5a9";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3_light-bg-1::before {
+  content: "\f5aa";
+}
+
+.aws-Amazon-Simple-Storage-Service-S3-1::before {
+  content: "\f5ab";
+}
+
+.aws-Storage_light-bg-1::before {
+  content: "\f5ac";
+}
+
+.aws-Storage-2-1::before {
+  content: "\f5ad";
+}
+
+.aws-Amazon-S3-Glacier_light-bg-1::before {
+  content: "\f5ae";
+}
+
+.aws-Multiple-volumes_Resource-Icon_light-bg-1::before {
+  content: "\f5af";
+}
+
+.aws-Amazon-S3-Glacier_Vault_light-bg-1::before {
+  content: "\f5b0";
+}
+
+.aws-Amazon-S3-Glacier-2-1::before {
+  content: "\f5b1";
+}
+
+.aws-Amazon-FSx_light-bg-1::before {
+  content: "\f5b2";
+}
+
+.aws-Amazon-FSx-for-Lustre_light-bg-1::before {
+  content: "\f5b3";
+}
+
+.aws-Amazon-FSx-for-Lustre-2-1::before {
+  content: "\f5b4";
+}
+
+.aws-Amazon-Elastic-File-System_EFS_light-bg-1::before {
+  content: "\f5b5";
+}
+
+.aws-Amazon-Elastic-File-System_EFS_File-system_light-bg-1::before {
+  content: "\f5b6";
+}
+
+.aws-Amazon-Elastic-File-System_EFS-2-1::before {
+  content: "\f5b7";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_light-bg-1::before {
+  content: "\f5b8";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_Volume_light-bg-1::before {
+  content: "\f5b9";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS_Snapshot_light-bg-1::before {
+  content: "\f5ba";
+}
+
+.aws-Amazon-Elastic-Block-Store-EBS-2-1::before {
+  content: "\f5bb";
+}
+
+.aws-AWS-Storage-Gateway_light-bg-1::before {
+  content: "\f5bc";
+}
+
+.aws-AWS-Storage-Gateway_Volume-Gateway_light-bg-1::before {
+  content: "\f5bd";
+}
+
+.aws-AWS-Storage-Gateway_Virtual-Tape-Library_light-bg-1::before {
+  content: "\f5be";
+}
+
+.aws-AWS-Storage-Gateway_Tape-Gateway_light-bg-1::before {
+  content: "\f5bf";
+}
+
+.aws-AWS-Storage-Gateway_Non-Cached-Volume_light-bg-1::before {
+  content: "\f5c0";
+}
+
+.aws-AWS-Storage-Gateway_File-Gateway_light-bg-1::before {
+  content: "\f5c1";
+}
+
+.aws-AWS-Storage-Gateway_Cached-Volume_light-bg-1::before {
+  content: "\f5c2";
+}
+
+.aws-Amazon-FSx-2-1::before {
+  content: "\f5c3";
+}
+
+.aws-Amazon-FSx-for-Windows-File-Server_light-bg-1::before {
+  content: "\f5c4";
+}
+
+.aws-AWS-Snowmobile_light-bg-2-1::before {
+  content: "\f5c5";
+}
+
+.aws-Amazon-FSx-for-Windows-File-Server-2-1::before {
+  content: "\f5c6";
+}
+
+.aws-AWS-Snowmobile-4-1::before {
+  content: "\f5c7";
+}
+
+.aws-AWS-Snowball_light-bg-2-1::before {
+  content: "\f5c8";
+}
+
+.aws-AWS-Snow-Family_Snowball-Import-Export_light-bg-1::before {
+  content: "\f5c9";
+}
+
+.aws-AWS-Backup_light-bg-1::before {
+  content: "\f5ca";
+}
+
+.aws-AWS-Backup-2-1::before {
+  content: "\f5cb";
+}
+
+.aws-Amazon-S3-Glacier_Archive_light-bg-1::before {
+  content: "\f5cc";
+}
+
+.aws-AWS-Storage-Gateway-2-1::before {
+  content: "\f5cd";
+}
+
+.aws-AWS-Snowball-Edge-4-1::before {
+  content: "\f5ce";
+}
+
+.aws-AWS-Snowball-Edge_light-bg-2-1::before {
+  content: "\f5cf";
+}
+
+.aws-AWS-Snowball-4-1::before {
+  content: "\f5d0";
+}
+
+.aws-Users_light-bg-1::before {
+  content: "\f5d1";
+}
+
+.aws-User_light-bg-1::before {
+  content: "\f5d2";
+}
+
+.aws-SSL-padlock_light-bg-1::before {
+  content: "\f5d3";
+}
+
+.aws-SDK_light-bg-1::before {
+  content: "\f5d4";
+}
+
+.aws-SAML-token_light-bg-1::before {
+  content: "\f5d5";
+}
+
+.aws-Office-building_light-bg-1::before {
+  content: "\f5d6";
+}
+
+.aws-Multimedia_light-bg-1::before {
+  content: "\f5d7";
+}
+
+.aws-Mobile-client_light-bg-1::before {
+  content: "\f5d8";
+}
+
+.aws-Internet-gateway_light-bg-1::before {
+  content: "\f5d9";
+}
+
+.aws-Internet-alt2_light-bg-1::before {
+  content: "\f5da";
+}
+
+.aws-Internet-alt1_light-bg-1::before {
+  content: "\f5db";
+}
+
+.aws-Generic_Firewall-2-1::before {
+  content: "\f5dc";
+}
+
+.aws-Generic-database_light-bg-1::before {
+  content: "\f5dd";
+}
+
+.aws-General_light-bg-1::before {
+  content: "\f5de";
+}
+
+.aws-General-2-1::before {
+  content: "\f5df";
+}
+
+.aws-Tape-storage_light-bg-1::before {
+  content: "\f5e0";
+}
+
+.aws-Disk_light-bg-1::before {
+  content: "\f5e1";
+}
+
+.aws-Client_light-bg-1::before {
+  content: "\f5e2";
+}
+
+.aws-AWS-Marketplace_light-bg-1::before {
+  content: "\f5e3";
+}
+
+.aws-Traditional-server_light-bg-1::before {
+  content: "\f5e4";
+}
+
+.aws-AWS-Email_light-bg-1::before {
+  content: "\f5e5";
+}
+
+.aws-AWS-Marketplace-2-1::before {
+  content: "\f5e6";
+}
+
+.aws-Forums_light-bg-1::before {
+  content: "\f5e7";
+}
+
+.aws-Toolkit_light-bg-1::before {
+  content: "\f5e8";
+}
+
+.aws-Virtual-private-cloud-VPC_light-bg-1::before {
+  content: "\f5e9";
+}
+
+.aws-Server-contents_light-bg-1::before {
+  content: "\f5ea";
+}
+
+.aws-Region_light-bg-1::before {
+  content: "\f5eb";
+}
+
+.aws-Elastic-Beanstalk-container_light-bg-1::before {
+  content: "\f5ec";
+}
+
+.aws-EC2-instance-container_light-bg-1::before {
+  content: "\f5ed";
+}
+
+.aws-Corporate-data-center_light-bg-1::before {
+  content: "\f5ee";
+}
+
+.aws-Auto-Scaling_light-bg-1::before {
+  content: "\f5ef";
+}
+
+.aws-AWS-Step-Function_light-bg-1::before {
+  content: "\f5f0";
+}
+
+.aws-VPC-subnet-public_light-bg-1::before {
+  content: "\f5f1";
+}
+
+.aws-AWS-Cloud-alt_light-bg-1::before {
+  content: "\f5f2";
+}
+
+.aws-Spot-fleet_light-bg-1::before {
+  content: "\f5f3";
+}
+
+.aws-AWS-Cloud_light-bg-1::before {
+  content: "\f5f4";
+}
+
+.aws-VPC-subnet-private_light-bg-1::before {
+  content: "\f5f5";
+}
+
+.aws-VMware-Cloud-On-AWS_light-bg-1::before {
+  content: "\f5f6";
+}
+
+.aws-Parallel-Cluster-1::before {
+  content: "\f5f7";
+}
+
+.aws-EC2-Image-Builder_light-bg-1::before {
+  content: "\f5f8";
+}
+
+.aws-Bottlerocket_light-bg-1::before {
+  content: "\f5f9";
+}
+
+.aws-Bottlerocket-2-1::before {
+  content: "\f5fa";
+}
+
+.aws-Amazon-Lightsail_light-bg-1::before {
+  content: "\f5fb";
+}
+
+.aws-Parallel-Cluster_light-bg-1::before {
+  content: "\f5fc";
+}
+
+.aws-Amazon-Elastic-Kubernetes-Service_light-bg-1::before {
+  content: "\f5fd";
+}
+
+.aws-Amazon-Elastic-Kubernetes-Service-2-1::before {
+  content: "\f5fe";
+}
+
+.aws-Amazon-Elastic-Container-Service_light-bg-1::before {
+  content: "\f5ff";
+}
+
+.aws-Amazon-Elastic-Container-Service_Task_light-bg-1::before {
+  content: "\f600";
+}
+
+.aws-Amazon-Elastic-Container-Service_Service_light-bg-1::before {
+  content: "\f601";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container3_light-bg-1::before {
+  content: "\f602";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container2_light-bg-1::before {
+  content: "\f603";
+}
+
+.aws-EC2-Image-Builder-2-1::before {
+  content: "\f604";
+}
+
+.aws-Compute_light-bg-1::before {
+  content: "\f605";
+}
+
+.aws-Amazon-Elastic-Container-Service-2-1::before {
+  content: "\f606";
+}
+
+.aws-Amazon-Lightsail-2-1::before {
+  content: "\f607";
+}
+
+.aws-Amazon-EC2_light-bg-1::before {
+  content: "\f608";
+}
+
+.aws-Amazon-EC2_Rescue_light-bg-1::before {
+  content: "\f609";
+}
+
+.aws-Amazon-EC2_Elastic-IP-Address_light-bg-1::before {
+  content: "\f60a";
+}
+
+.aws-Amazon-EC2_Auto-Scaling_light-bg-1::before {
+  content: "\f60b";
+}
+
+.aws-Amazon-EC2_AMI_light-bg-1::before {
+  content: "\f60c";
+}
+
+.aws-Amazon-EC2-2-1::before {
+  content: "\f60d";
+}
+
+.aws-Amazon-EC2-Container-Registry_light-bg-1::before {
+  content: "\f60e";
+}
+
+.aws-Amazon-EC2-Container-Registry_Registry_light-bg-1::before {
+  content: "\f60f";
+}
+
+.aws-Compute-2-1::before {
+  content: "\f610";
+}
+
+.aws-Amazon-EC2-Container-Registry-2-1::before {
+  content: "\f611";
+}
+
+.aws-Amazon-EC2-Auto-Scaling_light-bg-1::before {
+  content: "\f612";
+}
+
+.aws-Amazon-EC2-Auto-Scaling-2-1::before {
+  content: "\f613";
+}
+
+.aws-Amazon-Application-Auto-Scaling_light-bg-1::before {
+  content: "\f614";
+}
+
+.aws-Amazon-Application-Auto-Scaling-2-1::before {
+  content: "\f615";
+}
+
+.aws-Amazon-Elastic-Container-Service_Container1_light-bg-1::before {
+  content: "\f616";
+}
+
+.aws-VMware-Cloud-On-AWS-2-1::before {
+  content: "\f617";
+}
+
+.aws-AWS-Thinkbox_XMesh_light-bg-1::before {
+  content: "\f618";
+}
+
+.aws-AWS-Wavelength_light-bg-1::before {
+  content: "\f619";
+}
+
+.aws-AWS-Thinkbox-Stoke_light-bg-1::before {
+  content: "\f61a";
+}
+
+.aws-AWS-Thinkbox-Stoke-2-1::before {
+  content: "\f61b";
+}
+
+.aws-AWS-Thinkbox_XMesh-2-1::before {
+  content: "\f61c";
+}
+
+.aws-AWS-Thinkbox-Sequoia-2-1::before {
+  content: "\f61d";
+}
+
+.aws-AWS-Wavelength-2-1::before {
+  content: "\f61e";
+}
+
+.aws-AWS-Thinkbox-Krakatoa-2-1::before {
+  content: "\f61f";
+}
+
+.aws-AWS-Thinkbox-Frost_light-bg-1::before {
+  content: "\f620";
+}
+
+.aws-AWS-Thinkbox-Sequoia_light-bg-1::before {
+  content: "\f621";
+}
+
+.aws-AWS-Thinkbox-Draft_light-bg-1::before {
+  content: "\f622";
+}
+
+.aws-AWS-Thinkbox-Draft-2-1::before {
+  content: "\f623";
+}
+
+.aws-AWS-Thinkbox-Deadline_light-bg-1::before {
+  content: "\f624";
+}
+
+.aws-AWS-Thinkbox-Deadline-2-1::before {
+  content: "\f625";
+}
+
+.aws-AWS-Serverless-Application-Repository_light-bg-1::before {
+  content: "\f626";
+}
+
+.aws-AWS-Serverless-Application-Repository-2-1::before {
+  content: "\f627";
+}
+
+.aws-AWS-Outposts_light-bg-1::before {
+  content: "\f628";
+}
+
+.aws-Amazon-EC2-Container-Registry_Image_light-bg-1::before {
+  content: "\f629";
+}
+
+.aws-AWS-Local-Zones_light-bg-1::before {
+  content: "\f62a";
+}
+
+.aws-AWS-Local-Zones-2-1::before {
+  content: "\f62b";
+}
+
+.aws-AWS-Thinkbox-Krakatoa_light-bg-1::before {
+  content: "\f62c";
+}
+
+.aws-AWS-Lambda_Lambda-Function_light-bg-1::before {
+  content: "\f62d";
+}
+
+.aws-AWS-Outposts-2-1::before {
+  content: "\f62e";
+}
+
+.aws-AWS-Fargate_light-bg-1::before {
+  content: "\f62f";
+}
+
+.aws-AWS-Lambda-2-1::before {
+  content: "\f630";
+}
+
+.aws-AWS-Elastic-Beanstalk_light-bg-1::before {
+  content: "\f631";
+}
+
+.aws-AWS-Thinkbox-Frost-2-1::before {
+  content: "\f632";
+}
+
+.aws-AWS-Elastic-Beanstalk_Application_light-bg-1::before {
+  content: "\f633";
+}
+
+.aws-AWS-Lambda_light-bg-1::before {
+  content: "\f634";
+}
+
+.aws-AWS-Batch-2-1::before {
+  content: "\f635";
+}
+
+.aws-AWS-Fargate-2-1::before {
+  content: "\f636";
+}
+
+.aws-AWS-Compute-Optimizer-2-1::before {
+  content: "\f637";
+}
+
+.aws-AWS-Elastic-Beanstalk-2-1::before {
+  content: "\f638";
+}
+
+.aws-AWS-Compute-Optimizer_light-bg-1::before {
+  content: "\f639";
+}
+
+.aws-AWS-Elastic-Beanstalk_Deployment_light-bg-1::before {
+  content: "\f63a";
+}
+
+.aws-AWS-Batch_light-bg-1::before {
+  content: "\f63b";
+}
+
+.aws-Amazon-EC2_z1d-Instance_light-bg-1::before {
+  content: "\f63c";
+}
+
+.aws-Amazon-EC2_T3-Instance_light-bg-1::before {
+  content: "\f63d";
+}
+
+.aws-Amazon-EC2_T3-Instance_light-bg-copy-1::before {
+  content: "\f63e";
+}
+
+.aws-Amazon-EC2_Spot-instance_light-bg-1::before {
+  content: "\f63f";
+}
+
+.aws-Amazon-EC2_R5a-Instance_light-bg-1::before {
+  content: "\f640";
+}
+
+.aws-Amazon-EC2_R5-Instance_light-bg-1::before {
+  content: "\f641";
+}
+
+.aws-Amazon-EC2_R4-Instance_light-bg-1::before {
+  content: "\f642";
+}
+
+.aws-Amazon-EC2_X1e-Instance_light-bg-1::before {
+  content: "\f643";
+}
+
+.aws-Amazon-EC2_T3a-Instance_light-bg-1::before {
+  content: "\f644";
+}
+
+.aws-Amazon-EC2_Optimized-Instance_light-bg-1::before {
+  content: "\f645";
+}
+
+.aws-Amazon-EC2_M5a-Instance_light-bg-1::before {
+  content: "\f646";
+}
+
+.aws-Amazon-EC2_M5-Instance_light-bg-1::before {
+  content: "\f647";
+}
+
+.aws-Amazon-EC2_M4-Instance_light-bg-1::before {
+  content: "\f648";
+}
+
+.aws-Amazon-EC2_Instances_light-bg-1::before {
+  content: "\f649";
+}
+
+.aws-Amazon-EC2_Instance_light-bg-1::before {
+  content: "\f64a";
+}
+
+.aws-Amazon-EC2_Instance-with-CloudWatch_light-bg-1::before {
+  content: "\f64b";
+}
+
+.aws-Amazon-EC2_I3-Instance_light-bg-1::before {
+  content: "\f64c";
+}
+
+.aws-Amazon-EC2_High-Memory-Instance_light-bg-1::before {
+  content: "\f64d";
+}
+
+.aws-Amazon-EC2_H1-Instance_light-bg-1::before {
+  content: "\f64e";
+}
+
+.aws-Amazon-EC2_G3-Instance_light-bg-1::before {
+  content: "\f64f";
+}
+
+.aws-Amazon-EC2_F1-Instance_light-bg-1::before {
+  content: "\f650";
+}
+
+.aws-Amazon-EC2_DB-on-Instance_light-bg-1::before {
+  content: "\f651";
+}
+
+.aws-Amazon-EC2_D2-Instance_light-bg-1::before {
+  content: "\f652";
+}
+
+.aws-Amazon-EC2_C5n-Instance_light-bg-1::before {
+  content: "\f653";
+}
+
+.aws-Amazon-EC2_C5-Instance_light-bg-1::before {
+  content: "\f654";
+}
+
+.aws-Amazon-EC2_C4-Instance_light-bg-1::before {
+  content: "\f655";
+}
+
+.aws-Amazon-EC2_A1-Instance_light-bg-1::before {
+  content: "\f656";
+}
+
+.aws-Amazon-EC2_X1-Instance_light-bg-1::before {
+  content: "\f657";
+}
+
+.aws-Amazon-EC2_P2-Instance_light-bg-1::before {
+  content: "\f658";
+}
+
+.aws-Amazon-EC2_P3-Instance_light-bg-1::before {
+  content: "\f659";
 }
 
