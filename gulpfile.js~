@@ -1,0 +1,33 @@
+var async = require('async');
+var gulp = require('gulp');
+var iconfont = require('gulp-iconfont');
+var consolidate = require('gulp-consolidate');
+
+gulp.task('Iconfont', function(done){
+  var iconStream = gulp.src(['./src/*.svg'])
+    .pipe(iconfont({ fontName: 'aws',
+    		fontHeight: 1024,
+            normalize: true
+     }));
+
+  async.parallel([
+    function handleGlyphs (cb) {
+      iconStream.on('glyphs', function(glyphs, options) {
+        gulp.src('_templates/template.css')
+          .pipe(consolidate('lodash', {
+            glyphs: glyphs,
+            fontName: 'aws',
+            fontPath: '../fonts/',
+            className: 'aws',
+          }))
+          .pipe(gulp.dest('./www/css/'))
+          .on('finish', cb);
+      });
+    },
+    function handleFonts (cb) {
+      iconStream
+        .pipe(gulp.dest('./www/fonts/'))
+        .on('finish', cb);
+    }
+  ], done);
+});
