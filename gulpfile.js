@@ -1,44 +1,50 @@
-var async = require('async');
 var gulp = require('gulp');
+var path = require('gulp-path');
 var iconfont = require('gulp-iconfont');
-var iconfontCss = require('gulp-iconfont-css');
-var iconfontTemplate = require('gulp-iconfont-template');
-var fontName = 'aws';
+var iconfontCSS = require('gulp-iconfont-css');
 var consolidate = require('gulp-consolidate');
+var svgmin = require ('gulp-svgmin');
+var rename = require('gulp-rename');
 
-gulp.task('Iconfont', function(done){
-  var iconStream = gulp.src(['./src/*.svg'])
-  	.pipe(iconfontTemplate({
-      		fontName: fontName,
-      		cssClass: 'aws',
-     		path: '_templates/template.html',
-     		targetPath: '../../www/demo.html'
-    		}))
-    .pipe(iconfont({ fontName: 'aws',
-    		fontHeight: 1024,
-            	normalize: true,
-		formats: ['svg', 'ttf', 'eot', 'woff', 'woff2'],
-     }));
-
-  async.parallel([
-    function handleGlyphs (cb) {
-      iconStream.on('glyphs', function(glyphs, options) {
-        gulp.src('_templates/template.css')
-          .pipe(consolidate('lodash', {
-            glyphs: glyphs,
+gulp.task('default', function () {
+    return gulp.src('./src/staged/*.svg')
+        .pipe(svgmin())
+        .pipe(iconfont({
             fontName: 'aws',
-            fontPath: '../fonts/',
-            className: 'aws',
-            targetPath: './www/css/aws.css'
-          }))
-          .pipe(gulp.dest('./www/css/'))
-          .on('finish', cb);
-      });
-    },
-    function handleFonts (cb) {
-      iconStream
-        .pipe(gulp.dest('./www/fonts/'))
-        .on('finish', cb);
-    }
-  ], done);
+            formats: ['svg', 'ttf', 'eot', 'woff', 'woff2'],
+            normalize: true,
+            fontHeight: 1024,
+        }))
+        .on('glyphs', function (glyphs) {
+            console.log(glyphs);
+            gulp.src('./src/templates/_scss.scss')
+                .pipe(consolidate('lodash', {
+                    glyphs: glyphs,
+                    appendUnicode: true,
+                    prependUnicode: true,
+                    fontName: 'aws',
+                    fontPath: '../fonts/',
+                    cssClass: 'aws'
+                }))
+                .pipe(gulp.dest('./dist/scss'));
+            gulp.src('./src/templates/demo/_css.css')
+                .pipe(consolidate('lodash', {
+                    glyphs: glyphs,
+                    fontName: 'aws',
+                    fontPath: '../fonts/',
+                    cssClass: 'aws'
+                }))
+                .pipe(rename('aws.css'))
+                .pipe(gulp.dest('./dist/demo/'));
+            gulp.src('./src/templates/demo/_index.html')
+                .pipe(consolidate('lodash', {
+                        glyphs: glyphs,
+                        fontName: 'aws',
+                        fontPath: '../fonts/',
+                        cssClass: 'aws'
+                }))
+                .pipe(rename('index.html'))
+                .pipe(gulp.dest('./dist/demo'))
+        })
+        .pipe(gulp.dest('./dist/fonts'));
 });

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    <%= fontName %>
+  </title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma-prefers-dark@0.1.0-beta.1/css/bulma-prefers-dark.min.css">
+  <link rel="stylesheet" href="<%= cssClass %>.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        <%= fontName %>
+      </h1>
+      <p class="subtitle">
+        <%= fontName %> Icon Font Glyphs Demo
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="columns is-multiline">
+        <% _.each(glyphs, function(glyph) { %>
+              <div class="column is-one-third">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media-content has-text-centered">
+                      <figure class="has-ratio">
+                      <span class="icon">
+                        <i class="<%= cssClass %> <%= cssClass %>-5x <%= cssClass %>-<%= glyph.name %>"></i>
+                      </span>
+                      </figure>
+                      <div class="content">
+                        <p class="title is-size-6"><%= cssClass %>-<%= glyph.name %></p>
+                        <p class="subtitle is-size-6">Unicide: \<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %></p>
+                      </div>
+                  </div>
+                </div>
+                </div>    
+              </div>
+          <% }); %>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,872 @@
+@font-face {
+    font-family: "aws";
+    src: url('../fonts/aws.eot');
+    src: url('../fonts/aws.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/aws.woff2') format('woff2'),
+      url('../fonts/aws.woff') format('woff'),
+      url('../fonts/aws.ttf') format('truetype'),
+      url('../fonts/aws.svg#aws') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .aws:before {
+    display: inline-block;
+    font-family: "aws";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+/* relative units */
+.aws-sm {
+  font-size: 0.75em;
+}
+.aws-lg {
+  font-size: 1.25em;
+}
+.aws-xl {
+  font-size: 1.5em;
+}
+.aws-2x {
+  font-size: 2em;
+}
+.aws-3x {
+  font-size: 3em;
+}
+.aws-4x {
+  font-size: 4em;
+}
+.aws-5x {
+  font-size: 5em;
+}
+
+.aws-16 {
+  font-size: 16px;
+}
+.aws-32 {
+  font-size: 32px;
+}
+
+.aws-64 {
+  font-size: 64px;
+}
+
+.aws-128 {
+  font-size: 128px;
+}
+
+.aws-is-spinning {
+    animation: aws-spin 1s infinite linear;
+  }
+  @keyframes aws-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .aws-rotate-90 {
+    transform: rotate(90deg);
+  }
+  .aws-rotate-180 {
+    transform: rotate(180deg);
+  }
+  .aws-rotate-270 {
+    transform: rotate(270deg);
+  }
+  .aws-flip-y {
+    transform: scaleY(-1);
+  }
+  .aws-flip-x {
+    transform: scaleX(-1);
+  }
+
+  .aws-activate:before { content: "\EA01" }
+  .aws-alexa_for_business:before { content: "\EA02" }
+  .aws-amplify:before { content: "\EA03" }
+  .aws-amplify_aws_amplify_studio:before { content: "\EA04" }
+  .aws-analytics:before { content: "\EA05" }
+  .aws-apache_mxnet_on_:before { content: "\EA06" }
+  .aws-api_gateway:before { content: "\EA07" }
+  .aws-api_gateway_endpoint:before { content: "\EA08" }
+  .aws-app_mesh:before { content: "\EA09" }
+  .aws-app_mesh_mesh:before { content: "\EA0A" }
+  .aws-app_mesh_virtual_gateway:before { content: "\EA0B" }
+  .aws-app_mesh_virtual_node:before { content: "\EA0C" }
+  .aws-app_mesh_virtual_router:before { content: "\EA0D" }
+  .aws-app_mesh_virtual_service:before { content: "\EA0E" }
+  .aws-app_runner:before { content: "\EA0F" }
+  .aws-appconfig:before { content: "\EA10" }
+  .aws-appflow:before { content: "\EA11" }
+  .aws-application_auto_scaling:before { content: "\EA12" }
+  .aws-application_cost_profiler:before { content: "\EA13" }
+  .aws-application_discovery_service:before { content: "\EA14" }
+  .aws-application_integration:before { content: "\EA15" }
+  .aws-application_migration_service:before { content: "\EA16" }
+  .aws-appstream:before { content: "\EA17" }
+  .aws-appsync:before { content: "\EA18" }
+  .aws-ar_vr:before { content: "\EA19" }
+  .aws-artifact:before { content: "\EA1A" }
+  .aws-athena:before { content: "\EA1B" }
+  .aws-audit_manager:before { content: "\EA1C" }
+  .aws-augmented_ai_a2i:before { content: "\EA1D" }
+  .aws-aurora:before { content: "\EA1E" }
+  .aws-aurora_aurora_instance_alternate:before { content: "\EA1F" }
+  .aws-aurora_instance:before { content: "\EA20" }
+  .aws-aurora_mariadb_instance:before { content: "\EA21" }
+  .aws-aurora_mariadb_instance_alternate:before { content: "\EA22" }
+  .aws-aurora_mysql_instance:before { content: "\EA23" }
+  .aws-aurora_mysql_instance_alternate:before { content: "\EA24" }
+  .aws-aurora_oracle_instance:before { content: "\EA25" }
+  .aws-aurora_oracle_instance_alternate:before { content: "\EA26" }
+  .aws-aurora_piops_instance:before { content: "\EA27" }
+  .aws-aurora_postgresql_instance:before { content: "\EA28" }
+  .aws-aurora_postgresql_instance_alternate:before { content: "\EA29" }
+  .aws-aurora_rds_instance:before { content: "\EA2A" }
+  .aws-aurora_rds_instance_aternate:before { content: "\EA2B" }
+  .aws-aurora_sql_server_instance:before { content: "\EA2C" }
+  .aws-aurora_sql_server_instance_alternate:before { content: "\EA2D" }
+  .aws-auto_scaling:before { content: "\EA2E" }
+  .aws-aws_cost_management:before { content: "\EA2F" }
+  .aws-backint_agent:before { content: "\EA30" }
+  .aws-backup:before { content: "\EA31" }
+  .aws-backup_aws_backup_support_for_s3:before { content: "\EA32" }
+  .aws-backup_aws_backup_support_for_vmware_workloads:before { content: "\EA33" }
+  .aws-backup_backup_plan:before { content: "\EA34" }
+  .aws-backup_backup_restore:before { content: "\EA35" }
+  .aws-backup_backup_vault:before { content: "\EA36" }
+  .aws-backup_compliance_reporting:before { content: "\EA37" }
+  .aws-backup_compute:before { content: "\EA38" }
+  .aws-backup_database:before { content: "\EA39" }
+  .aws-backup_gateway:before { content: "\EA3A" }
+  .aws-backup_recovery_point_objective:before { content: "\EA3B" }
+  .aws-backup_recovery_time_objective:before { content: "\EA3C" }
+  .aws-backup_storage:before { content: "\EA3D" }
+  .aws-backup_virtual_machine:before { content: "\EA3E" }
+  .aws-backup_virtual_machine_monitor:before { content: "\EA3F" }
+  .aws-batch:before { content: "\EA40" }
+  .aws-blockchain:before { content: "\EA41" }
+  .aws-bottlerocket:before { content: "\EA42" }
+  .aws-braket:before { content: "\EA43" }
+  .aws-braket_chandelier:before { content: "\EA44" }
+  .aws-braket_chip:before { content: "\EA45" }
+  .aws-braket_noise_simulator:before { content: "\EA46" }
+  .aws-braket_qpu:before { content: "\EA47" }
+  .aws-braket_simulator:before { content: "\EA48" }
+  .aws-braket_simulator_1:before { content: "\EA49" }
+  .aws-braket_simulator_2:before { content: "\EA4A" }
+  .aws-braket_simulator_3:before { content: "\EA4B" }
+  .aws-braket_simulator_4:before { content: "\EA4C" }
+  .aws-braket_state_vector:before { content: "\EA4D" }
+  .aws-braket_tensor_network:before { content: "\EA4E" }
+  .aws-budgets:before { content: "\EA4F" }
+  .aws-business_applications:before { content: "\EA50" }
+  .aws-camera:before { content: "\EA51" }
+  .aws-certificate_manager:before { content: "\EA52" }
+  .aws-certificate_manager_certificate_authority:before { content: "\EA53" }
+  .aws-chatbot:before { content: "\EA54" }
+  .aws-chime:before { content: "\EA55" }
+  .aws-chime_sdk:before { content: "\EA56" }
+  .aws-chime_voice_connector:before { content: "\EA57" }
+  .aws-client:before { content: "\EA58" }
+  .aws-client_vpn:before { content: "\EA59" }
+  .aws-cloud9:before { content: "\EA5A" }
+  .aws-cloud9_cloud9:before { content: "\EA5B" }
+  .aws-cloud_control_api:before { content: "\EA5C" }
+  .aws-cloud_development_kit:before { content: "\EA5D" }
+  .aws-cloud_digital_interface:before { content: "\EA5E" }
+  .aws-cloud_directory:before { content: "\EA5F" }
+  .aws-cloud_directory2:before { content: "\EA60" }
+  .aws-cloud_map:before { content: "\EA61" }
+  .aws-cloud_map_namespace:before { content: "\EA62" }
+  .aws-cloud_map_resource:before { content: "\EA63" }
+  .aws-cloud_map_service:before { content: "\EA64" }
+  .aws-cloud_wan:before { content: "\EA65" }
+  .aws-cloud_wan_segment_network:before { content: "\EA66" }
+  .aws-cloud_wan_virtual_pop:before { content: "\EA67" }
+  .aws-cloudendure_disaster_recovery:before { content: "\EA68" }
+  .aws-cloudformation:before { content: "\EA69" }
+  .aws-cloudformation_change_set:before { content: "\EA6A" }
+  .aws-cloudformation_stack:before { content: "\EA6B" }
+  .aws-cloudformation_template:before { content: "\EA6C" }
+  .aws-cloudfront:before { content: "\EA6D" }
+  .aws-cloudfront_download_distribution:before { content: "\EA6E" }
+  .aws-cloudfront_edge_location:before { content: "\EA6F" }
+  .aws-cloudfront_functions:before { content: "\EA70" }
+  .aws-cloudfront_streaming_distribution:before { content: "\EA71" }
+  .aws-cloudhsm:before { content: "\EA72" }
+  .aws-cloudsearch:before { content: "\EA73" }
+  .aws-cloudsearch_search_documents:before { content: "\EA74" }
+  .aws-cloudshell:before { content: "\EA75" }
+  .aws-cloudtrail:before { content: "\EA76" }
+  .aws-cloudwatch:before { content: "\EA77" }
+  .aws-cloudwatch_alarm:before { content: "\EA78" }
+  .aws-cloudwatch_event_event_based:before { content: "\EA79" }
+  .aws-cloudwatch_event_time_based:before { content: "\EA7A" }
+  .aws-cloudwatch_evidently:before { content: "\EA7B" }
+  .aws-cloudwatch_logs:before { content: "\EA7C" }
+  .aws-cloudwatch_metrics_insights:before { content: "\EA7D" }
+  .aws-cloudwatch_rule:before { content: "\EA7E" }
+  .aws-cloudwatch_rum:before { content: "\EA7F" }
+  .aws-cloudwatch_synthetics:before { content: "\EA80" }
+  .aws-codeartifact:before { content: "\EA81" }
+  .aws-codebuild:before { content: "\EA82" }
+  .aws-codecommit:before { content: "\EA83" }
+  .aws-codedeploy:before { content: "\EA84" }
+  .aws-codeguru:before { content: "\EA85" }
+  .aws-codepipeline:before { content: "\EA86" }
+  .aws-codestar:before { content: "\EA87" }
+  .aws-cognito:before { content: "\EA88" }
+  .aws-command_line_interface:before { content: "\EA89" }
+  .aws-comprehend:before { content: "\EA8A" }
+  .aws-compute:before { content: "\EA8B" }
+  .aws-compute_optimizer:before { content: "\EA8C" }
+  .aws-config:before { content: "\EA8D" }
+  .aws-connect:before { content: "\EA8E" }
+  .aws-console_mobile_application:before { content: "\EA8F" }
+  .aws-containers:before { content: "\EA90" }
+  .aws-control_tower:before { content: "\EA91" }
+  .aws-corretto:before { content: "\EA92" }
+  .aws-cost_and_usage_report:before { content: "\EA93" }
+  .aws-cost_explorer:before { content: "\EA94" }
+  .aws-customer_enablement:before { content: "\EA95" }
+  .aws-data_exchange:before { content: "\EA96" }
+  .aws-data_exchange_for_apis:before { content: "\EA97" }
+  .aws-data_pipeline:before { content: "\EA98" }
+  .aws-database:before { content: "\EA99" }
+  .aws-database_migration_service:before { content: "\EA9A" }
+  .aws-database_migration_service_database_migration_workflow_or_job:before { content: "\EA9B" }
+  .aws-datasync:before { content: "\EA9C" }
+  .aws-datasync_agent:before { content: "\EA9D" }
+  .aws-deep_learning_amis:before { content: "\EA9E" }
+  .aws-deep_learning_containers:before { content: "\EA9F" }
+  .aws-deepcomposer:before { content: "\EAA0" }
+  .aws-deeplens:before { content: "\EAA1" }
+  .aws-deepracer:before { content: "\EAA2" }
+  .aws-detective:before { content: "\EAA3" }
+  .aws-developer_tools:before { content: "\EAA4" }
+  .aws-device_farm:before { content: "\EAA5" }
+  .aws-devops_guru:before { content: "\EAA6" }
+  .aws-devops_guru_insights:before { content: "\EAA7" }
+  .aws-direct_connect:before { content: "\EAA8" }
+  .aws-direct_connect_gateway:before { content: "\EAA9" }
+  .aws-directory_service:before { content: "\EAAA" }
+  .aws-directory_service_ad_connector:before { content: "\EAAB" }
+  .aws-directory_service_aws_managed_microsoft_ad:before { content: "\EAAC" }
+  .aws-directory_service_simple_ad:before { content: "\EAAD" }
+  .aws-disk:before { content: "\EAAE" }
+  .aws-distro_for_opentelemetry:before { content: "\EAAF" }
+  .aws-documentdb:before { content: "\EAB0" }
+  .aws-documents:before { content: "\EAB1" }
+  .aws-dynamodb:before { content: "\EAB2" }
+  .aws-dynamodb_attribute:before { content: "\EAB3" }
+  .aws-dynamodb_attributes:before { content: "\EAB4" }
+  .aws-dynamodb_dynamodb_accelerator:before { content: "\EAB5" }
+  .aws-dynamodb_global_secondary_index:before { content: "\EAB6" }
+  .aws-dynamodb_item:before { content: "\EAB7" }
+  .aws-dynamodb_items:before { content: "\EAB8" }
+  .aws-dynamodb_standard_access_table_class:before { content: "\EAB9" }
+  .aws-dynamodb_standard_infrequent_access_table_class:before { content: "\EABA" }
+  .aws-dynamodb_stream:before { content: "\EABB" }
+  .aws-dynamodb_table:before { content: "\EABC" }
+  .aws-ec2:before { content: "\EABD" }
+  .aws-ec2_a1_instance:before { content: "\EABE" }
+  .aws-ec2_ami:before { content: "\EABF" }
+  .aws-ec2_auto_scaling_1:before { content: "\EAC0" }
+  .aws-ec2_auto_scaling_2:before { content: "\EAC1" }
+  .aws-ec2_aws_inferentia:before { content: "\EAC2" }
+  .aws-ec2_aws_microservice_extractor_for_.net:before { content: "\EAC3" }
+  .aws-ec2_c4_instance:before { content: "\EAC4" }
+  .aws-ec2_c5_instance:before { content: "\EAC5" }
+  .aws-ec2_c5a_instance:before { content: "\EAC6" }
+  .aws-ec2_c5ad_instance:before { content: "\EAC7" }
+  .aws-ec2_c5d_instance:before { content: "\EAC8" }
+  .aws-ec2_c5n_instance:before { content: "\EAC9" }
+  .aws-ec2_c6g_instance:before { content: "\EACA" }
+  .aws-ec2_c6gd_instance:before { content: "\EACB" }
+  .aws-ec2_c6gn_instance:before { content: "\EACC" }
+  .aws-ec2_c6i_instance:before { content: "\EACD" }
+  .aws-ec2_c7g_instance:before { content: "\EACE" }
+  .aws-ec2_d2_instance:before { content: "\EACF" }
+  .aws-ec2_d3_instance:before { content: "\EAD0" }
+  .aws-ec2_d3en_instance:before { content: "\EAD1" }
+  .aws-ec2_db_instance:before { content: "\EAD2" }
+  .aws-ec2_dl1_instance:before { content: "\EAD3" }
+  .aws-ec2_elastic_ip_address:before { content: "\EAD4" }
+  .aws-ec2_f1_instance:before { content: "\EAD5" }
+  .aws-ec2_g3_instance:before { content: "\EAD6" }
+  .aws-ec2_g4ad_instance:before { content: "\EAD7" }
+  .aws-ec2_g4dn_instance:before { content: "\EAD8" }
+  .aws-ec2_g5_instance:before { content: "\EAD9" }
+  .aws-ec2_g5g_instance:before { content: "\EADA" }
+  .aws-ec2_h1_instance:before { content: "\EADB" }
+  .aws-ec2_habana_gaudi_instance:before { content: "\EADC" }
+  .aws-ec2_hmi_instance:before { content: "\EADD" }
+  .aws-ec2_i2_instance:before { content: "\EADE" }
+  .aws-ec2_i3_instance:before { content: "\EADF" }
+  .aws-ec2_i3en_instance:before { content: "\EAE0" }
+  .aws-ec2_i4i_instance:before { content: "\EAE1" }
+  .aws-ec2_im4gn_instance:before { content: "\EAE2" }
+  .aws-ec2_image_builder:before { content: "\EAE3" }
+  .aws-ec2_inf1_instance:before { content: "\EAE4" }
+  .aws-ec2_instance:before { content: "\EAE5" }
+  .aws-ec2_instance_with_cloudwatch:before { content: "\EAE6" }
+  .aws-ec2_instances:before { content: "\EAE7" }
+  .aws-ec2_is4gen_instance:before { content: "\EAE8" }
+  .aws-ec2_m1_mac_instance:before { content: "\EAE9" }
+  .aws-ec2_m4_instance:before { content: "\EAEA" }
+  .aws-ec2_m5_instance:before { content: "\EAEB" }
+  .aws-ec2_m5a_instance:before { content: "\EAEC" }
+  .aws-ec2_m5d_instance:before { content: "\EAED" }
+  .aws-ec2_m5dn_instance:before { content: "\EAEE" }
+  .aws-ec2_m5n:before { content: "\EAEF" }
+  .aws-ec2_m5n_instance:before { content: "\EAF0" }
+  .aws-ec2_m5zn_instance:before { content: "\EAF1" }
+  .aws-ec2_m6a_instance:before { content: "\EAF2" }
+  .aws-ec2_m6g_instance:before { content: "\EAF3" }
+  .aws-ec2_m6gd_instance:before { content: "\EAF4" }
+  .aws-ec2_m6i_instance:before { content: "\EAF5" }
+  .aws-ec2_mac_instance:before { content: "\EAF6" }
+  .aws-ec2_p2_instance:before { content: "\EAF7" }
+  .aws-ec2_p3_instance:before { content: "\EAF8" }
+  .aws-ec2_p3dn_instance:before { content: "\EAF9" }
+  .aws-ec2_p4_instance:before { content: "\EAFA" }
+  .aws-ec2_p4d_instance:before { content: "\EAFB" }
+  .aws-ec2_r4_instance:before { content: "\EAFC" }
+  .aws-ec2_r5_instance:before { content: "\EAFD" }
+  .aws-ec2_r5a_instance:before { content: "\EAFE" }
+  .aws-ec2_r5ad_instance:before { content: "\EAFF" }
+  .aws-ec2_r5b_instance:before { content: "\EB00" }
+  .aws-ec2_r5d_instance:before { content: "\EB01" }
+  .aws-ec2_r5gd_instance:before { content: "\EB02" }
+  .aws-ec2_r5n:before { content: "\EB03" }
+  .aws-ec2_r5n_instance:before { content: "\EB04" }
+  .aws-ec2_r6g_instance:before { content: "\EB05" }
+  .aws-ec2_r6i_instance:before { content: "\EB06" }
+  .aws-ec2_rdn_instance:before { content: "\EB07" }
+  .aws-ec2_rescue:before { content: "\EB08" }
+  .aws-ec2_spot_instance:before { content: "\EB09" }
+  .aws-ec2_t2_instance:before { content: "\EB0A" }
+  .aws-ec2_t3_instance:before { content: "\EB0B" }
+  .aws-ec2_t3a_instance:before { content: "\EB0C" }
+  .aws-ec2_t4g_instance:before { content: "\EB0D" }
+  .aws-ec2_trainium_instance:before { content: "\EB0E" }
+  .aws-ec2_trn1_instance:before { content: "\EB0F" }
+  .aws-ec2_vt1_instance:before { content: "\EB10" }
+  .aws-ec2_x1_instance:before { content: "\EB11" }
+  .aws-ec2_x1e_instance:before { content: "\EB12" }
+  .aws-ec2_x2gd_instance:before { content: "\EB13" }
+  .aws-ec2_x2idn_instance:before { content: "\EB14" }
+  .aws-ec2_x2iedn_instance:before { content: "\EB15" }
+  .aws-ec2_x2iezn_instance:before { content: "\EB16" }
+  .aws-ec2_z1d_instance:before { content: "\EB17" }
+  .aws-efs:before { content: "\EB18" }
+  .aws-eks_anywhere:before { content: "\EB19" }
+  .aws-eks_cloud:before { content: "\EB1A" }
+  .aws-eks_distro:before { content: "\EB1B" }
+  .aws-elastic_beanstalk:before { content: "\EB1C" }
+  .aws-elastic_beanstalk_application:before { content: "\EB1D" }
+  .aws-elastic_beanstalk_deployment:before { content: "\EB1E" }
+  .aws-elastic_block_store:before { content: "\EB1F" }
+  .aws-elastic_block_store_data_lifecycle_manager:before { content: "\EB20" }
+  .aws-elastic_block_store_multiple_volumes:before { content: "\EB21" }
+  .aws-elastic_block_store_snapshot:before { content: "\EB22" }
+  .aws-elastic_block_store_volume:before { content: "\EB23" }
+  .aws-elastic_block_store_volume_gp3:before { content: "\EB24" }
+  .aws-elastic_container_kubernetes:before { content: "\EB25" }
+  .aws-elastic_container_registry:before { content: "\EB26" }
+  .aws-elastic_container_registry2:before { content: "\EB27" }
+  .aws-elastic_container_registry_image:before { content: "\EB28" }
+  .aws-elastic_container_registry_registry:before { content: "\EB29" }
+  .aws-elastic_container_service:before { content: "\EB2A" }
+  .aws-elastic_container_service2:before { content: "\EB2B" }
+  .aws-elastic_container_service_container_1:before { content: "\EB2C" }
+  .aws-elastic_container_service_container_2:before { content: "\EB2D" }
+  .aws-elastic_container_service_container_3:before { content: "\EB2E" }
+  .aws-elastic_container_service_copilot_cli:before { content: "\EB2F" }
+  .aws-elastic_container_service_ecs_anywhere:before { content: "\EB30" }
+  .aws-elastic_container_service_service:before { content: "\EB31" }
+  .aws-elastic_container_service_task:before { content: "\EB32" }
+  .aws-elastic_fabric_adapter:before { content: "\EB33" }
+  .aws-elastic_file_system_file_system:before { content: "\EB34" }
+  .aws-elastic_file_system_intelligent_tiering:before { content: "\EB35" }
+  .aws-elastic_file_system_one_zone:before { content: "\EB36" }
+  .aws-elastic_file_system_one_zone_infrequent_access:before { content: "\EB37" }
+  .aws-elastic_file_system_standard:before { content: "\EB38" }
+  .aws-elastic_file_system_standard_infrequent_access:before { content: "\EB39" }
+  .aws-elastic_inference:before { content: "\EB3A" }
+  .aws-elastic_kubernetes_service:before { content: "\EB3B" }
+  .aws-elastic_load_balancing:before { content: "\EB3C" }
+  .aws-elastic_load_balancing_application_load_balancer:before { content: "\EB3D" }
+  .aws-elastic_load_balancing_classic_load_balancer:before { content: "\EB3E" }
+  .aws-elastic_load_balancing_gateway_load_balancer:before { content: "\EB3F" }
+  .aws-elastic_load_balancing_network_load_balancer:before { content: "\EB40" }
+  .aws-elastic_transcoder:before { content: "\EB41" }
+  .aws-elasticache:before { content: "\EB42" }
+  .aws-elasticache_cache_node:before { content: "\EB43" }
+  .aws-elasticache_elasticache_for_memcached:before { content: "\EB44" }
+  .aws-elasticache_elasticache_for_redis:before { content: "\EB45" }
+  .aws-elemental_appliances_&_software:before { content: "\EB46" }
+  .aws-elemental_conductor:before { content: "\EB47" }
+  .aws-elemental_delta:before { content: "\EB48" }
+  .aws-elemental_link:before { content: "\EB49" }
+  .aws-elemental_live:before { content: "\EB4A" }
+  .aws-elemental_mediaconnect:before { content: "\EB4B" }
+  .aws-elemental_mediaconvert:before { content: "\EB4C" }
+  .aws-elemental_medialive:before { content: "\EB4D" }
+  .aws-elemental_mediapackage:before { content: "\EB4E" }
+  .aws-elemental_mediastore:before { content: "\EB4F" }
+  .aws-elemental_mediatailor:before { content: "\EB50" }
+  .aws-elemental_server:before { content: "\EB51" }
+  .aws-email:before { content: "\EB52" }
+  .aws-emr:before { content: "\EB53" }
+  .aws-emr_cluster:before { content: "\EB54" }
+  .aws-emr_emr_engine:before { content: "\EB55" }
+  .aws-emr_hdfs_cluster:before { content: "\EB56" }
+  .aws-end_user_computing:before { content: "\EB57" }
+  .aws-eventbridge:before { content: "\EB58" }
+  .aws-eventbridge_custom_event_bus:before { content: "\EB59" }
+  .aws-eventbridge_default_event_bus:before { content: "\EB5A" }
+  .aws-eventbridge_event:before { content: "\EB5B" }
+  .aws-eventbridge_rule:before { content: "\EB5C" }
+  .aws-eventbridge_saas_partner_event:before { content: "\EB5D" }
+  .aws-eventbridge_schema:before { content: "\EB5E" }
+  .aws-eventbridge_schema_registry:before { content: "\EB5F" }
+  .aws-express_workflows:before { content: "\EB60" }
+  .aws-fargate:before { content: "\EB61" }
+  .aws-fargate2:before { content: "\EB62" }
+  .aws-fault_injection_simulator:before { content: "\EB63" }
+  .aws-finspace:before { content: "\EB64" }
+  .aws-firewall:before { content: "\EB65" }
+  .aws-firewall_manager:before { content: "\EB66" }
+  .aws-forecast:before { content: "\EB67" }
+  .aws-forums:before { content: "\EB68" }
+  .aws-fraud_detector:before { content: "\EB69" }
+  .aws-freertos:before { content: "\EB6A" }
+  .aws-front_end_web_mobile:before { content: "\EB6B" }
+  .aws-fsx:before { content: "\EB6C" }
+  .aws-fsx_for_lustre:before { content: "\EB6D" }
+  .aws-fsx_for_netapp_ontap:before { content: "\EB6E" }
+  .aws-fsx_for_openzfs:before { content: "\EB6F" }
+  .aws-fsx_for_wfs:before { content: "\EB70" }
+  .aws-game_tech:before { content: "\EB71" }
+  .aws-gamelift:before { content: "\EB72" }
+  .aws-gear:before { content: "\EB73" }
+  .aws-generic_database:before { content: "\EB74" }
+  .aws-genomics_cli:before { content: "\EB75" }
+  .aws-global_accelerator:before { content: "\EB76" }
+  .aws-glue:before { content: "\EB77" }
+  .aws-glue_crawler:before { content: "\EB78" }
+  .aws-glue_data_catalog:before { content: "\EB79" }
+  .aws-glue_databrew:before { content: "\EB7A" }
+  .aws-glue_elastic_views:before { content: "\EB7B" }
+  .aws-ground_station:before { content: "\EB7C" }
+  .aws-guardduty:before { content: "\EB7D" }
+  .aws-healthlake:before { content: "\EB7E" }
+  .aws-honeycode:before { content: "\EB7F" }
+  .aws-identity_access_management_add_on:before { content: "\EB80" }
+  .aws-identity_access_management_aws_iam_access_analyzer:before { content: "\EB81" }
+  .aws-identity_access_management_aws_sts:before { content: "\EB82" }
+  .aws-identity_access_management_aws_sts_alternate:before { content: "\EB83" }
+  .aws-identity_access_management_data_encryption_key:before { content: "\EB84" }
+  .aws-identity_access_management_encrypted_data:before { content: "\EB85" }
+  .aws-identity_access_management_long_term_security_credential:before { content: "\EB86" }
+  .aws-identity_access_management_mfa_token:before { content: "\EB87" }
+  .aws-identity_access_management_permissions:before { content: "\EB88" }
+  .aws-identity_access_management_role:before { content: "\EB89" }
+  .aws-identity_access_management_temporary_security_credential:before { content: "\EB8A" }
+  .aws-identity_and_access_management:before { content: "\EB8B" }
+  .aws-inspector:before { content: "\EB8C" }
+  .aws-inspector_agent:before { content: "\EB8D" }
+  .aws-interactive_video_service:before { content: "\EB8E" }
+  .aws-internet:before { content: "\EB8F" }
+  .aws-internet_alt1:before { content: "\EB90" }
+  .aws-internet_alt2:before { content: "\EB91" }
+  .aws-internet_of_things:before { content: "\EB92" }
+  .aws-iot_1_click:before { content: "\EB93" }
+  .aws-iot_action:before { content: "\EB94" }
+  .aws-iot_actuator:before { content: "\EB95" }
+  .aws-iot_alexa_enabled_device:before { content: "\EB96" }
+  .aws-iot_alexa_skill:before { content: "\EB97" }
+  .aws-iot_alexa_voice_service:before { content: "\EB98" }
+  .aws-iot_analytics:before { content: "\EB99" }
+  .aws-iot_analytics_channel:before { content: "\EB9A" }
+  .aws-iot_analytics_data_store:before { content: "\EB9B" }
+  .aws-iot_analytics_dataset:before { content: "\EB9C" }
+  .aws-iot_analytics_notebook:before { content: "\EB9D" }
+  .aws-iot_analytics_pipeline:before { content: "\EB9E" }
+  .aws-iot_button:before { content: "\EB9F" }
+  .aws-iot_certificate:before { content: "\EBA0" }
+  .aws-iot_core:before { content: "\EBA1" }
+  .aws-iot_desired_state:before { content: "\EBA2" }
+  .aws-iot_device_defender:before { content: "\EBA3" }
+  .aws-iot_device_defender_iot_device_jobs:before { content: "\EBA4" }
+  .aws-iot_device_gateway:before { content: "\EBA5" }
+  .aws-iot_device_management:before { content: "\EBA6" }
+  .aws-iot_echo:before { content: "\EBA7" }
+  .aws-iot_events:before { content: "\EBA8" }
+  .aws-iot_expresslink:before { content: "\EBA9" }
+  .aws-iot_fire_tv:before { content: "\EBAA" }
+  .aws-iot_fire_tv_stick:before { content: "\EBAB" }
+  .aws-iot_fleetwise:before { content: "\EBAC" }
+  .aws-iot_greengrass:before { content: "\EBAD" }
+  .aws-iot_greengrass_artifact:before { content: "\EBAE" }
+  .aws-iot_greengrass_component:before { content: "\EBAF" }
+  .aws-iot_greengrass_component_machine_learning:before { content: "\EBB0" }
+  .aws-iot_greengrass_component_nucleus:before { content: "\EBB1" }
+  .aws-iot_greengrass_component_private:before { content: "\EBB2" }
+  .aws-iot_greengrass_component_public:before { content: "\EBB3" }
+  .aws-iot_greengrass_connector:before { content: "\EBB4" }
+  .aws-iot_greengrass_interprocess_communication:before { content: "\EBB5" }
+  .aws-iot_greengrass_protocol:before { content: "\EBB6" }
+  .aws-iot_greengrass_recipe:before { content: "\EBB7" }
+  .aws-iot_greengrass_stream_manager:before { content: "\EBB8" }
+  .aws-iot_hardware_board:before { content: "\EBB9" }
+  .aws-iot_http2_protocol:before { content: "\EBBA" }
+  .aws-iot_http_protocol:before { content: "\EBBB" }
+  .aws-iot_lambda_function:before { content: "\EBBC" }
+  .aws-iot_lorawan_protocol:before { content: "\EBBD" }
+  .aws-iot_mqtt_protocol:before { content: "\EBBE" }
+  .aws-iot_over_air_update:before { content: "\EBBF" }
+  .aws-iot_policy:before { content: "\EBC0" }
+  .aws-iot_reported_state:before { content: "\EBC1" }
+  .aws-iot_roborunner:before { content: "\EBC2" }
+  .aws-iot_rule:before { content: "\EBC3" }
+  .aws-iot_sailboat:before { content: "\EBC4" }
+  .aws-iot_sensor:before { content: "\EBC5" }
+  .aws-iot_servo:before { content: "\EBC6" }
+  .aws-iot_shadow:before { content: "\EBC7" }
+  .aws-iot_simulator:before { content: "\EBC8" }
+  .aws-iot_sitewise:before { content: "\EBC9" }
+  .aws-iot_sitewise_asset:before { content: "\EBCA" }
+  .aws-iot_sitewise_asset_hierarchy:before { content: "\EBCB" }
+  .aws-iot_sitewise_asset_model:before { content: "\EBCC" }
+  .aws-iot_sitewise_asset_properties:before { content: "\EBCD" }
+  .aws-iot_sitewise_data_streams:before { content: "\EBCE" }
+  .aws-iot_thing_bank:before { content: "\EBCF" }
+  .aws-iot_thing_bicycle:before { content: "\EBD0" }
+  .aws-iot_thing_camera:before { content: "\EBD1" }
+  .aws-iot_thing_car:before { content: "\EBD2" }
+  .aws-iot_thing_cart:before { content: "\EBD3" }
+  .aws-iot_thing_coffee_pot:before { content: "\EBD4" }
+  .aws-iot_thing_door_lock:before { content: "\EBD5" }
+  .aws-iot_thing_factory:before { content: "\EBD6" }
+  .aws-iot_thing_freertos_device:before { content: "\EBD7" }
+  .aws-iot_thing_generic:before { content: "\EBD8" }
+  .aws-iot_thing_house:before { content: "\EBD9" }
+  .aws-iot_thing_humidity_sensor:before { content: "\EBDA" }
+  .aws-iot_thing_industrial_pc:before { content: "\EBDB" }
+  .aws-iot_thing_lightbulb:before { content: "\EBDC" }
+  .aws-iot_thing_lightbulb_48_dark:before { content: "\EBDD" }
+  .aws-iot_thing_medical_emergency:before { content: "\EBDE" }
+  .aws-iot_thing_plc:before { content: "\EBDF" }
+  .aws-iot_thing_police_emergency:before { content: "\EBE0" }
+  .aws-iot_thing_relay:before { content: "\EBE1" }
+  .aws-iot_thing_stacklight:before { content: "\EBE2" }
+  .aws-iot_thing_temperature_humidity_sensor:before { content: "\EBE3" }
+  .aws-iot_thing_temperature_sensor:before { content: "\EBE4" }
+  .aws-iot_thing_temperature_vibration_sensor:before { content: "\EBE5" }
+  .aws-iot_thing_thermostat:before { content: "\EBE6" }
+  .aws-iot_thing_travel:before { content: "\EBE7" }
+  .aws-iot_thing_utility:before { content: "\EBE8" }
+  .aws-iot_thing_vibration_sensor:before { content: "\EBE9" }
+  .aws-iot_thing_windfarm:before { content: "\EBEA" }
+  .aws-iot_things_graph:before { content: "\EBEB" }
+  .aws-iot_topic:before { content: "\EBEC" }
+  .aws-iot_twinmaker:before { content: "\EBED" }
+  .aws-iq:before { content: "\EBEE" }
+  .aws-kendra:before { content: "\EBEF" }
+  .aws-key_management_service:before { content: "\EBF0" }
+  .aws-keyspaces:before { content: "\EBF1" }
+  .aws-kinesis:before { content: "\EBF2" }
+  .aws-kinesis_data_analytics:before { content: "\EBF3" }
+  .aws-kinesis_data_streams:before { content: "\EBF4" }
+  .aws-kinesis_firehose:before { content: "\EBF5" }
+  .aws-kinesis_video_streams:before { content: "\EBF6" }
+  .aws-kinesis_video_streams2:before { content: "\EBF7" }
+  .aws-lake_formation:before { content: "\EBF8" }
+  .aws-lake_formation_data_lake:before { content: "\EBF9" }
+  .aws-lambda:before { content: "\EBFA" }
+  .aws-lambda_lambda_function:before { content: "\EBFB" }
+  .aws-launch_wizard:before { content: "\EBFC" }
+  .aws-lex:before { content: "\EBFD" }
+  .aws-license_manager:before { content: "\EBFE" }
+  .aws-license_manager_application_discovery:before { content: "\EBFF" }
+  .aws-license_manager_license_blending:before { content: "\EC00" }
+  .aws-lightsail:before { content: "\EC01" }
+  .aws-local_zones:before { content: "\EC02" }
+  .aws-location_service:before { content: "\EC03" }
+  .aws-location_service_geofence:before { content: "\EC04" }
+  .aws-location_service_map:before { content: "\EC05" }
+  .aws-location_service_place:before { content: "\EC06" }
+  .aws-location_service_routes:before { content: "\EC07" }
+  .aws-location_service_track:before { content: "\EC08" }
+  .aws-lookout_for_equipment:before { content: "\EC09" }
+  .aws-lookout_for_metrics:before { content: "\EC0A" }
+  .aws-lookout_for_vision:before { content: "\EC0B" }
+  .aws-machine_learning:before { content: "\EC0C" }
+  .aws-macie:before { content: "\EC0D" }
+  .aws-mainframe_modernization:before { content: "\EC0E" }
+  .aws-mainframe_modernization_analyzer:before { content: "\EC0F" }
+  .aws-mainframe_modernization_compiler:before { content: "\EC10" }
+  .aws-mainframe_modernization_converter:before { content: "\EC11" }
+  .aws-mainframe_modernization_developer:before { content: "\EC12" }
+  .aws-mainframe_modernization_runtime:before { content: "\EC13" }
+  .aws-managed_blockchain:before { content: "\EC14" }
+  .aws-managed_blockchain_blockchain:before { content: "\EC15" }
+  .aws-managed_service_for_grafana:before { content: "\EC16" }
+  .aws-managed_service_for_prometheus:before { content: "\EC17" }
+  .aws-managed_services:before { content: "\EC18" }
+  .aws-managed_streaming_for_apache_kafka:before { content: "\EC19" }
+  .aws-managed_workflows_for_apache_airflow:before { content: "\EC1A" }
+  .aws-management_console:before { content: "\EC1B" }
+  .aws-management_governance:before { content: "\EC1C" }
+  .aws-marketplace_dark:before { content: "\EC1D" }
+  .aws-marketplace_light:before { content: "\EC1E" }
+  .aws-media_services:before { content: "\EC1F" }
+  .aws-memorydb_for_redis:before { content: "\EC20" }
+  .aws-migration_evaluator:before { content: "\EC21" }
+  .aws-migration_hub:before { content: "\EC22" }
+  .aws-migration_hub_refactor_spaces_applications:before { content: "\EC23" }
+  .aws-migration_hub_refactor_spaces_environments:before { content: "\EC24" }
+  .aws-migration_hub_refactor_spaces_services:before { content: "\EC25" }
+  .aws-migration_transfer:before { content: "\EC26" }
+  .aws-mobile_client:before { content: "\EC27" }
+  .aws-monitron:before { content: "\EC28" }
+  .aws-mq:before { content: "\EC29" }
+  .aws-mq_broker:before { content: "\EC2A" }
+  .aws-msk_msk_connect:before { content: "\EC2B" }
+  .aws-multimedia:before { content: "\EC2C" }
+  .aws-neptune:before { content: "\EC2D" }
+  .aws-network_firewall:before { content: "\EC2E" }
+  .aws-network_firewall_endpoints:before { content: "\EC2F" }
+  .aws-networking_content_delivery:before { content: "\EC30" }
+  .aws-neuron:before { content: "\EC31" }
+  .aws-nice_dcv:before { content: "\EC32" }
+  .aws-nice_enginframe:before { content: "\EC33" }
+  .aws-nimble_studio:before { content: "\EC34" }
+  .aws-nitro_enclaves:before { content: "\EC35" }
+  .aws-office_building:before { content: "\EC36" }
+  .aws-open_3d_engine:before { content: "\EC37" }
+  .aws-opensearch_service:before { content: "\EC38" }
+  .aws-opsworks:before { content: "\EC39" }
+  .aws-opsworks_apps:before { content: "\EC3A" }
+  .aws-opsworks_deployments:before { content: "\EC3B" }
+  .aws-opsworks_instances:before { content: "\EC3C" }
+  .aws-opsworks_layers:before { content: "\EC3D" }
+  .aws-opsworks_monitoring:before { content: "\EC3E" }
+  .aws-opsworks_permissions:before { content: "\EC3F" }
+  .aws-opsworks_resources:before { content: "\EC40" }
+  .aws-opsworks_stack2:before { content: "\EC41" }
+  .aws-organizations:before { content: "\EC42" }
+  .aws-organizations_account:before { content: "\EC43" }
+  .aws-organizations_management_account:before { content: "\EC44" }
+  .aws-organizations_organizational_unit:before { content: "\EC45" }
+  .aws-outposts_family:before { content: "\EC46" }
+  .aws-outposts_rack:before { content: "\EC47" }
+  .aws-outposts_servers:before { content: "\EC48" }
+  .aws-panorama:before { content: "\EC49" }
+  .aws-parallelcluster:before { content: "\EC4A" }
+  .aws-personal_health_dashboard:before { content: "\EC4B" }
+  .aws-personalize:before { content: "\EC4C" }
+  .aws-pinpoint:before { content: "\EC4D" }
+  .aws-pinpoint_apis:before { content: "\EC4E" }
+  .aws-pinpoint_journey:before { content: "\EC4F" }
+  .aws-polly:before { content: "\EC50" }
+  .aws-private_5g:before { content: "\EC51" }
+  .aws-privatelink:before { content: "\EC52" }
+  .aws-professional_services:before { content: "\EC53" }
+  .aws-proton:before { content: "\EC54" }
+  .aws-quantum_ledger_database:before { content: "\EC55" }
+  .aws-quantum_ledger_database2:before { content: "\EC56" }
+  .aws-quantum_technologies:before { content: "\EC57" }
+  .aws-question:before { content: "\EC58" }
+  .aws-quicksight:before { content: "\EC59" }
+  .aws-rds:before { content: "\EC5A" }
+  .aws-rds_on_vmware:before { content: "\EC5B" }
+  .aws-rds_proxy_instance:before { content: "\EC5C" }
+  .aws-rds_proxy_instance_alternate:before { content: "\EC5D" }
+  .aws-red_hat_openshift:before { content: "\EC5E" }
+  .aws-redshift:before { content: "\EC5F" }
+  .aws-redshift_dense_compute_node:before { content: "\EC60" }
+  .aws-redshift_dense_storage_node:before { content: "\EC61" }
+  .aws-redshift_ml:before { content: "\EC62" }
+  .aws-redshift_ra3:before { content: "\EC63" }
+  .aws-rekognition:before { content: "\EC64" }
+  .aws-rekognition_image:before { content: "\EC65" }
+  .aws-rekognition_video:before { content: "\EC66" }
+  .aws-repost:before { content: "\EC67" }
+  .aws-reserved_instance_reporting:before { content: "\EC68" }
+  .aws-resilience_hub:before { content: "\EC69" }
+  .aws-resource_access_manager:before { content: "\EC6A" }
+  .aws-robomaker:before { content: "\EC6B" }
+  .aws-robomaker_cloud_extensions_ros:before { content: "\EC6C" }
+  .aws-robomaker_development_environment:before { content: "\EC6D" }
+  .aws-robomaker_fleet_management:before { content: "\EC6E" }
+  .aws-robomaker_simulation:before { content: "\EC6F" }
+  .aws-robotics:before { content: "\EC70" }
+  .aws-route_53:before { content: "\EC71" }
+  .aws-route_53_application_recovery_controller:before { content: "\EC72" }
+  .aws-route_53_hosted_zone:before { content: "\EC73" }
+  .aws-route_53_readiness_checks:before { content: "\EC74" }
+  .aws-route_53_resolver:before { content: "\EC75" }
+  .aws-route_53_resolver_dns_firewall:before { content: "\EC76" }
+  .aws-route_53_resolver_query_logging:before { content: "\EC77" }
+  .aws-route_53_route_table:before { content: "\EC78" }
+  .aws-route_53_routing_controls:before { content: "\EC79" }
+  .aws-s3_on_outposts:before { content: "\EC7A" }
+  .aws-sagemaker:before { content: "\EC7B" }
+  .aws-sagemaker_canvas:before { content: "\EC7C" }
+  .aws-sagemaker_ground_truth:before { content: "\EC7D" }
+  .aws-sagemaker_model:before { content: "\EC7E" }
+  .aws-sagemaker_notebook:before { content: "\EC7F" }
+  .aws-sagemaker_studio_lab:before { content: "\EC80" }
+  .aws-sagemaker_train:before { content: "\EC81" }
+  .aws-saml_token:before { content: "\EC82" }
+  .aws-satellite:before { content: "\EC83" }
+  .aws-savings_plans:before { content: "\EC84" }
+  .aws-sdk:before { content: "\EC85" }
+  .aws-secrets_manager:before { content: "\EC86" }
+  .aws-security_hub:before { content: "\EC87" }
+  .aws-security_hub_finding:before { content: "\EC88" }
+  .aws-security_identity_compliance:before { content: "\EC89" }
+  .aws-server_migration_service:before { content: "\EC8A" }
+  .aws-serverless:before { content: "\EC8B" }
+  .aws-serverless_application_repository:before { content: "\EC8C" }
+  .aws-service_catalog:before { content: "\EC8D" }
+  .aws-shield:before { content: "\EC8E" }
+  .aws-shield_aws_shield_advanced:before { content: "\EC8F" }
+  .aws-signer:before { content: "\EC90" }
+  .aws-simple_email_service:before { content: "\EC91" }
+  .aws-simple_email_service_email:before { content: "\EC92" }
+  .aws-simple_notification_service:before { content: "\EC93" }
+  .aws-simple_notification_service_email_notification:before { content: "\EC94" }
+  .aws-simple_notification_service_http_notification:before { content: "\EC95" }
+  .aws-simple_notification_service_topic:before { content: "\EC96" }
+  .aws-simple_queue_service:before { content: "\EC97" }
+  .aws-simple_queue_service_message:before { content: "\EC98" }
+  .aws-simple_queue_service_queue:before { content: "\EC99" }
+  .aws-simple_storage_service:before { content: "\EC9A" }
+  .aws-simple_storage_service_bucket:before { content: "\EC9B" }
+  .aws-simple_storage_service_bucket_with_objects:before { content: "\EC9C" }
+  .aws-simple_storage_service_general_access_points:before { content: "\EC9D" }
+  .aws-simple_storage_service_glacier:before { content: "\EC9E" }
+  .aws-simple_storage_service_glacier_archive:before { content: "\EC9F" }
+  .aws-simple_storage_service_glacier_vault:before { content: "\ECA0" }
+  .aws-simple_storage_service_object:before { content: "\ECA1" }
+  .aws-simple_storage_service_s3_glacier_deep_archive:before { content: "\ECA2" }
+  .aws-simple_storage_service_s3_glacier_flexible_retrieval:before { content: "\ECA3" }
+  .aws-simple_storage_service_s3_glacier_instant_retrieval:before { content: "\ECA4" }
+  .aws-simple_storage_service_s3_intelligent_tiering:before { content: "\ECA5" }
+  .aws-simple_storage_service_s3_object_lambda:before { content: "\ECA6" }
+  .aws-simple_storage_service_s3_object_lambda_access_points:before { content: "\ECA7" }
+  .aws-simple_storage_service_s3_on_outposts:before { content: "\ECA8" }
+  .aws-simple_storage_service_s3_one_zone_ia:before { content: "\ECA9" }
+  .aws-simple_storage_service_s3_replication:before { content: "\ECAA" }
+  .aws-simple_storage_service_s3_replication_time_control:before { content: "\ECAB" }
+  .aws-simple_storage_service_s3_standard:before { content: "\ECAC" }
+  .aws-simple_storage_service_s3_standard_ia:before { content: "\ECAD" }
+  .aws-simple_storage_service_s3_storage_lens:before { content: "\ECAE" }
+  .aws-simple_storage_service_vpc_access_points:before { content: "\ECAF" }
+  .aws-single_sign_on:before { content: "\ECB0" }
+  .aws-site_to_site_vpn:before { content: "\ECB1" }
+  .aws-snowball:before { content: "\ECB2" }
+  .aws-snowball_edge:before { content: "\ECB3" }
+  .aws-snowball_snowball_import_export:before { content: "\ECB4" }
+  .aws-snowcone:before { content: "\ECB5" }
+  .aws-snowmobile:before { content: "\ECB6" }
+  .aws-ssl_padlock:before { content: "\ECB7" }
+  .aws-step_functions:before { content: "\ECB8" }
+  .aws-storage:before { content: "\ECB9" }
+  .aws-storage_gateway:before { content: "\ECBA" }
+  .aws-storage_gateway_cached_volume:before { content: "\ECBB" }
+  .aws-storage_gateway_file_gateway:before { content: "\ECBC" }
+  .aws-storage_gateway_fsx_file_gateway:before { content: "\ECBD" }
+  .aws-storage_gateway_noncached_volume:before { content: "\ECBE" }
+  .aws-storage_gateway_s3_file_gateway:before { content: "\ECBF" }
+  .aws-storage_gateway_tape_gateway:before { content: "\ECC0" }
+  .aws-storage_gateway_virtual_tape_library:before { content: "\ECC1" }
+  .aws-storage_gateway_volume_gateway:before { content: "\ECC2" }
+  .aws-sumerian:before { content: "\ECC3" }
+  .aws-support:before { content: "\ECC4" }
+  .aws-systems_manager:before { content: "\ECC5" }
+  .aws-systems_manager_automation:before { content: "\ECC6" }
+  .aws-systems_manager_documents:before { content: "\ECC7" }
+  .aws-systems_manager_incident_manager:before { content: "\ECC8" }
+  .aws-systems_manager_inventory:before { content: "\ECC9" }
+  .aws-systems_manager_maintenance_windows:before { content: "\ECCA" }
+  .aws-systems_manager_opscenter:before { content: "\ECCB" }
+  .aws-systems_manager_parameter_store:before { content: "\ECCC" }
+  .aws-systems_manager_patch_manager:before { content: "\ECCD" }
+  .aws-systems_manager_run_command:before { content: "\ECCE" }
+  .aws-systems_manager_state_manager:before { content: "\ECCF" }
+  .aws-tape_storage:before { content: "\ECD0" }
+  .aws-tensorflow_on_:before { content: "\ECD1" }
+  .aws-textract:before { content: "\ECD2" }
+  .aws-thinkbox_deadline:before { content: "\ECD3" }
+  .aws-thinkbox_frost:before { content: "\ECD4" }
+  .aws-thinkbox_krakatoa:before { content: "\ECD5" }
+  .aws-thinkbox_sequoia:before { content: "\ECD6" }
+  .aws-thinkbox_stoke:before { content: "\ECD7" }
+  .aws-thinkbox_xmesh:before { content: "\ECD8" }
+  .aws-timestream:before { content: "\ECD9" }
+  .aws-toolkit:before { content: "\ECDA" }
+  .aws-tools_and_sdks:before { content: "\ECDB" }
+  .aws-torchserve:before { content: "\ECDC" }
+  .aws-traditional_server:before { content: "\ECDD" }
+  .aws-training_certification:before { content: "\ECDE" }
+  .aws-transcribe:before { content: "\ECDF" }
+  .aws-transfer_family:before { content: "\ECE0" }
+  .aws-transfer_family_aws_ftp:before { content: "\ECE1" }
+  .aws-transfer_family_aws_ftps:before { content: "\ECE2" }
+  .aws-transfer_family_aws_sftp:before { content: "\ECE3" }
+  .aws-transit_gateway:before { content: "\ECE4" }
+  .aws-translate:before { content: "\ECE5" }
+  .aws-trusted_advisor:before { content: "\ECE6" }
+  .aws-trusted_advisor_checklist:before { content: "\ECE7" }
+  .aws-trusted_advisor_checklist_cost:before { content: "\ECE8" }
+  .aws-trusted_advisor_checklist_fault_tolerant:before { content: "\ECE9" }
+  .aws-trusted_advisor_checklist_performance:before { content: "\ECEA" }
+  .aws-trusted_advisor_checklist_security:before { content: "\ECEB" }
+  .aws-user:before { content: "\ECEC" }
+  .aws-users:before { content: "\ECED" }
+  .aws-virtual_private_cloud:before { content: "\ECEE" }
+  .aws-vmware_cloud_on_:before { content: "\ECEF" }
+  .aws-vpc_carrier_gateway:before { content: "\ECF0" }
+  .aws-vpc_customer_gateway:before { content: "\ECF1" }
+  .aws-vpc_elastic_network_adapter:before { content: "\ECF2" }
+  .aws-vpc_elastic_network_interface:before { content: "\ECF3" }
+  .aws-vpc_endpoints:before { content: "\ECF4" }
+  .aws-vpc_flow_logs:before { content: "\ECF5" }
+  .aws-vpc_internet_gateway:before { content: "\ECF6" }
+  .aws-vpc_nat_gateway:before { content: "\ECF7" }
+  .aws-vpc_network_access_analyzer:before { content: "\ECF8" }
+  .aws-vpc_network_access_control_list:before { content: "\ECF9" }
+  .aws-vpc_peering_connection:before { content: "\ECFA" }
+  .aws-vpc_reachability_analyzer:before { content: "\ECFB" }
+  .aws-vpc_router:before { content: "\ECFC" }
+  .aws-vpc_traffic_mirroring:before { content: "\ECFD" }
+  .aws-vpc_vpn_connection:before { content: "\ECFE" }
+  .aws-vpc_vpn_gateway:before { content: "\ECFF" }
+  .aws-waf:before { content: "\ED00" }
+  .aws-waf_bad_bot:before { content: "\ED01" }
+  .aws-waf_bot:before { content: "\ED02" }
+  .aws-waf_bot_control:before { content: "\ED03" }
+  .aws-waf_filtering_rule:before { content: "\ED04" }
+  .aws-waf_labels:before { content: "\ED05" }
+  .aws-waf_managed_rule:before { content: "\ED06" }
+  .aws-waf_rule:before { content: "\ED07" }
+  .aws-wavelength:before { content: "\ED08" }
+  .aws-well_architected_tool:before { content: "\ED09" }
+  .aws-workdocs:before { content: "\ED0A" }
+  .aws-workdocs_sdk:before { content: "\ED0B" }
+  .aws-worklink:before { content: "\ED0C" }
+  .aws-workmail:before { content: "\ED0D" }
+  .aws-workspaces:before { content: "\ED0E" }
+  .aws-workspaces_workspaces_web:before { content: "\ED0F" }
+  .aws-x_ray:before { content: "\ED10" }
+  
